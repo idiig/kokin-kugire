@@ -17,13 +17,19 @@ competing kugire annotations on the same poem, each tagged with its evidence sou
 The pipeline is organised as pure transformation functions composed by a thin I/O
 shell. I/O (file reads, editor, XML writes) is isolated at the edges.
 
+** Data sources
+
+- =data/kokinwakashu.xml= — poem text (TEI XML)
+- =data/morphological-annotation.txt= — one poem per line; tokens as =surface/POS[inflection]/reading=; ID =10NNN=
+- =data/translation-kaneko.txt= — Kaneko's explanatory translation (BBDB); field =$D=; ID =00NNN=
+
 ** Data type
 
 #+begin_src go
 type PoemData struct {
     ID           int
     XML          string            // raw TEI <l> fragment
-    Morphemes    []Token           // <w> elements from kokin-annotated.xml
+    Morphemes    []Token           // parsed from morphological-annotation.txt
     Translations map[string]string // translator_code -> translation text
 }
 
@@ -88,6 +94,20 @@ Source codes:
 
 * Commands
 
-| Command | Action |
-|---------+--------|
-| TBD     |        |
+One command: =review <poem-id>=
+
+On invocation, the user is prompted to select the kugire type:
+
+#+begin_example
+Select kugire source:
+  1) morph   — grammatical break (morphological analysis)
+  2) kaneko  — semantic break (Kaneko's translation)
+  q) quit
+#+end_example
+
+The selected source determines which suggestion function runs. After selection,
+the draft opens in nano for review and editing. On save, changes are written
+back to the output XML.
+
+New sources can be added by registering a new entry in the source list — no
+structural changes required.
