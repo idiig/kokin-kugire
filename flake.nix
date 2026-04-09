@@ -21,11 +21,16 @@
             nano          # interactive editor (review)
             tmux          # new-window for align-review prepare
             direnv
+            ollama        # LLM backend for semantic kugire suggestion
           ];
 
           shellHook = ''
             export GOPATH="$PWD/.go"
             export PATH="$GOPATH/bin:$PATH"
+            if ! pgrep -x ollama > /dev/null; then
+              echo "Starting ollama..."
+              ollama serve &>/tmp/ollama.log &
+            fi
           '';
         };
       });
