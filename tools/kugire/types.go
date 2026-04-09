@@ -18,6 +18,7 @@ type KugirePos struct {
 	// A kugire after segment 1 (the 2nd line) has AfterSeg=1.
 	AfterSeg int
 	Source   string // "morph" | translator code, e.g. "kaneko"
+	Cert     string // certainty: "high" | "mid" | "low" (empty = unspecified)
 }
 
 // TranslationSource pairs a translator code with its file path and loader function.

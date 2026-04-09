@@ -8,6 +8,15 @@ import (
 
 var tagRe = regexp.MustCompile(`\[K:([^\]]+)\]`)
 
+// formatTag renders a [K:...] tag for a KugirePos.
+// Format: [K:source:cert] if cert is set, [K:source] otherwise.
+func formatTag(p KugirePos) string {
+	if p.Cert != "" {
+		return fmt.Sprintf("[K:%s:%s]", p.Source, p.Cert)
+	}
+	return fmt.Sprintf("[K:%s]", p.Source)
+}
+
 // RenderDraft produces the nano draft for a poem.
 // It begins with comment lines containing reference information
 // (poem ID, translations, morphological hints), followed by the
@@ -30,7 +39,7 @@ func RenderDraft(d PoemData, positions []KugirePos) string {
 	sb.WriteString("#\n")
 
 	// ── morphological hints ──────────────────────────────────────
-	// Show the last token of each segment (except the final) with its class.
+	// Show the last token of each segment with its class and certainty.
 	if len(d.Tokens) > 0 && len(d.SegmentsKana) > 0 {
 		sb.WriteString("# morph:\n")
 		groups, err := alignTokensToSegments(d.Tokens, d.SegmentsKana)
@@ -43,8 +52,9 @@ func RenderDraft(d PoemData, positions []KugirePos) string {
 					inflectStr = "-"
 				}
 				marker := ""
-				if i < len(d.Segments)-1 && class == "K1" {
-					marker = " ← K1"
+				if i < len(d.Segments)-1 && class != "K0" {
+					cert := certForToken(last, class)
+					marker = fmt.Sprintf(" ← %s [%s]", class, cert)
 				}
 				fmt.Fprintf(&sb, "#   seg %d: %s  末: %s (%s-%s) %s%s\n",
 					i+1, d.Segments[i], last.Surface, last.POS, inflectStr, class, marker)
@@ -54,16 +64,16 @@ func RenderDraft(d PoemData, positions []KugirePos) string {
 	}
 
 	// ── content lines ────────────────────────────────────────────
-	tags := make(map[int][]string)
+	tags := make(map[int][]KugirePos)
 	for _, p := range positions {
 		if p.AfterSeg < len(d.Segments)-1 {
-			tags[p.AfterSeg] = append(tags[p.AfterSeg], p.Source)
+			tags[p.AfterSeg] = append(tags[p.AfterSeg], p)
 		}
 	}
 	for i, seg := range d.Segments {
 		sb.WriteString(seg)
-		for _, src := range tags[i] {
-			fmt.Fprintf(&sb, " [K:%s]", src)
+		for _, p := range tags[i] {
+			fmt.Fprintf(&sb, " %s", formatTag(p))
 		}
 		sb.WriteByte('\n')
 	}
@@ -85,10 +95,16 @@ func ParseDraft(raw string) ([]KugirePos, error) {
 		}
 
 		for _, m := range tagRe.FindAllStringSubmatch(trimmed, -1) {
-			source := m[1]
+			// m[1] is "source" or "source:cert"
+			parts := strings.SplitN(m[1], ":", 2)
+			source := parts[0]
+			cert := ""
+			if len(parts) == 2 {
+				cert = parts[1]
+			}
 			// lineIdx is 0-based segment index; skip tags on last segment
 			if lineIdx < 4 {
-				positions = append(positions, KugirePos{AfterSeg: lineIdx, Source: source})
+				positions = append(positions, KugirePos{AfterSeg: lineIdx, Source: source, Cert: cert})
 			}
 		}
 		lineIdx++

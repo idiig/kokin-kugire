@@ -32,6 +32,9 @@ func AnnotateXML(path string, id int, positions []KugirePos) error {
 		k := l.CreateElement("k")
 		k.CreateAttr("n", fmt.Sprintf("%d", p.AfterSeg+1))
 		k.CreateAttr("source", p.Source)
+		if p.Cert != "" {
+			k.CreateAttr("cert", p.Cert)
+		}
 	}
 
 	doc.WriteSettings.CanonicalEndTags = false

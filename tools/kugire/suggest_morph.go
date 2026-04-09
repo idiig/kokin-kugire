@@ -123,9 +123,27 @@ func alignTokensToSegments(tokens []Token, segKanas []string) ([][]Token, error)
 	return groups, nil
 }
 
+// certForToken maps a classified token to a certainty level.
+// K1 tokens are split into "high" (clear terminal forms) vs "mid" (binding particles).
+// K2 tokens (体言止め etc.) are "low".
+func certForToken(tok Token, class string) string {
+	switch class {
+	case "K1":
+		if strings.Contains(tok.POS, "係助") {
+			return "mid"
+		}
+		return "high"
+	case "K2":
+		return "low"
+	default:
+		return ""
+	}
+}
+
 // SuggestMorph returns kugire positions suggested by morphological analysis.
-// It evaluates the last token of each segment (except the final one) and
-// returns a position for K1 and K2 tokens.
+// It evaluates the last token of each segment (except the final one).
+// K1 tokens (終止・命令・已然・終助詞) → returned with cert "high" or "mid".
+// K2 tokens (体言止め等) → returned with cert "low".
 func SuggestMorph(d PoemData) []KugirePos {
 	groups, err := alignTokensToSegments(d.Tokens, d.SegmentsKana)
 	if err != nil {
@@ -133,13 +151,14 @@ func SuggestMorph(d PoemData) []KugirePos {
 	}
 
 	var positions []KugirePos
-	// Only boundaries after segs 0..len-2; no boundary after the last seg.
-	// Only K1 (strong candidate) is suggested; K2 is too noisy for automatic suggestions.
 	for i, group := range groups[:len(groups)-1] {
 		last := group[len(group)-1]
-		if classifyToken(last) == "K1" {
-			positions = append(positions, KugirePos{AfterSeg: i, Source: "morph"})
+		class := classifyToken(last)
+		if class == "K0" {
+			continue
 		}
+		cert := certForToken(last, class)
+		positions = append(positions, KugirePos{AfterSeg: i, Source: "morph", Cert: cert})
 	}
 	return positions
 }

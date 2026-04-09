@@ -35,6 +35,28 @@
           <resp>翻刻校閲</resp>
           <name>幾浦裕之</name>
         </respStmt>
+        <respStmt>
+          <resp>形態素解析・TEIトークン化</resp>
+          <name>Bor Hodoscek</name>
+          <name>山元啓史</name>
+        </respStmt>
+        <respStmt>
+          <resp>TEIデータ統合・マッピング</resp>
+          <name>陳旭東</name>
+          <name>Bor Hodoscek</name>
+          <name>山元啓史</name>
+        </respStmt>
+        <respStmt>
+          <resp>句切れ注釈</resp>
+          <name>陳旭東</name>
+          <name>Bor Hodoscek</name>
+          <name>山元啓史</name>
+        </respStmt>
+        <respStmt>
+          <resp>句切れ注釈参照資料</resp>
+          <name>金子元臣</name>
+          <note>金子元臣『古今和歌集評釈』を参照した。</note>
+        </respStmt>
       </titleStmt>
       <publicationStmt>
         <publisher>人間文化研究機構国文学研究資料館</publisher>
@@ -1911,7 +1933,7 @@
               <w lemmaRef="#いは.言ふ">いは</w>
               <w lemmaRef="#む.む">む</w>
             </seg>
-          <k n="2" source="kaneko"/><k n="4" source="kaneko"/></l>
+          <k n="2" source="morph" cert="high"/><k n="3" source="morph" cert="low"/><k n="4" source="morph" cert="high"/></l>
         </div>
         <lb/>
         <div type="和歌">

@@ -78,7 +78,7 @@ cd tools/kugire
 
 Two types of kugire, each with its own evidence source:
 
-- **Grammatical** (`morph`) — derived from morphological analysis; `SuggestMorph` returns K1 positions only
+- **Grammatical** (`morph`) — derived from morphological analysis; `SuggestMorph` returns K1 (high/mid) and K2 (low) positions
 - **Semantic** — tagged with the translator's code (e.g. `kaneko`); `SuggestSeman` calls Ollama with a few-shot prompt
 
 The schema allows multiple competing kugire annotations on the same poem (different translators may disagree). Do not collapse them into a single interpretation.
@@ -143,17 +143,19 @@ Kugire positions are written as `<k>` elements appended at the end of `<l>`, aft
   <seg>年の内に</seg>
   <seg>春はきにけり</seg>
   ...
-  <k n="2" source="morph"/>
+  <k n="2" source="morph" cert="high"/>
+  <k n="3" source="morph" cert="low"/>
   <k n="2" source="kaneko"/>
-  <k n="4" source="morph"/>
 </l>
 ```
 
 - `@n` — 1-based segment number after which the kugire falls (`AfterSeg + 1`)
 - `@source` — evidence code (`morph`, `kaneko`, etc.)
+- `@cert` — certainty: `high` (終止・命令・已然・終助詞), `mid` (係助詞), `low` (体言止め等); omitted if unspecified
 - Multiple `<k>` at the same `@n` represent competing interpretations
 - `<k>` is a temporary custom tag; may be migrated to `<caesura>` (TEI) later
 - `AnnotateXML` removes all existing `<k>` for a poem before writing new ones
+- Draft tag format: `[K:source:cert]` (e.g. `[K:morph:high]`); cert is optional for backward compatibility
 
 ## Important Constraints
 
