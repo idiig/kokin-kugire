@@ -7,7 +7,7 @@ Parse arguments: first token = poem ID (N), second token = source (SOURCE).
 ## Step 1 — Run review
 
 ```bash
-nix develop --command bash -c "
+cd /Users/idg/Documents/kokin-kugire && nix develop --command bash -c "
   cd tools/kugire && echo '' | ./kugire-review --source SOURCE \
     --xml ../../data/kokinwakashu.xml \
     --morph ../../data/morphological-annotation.txt \
