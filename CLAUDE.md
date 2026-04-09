@@ -34,7 +34,7 @@ data/
   translation-kaneko.txt        — Kaneko's explanatory translation (source)
   kokin-kugire.xml              — Annotated output (kugire tags added to poem XML)
 
-cache/
+tools/kugire/cache/
   kugire-{id}-{source}.txt      — Per-poem draft files (tracked in git)
 
 tools/kugire/
