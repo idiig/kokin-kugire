@@ -1,0 +1,143 @@
+#+title: Kugire Data Curation for the Kokinwakashu TEI/XML Data
+
+* Introduction
+
+Kugire, breaks within waka poems, are a basic structural element of waka. However, data on kugire is not well-developed. In particular, when incorporating kugire data for the TEI/XML data of waka, standardized, publicly available data on kugire is lacking. It is necessary to create annotations independently.
+
+This project attempts to implement kugire as an interpretive annotation layer on top of the TEI/XML data of the Kokinwakashu, which is the one of the most important waka anthologies. Rather than embedding kugire directly into the waka text, maintaining the kugire as an annotation layer allows for the retention of information about what criteria were used for the annotation, and whether alternative interpretations exist.
+The data of kugire can be applicable to the analysis of the structure of waka literature, enjambment in waka, and can be used as a case study for the development of ambiguity-aware, invisibly layered interpretive annotations in literary and linguistic studies.
+
+* Previous works
+
+** Kugire-related data
+
+As mentioned above, data on kugire is not well-developed.  [atuko315] is one of the few data sources of kugire, which provides a program to identify kugire and provides kugire data of Hyakuninisshu for evaluation. The program is also performed on the Kokinwakashu and the Shinkokinwakashu to compare the results with [okaasa] and [kamihiro]. However, kugire, different from the physical text data, is an interpretive layer without a single correct answer. Thus, the dataset is expected to not be a fixed, authoritative, definitive annotation provided by a single source. Instead, the dataset is expected to be a collection of annotations from multiple sources with clear documentation of their criteria and interpretations.
+
+** Tag example
+
+[murata2023] has 
+
+** Kugire standard
+
+[okaasa] proposes a standard for kugire. He defines the criteria for determining kugire as follows:
+
+1. The necessary condition :: The existence of two or more semantically indenpendent core sentences in the poem;
+2. The sufficient condition :: The existence of a clear grammartical break in the poem.  
+
+While both conditions remain interpretive ambiguty. Considering the interpretive nature of kugire, instead of making a single, fixed annotation of kugire, we maintain its ambiguity and descriptively annotate the kugire from grammatical and semantic perspectives from multiple sources.
+That is, implementing kugire as an annotation layer on top of the TEI data. That allows for the retention of information about whose judgement it is, what criteria were used, and whether alternative interpretations exist.
+
+** Applications of kugire
+
+Diachronic change of the kugire position.
+
+Relation between kugire position and the style of the poem.
+
+Enjambment
+
+* Methods
+
+** Base data
+
+本研究では、Zenodo で公開されている Hachidaishu part of speech dataset を基盤データとして用いる。このデータには、八代集各歌の語分割、品詞、読み、活用情報が含まれており、古今集の歌についても抽出可能である。ただし、句切れ注釈自体は含まれていないため、句切れ情報は別レイヤーの注釈として新たに付与する必要がある。
+
+** Reference data
+Zenodo Hachidaishu-pos.txt には、57577に単語分割、品詞、活用形などの情報が付与されているが、句切れの注釈は含まれていない。句切れの注釈は、本文の文字列や語彙・品詞データとは異なり、解釈に依存するため、独自に注釈を行う必要がある。([GitHub][1])
+
+
+* Annotation workflow
+
+** Grammartical kugire
+
+句切れを自然言語処理によって、文法的な切れ目を基準として、終止形、命令形、已然形の単語で終わる句、係助詞で終わる句、疑問、禁止、詠嘆、感動等を表す終助詞で終わる句のうち最初に現れる句の後を句切れとする方法がある。([Qiita][2])
+しかし、句切れの位置は様々な流儀があり、単一の正解はないため、おおまかな基準を設け、github copilot のようなツールを活用して、注釈者が基準に従って注釈を行う方法が現実的である。特に、判定が揺れる歌は、一つに決め打ちせず、複数の▼候補を並立させる設計の方が学術資源として意義あると考える。([Qiita][2])
+
+実務的には、まず「句切れなしの本文」
+「二句切れ・三句切れ・無切れ」などの分類、
+「句切れ位置」、
+「判定根拠」、
+「注釈者」、
+「出典研究」
+を別要素として重ねるのがよいと考える。特に、研究ごとに判定が揺れる歌は、一つに決め打ちせず、複数候補を並立させる設計の方が学術資源として意義あると考える。句切れの公開標準データが見当たらない以上、注釈としての句切れの参考データ開発という方針を明示して作ることに十分な意義がある。([Qiita][2])
+
+batch checker. nano
+
+
+we dont evaluate the precition, but we manually checked all the annotations.
+
+
+JADH 2026/04/15
+
+# 句切れのデータの作成
+
+Last change: 2026/04/08-15:38:40.
+
+陳 旭東 (早稲田大学)  
+ホドシチェク ボル (大阪大学)  
+山元 啓史 (東京科学大学)
+
+公開されている代表的な基盤データとしては、八代集の TEI 版や語彙・品詞データがあるが、そこから確認できるのは本文・語彙・形態情報が中心で、句切れ注釈そのものが標準項目として整備されているとは言いにくい。TEI 版の存在と語彙・品詞データの公開は確認できるが、句切れアノテーションの配布までは見当たらない。([GitHub][1])
+
+加えて、句切れは本文と違って「一意の事実データ」ではなく、かなり解釈層に属する。実際、句切れ推定を試みた記事でも、「句全体でどこを句切りとするかには様々な流儀があり、単一の正解はない」と明記したうえで、句切れは「底本の文字列」のような固定データではなく、「どの理論・どの基準で切るか」に依存する注釈だと見た方がよい。([Qiita][2])
+
+本プロジェクトが試みていることは、「既存データを貼る」というより、「本文 TEI の上に、別レイヤーの解釈注釈として句切れを実装する」作業になる。本文そのものに句切れを埋め込んでしまうより、誰の判断か、どの基準か、異説があるかを保持できる注釈層として持つ方が後で拡張しやすい。つまり、句切れが複数解ありうるという性質からの推論である。([GitHub][1])
+
+
+[1]: https://github.com/yamagen/hachidaishu?utm_source=chatgpt.com "Hachidaishu classical Japanese poetic vocabulary dataset"
+[2]: https://qiita.com/atuko315/items/1b7b04ffae2d5a5ee916 "和歌を句切る～古今和歌集と新古今和歌集を例に～ #自然言語処理 - Qiita"
+
+[2]より
+句切れを見つける
+
+句全体でどこを句切りとするかには様々な流儀があり、単一の正解はない。句切れは「底本の文字列」のような固定データではなく、「どの理論・どの基準で切るか」に依存する注釈だと見た方がよい。([Qiita][2])
+
+文法上の切れ目を基準としては、
+
+1. 「終止形」「命令形」「已然形」の単語で終わる句
+2. 「係助詞」
+3. 疑問、禁止、詠嘆、感動等を表す終助詞
+
+で終わる句のうち最初に現れる句の後を句切れとしたとしても、判定が揺れる歌は多い。([Qiita][2])
+
+1. 年の内に / 春はきにけり / 一とせをこぞとやいはん / ことしとやいはん
+2. 袖ひちて / むすびし水の / こほれるを / 春立つけふの / 風やとくらん
+3. 春霞 / たてるやいづこ / みよしのの / 吉野の山に / 雪はふりつつ
+
+三首は、それぞれ「文法的に強く切れる例」「意味的には切れやすいが文法的には弱い例」「問いと叙景が連動し、さらに判定が難しい例」として次のように比較できる。
+
+表1: 句切れの例の比較
+
+| 歌番号 | 主要な箇所                                | 形態的な特徴                 | 句切れ候補     | 判定の強さ | コメント                                                                                         |
+| ------ | ----------------------------------------- | ---------------------------- | -------------- | ---------- | ------------------------------------------------------------------------------------------------ |
+| 10001  | 「春はきにけり」                          | 「けり」が終止               | 第二句末       | 強い       | 終止形によって前半がひとまとまりになり、機械的にも句切れ候補を立てやすい。                       |
+| 10002  | 「こほれるを」                            | 連体形 + 「を」              | 第三句末候補   | 中程度     | 文法的にはまだ後続に接続しているが、意味構造としては前半の情景提示と後半の推量的叙述が分かれる。 |
+| 10003  | 「春霞たてるやいづこ」 / 「雪はふりつつ」 | 係助詞「や」、末尾は「つつ」 | 第三句付近候補 | 弱い       | 問いと叙景の対応はあるが、明確な終止標識がなく、機械的な句切れ判定は難しい。                     |
+
+10001 は、終止の「けり」によって、文法的にも意味的にも切れ目が明確である。10002 は、「こほれるを」によって文法的には後続へつながるが、前半の情景提示と後半の判断表現とのあいだに意味上の切れ目が認められる。10003 は、「や」による問いかけと後半の叙景とが連動しており、構造上の転換はあるものの、終止形などの明確な指標を欠くため、自動判定の確信度は低い。これら三首は、句切れが単純な形態情報だけでは一意に決定できず、解釈注釈として扱う必要があることを示している。
+
+```dot
+digraph kugire_examples {
+  rankdir=LR;
+  node [shape=box, fontsize=12];
+
+  A1 [label="10001\n春はきにけり"];
+  A2 [label="終止『けり』"];
+  A3 [label="第二句末\n強い候補"];
+
+  B1 [label="10002\nこほれるを"];
+  B2 [label="連体形 + を"];
+  B3 [label="第三句末候補\n中程度"];
+
+  C1 [label="10003\nたてるやいづこ"];
+  C2 [label="問い + 叙景\n末尾『つつ』"];
+  C3 [label="第三句付近候補\n弱い"];
+
+  A1 -> A2 -> A3;
+  B1 -> B2 -> B3;
+  C1 -> C2 -> C3;
+}
+```
+
+図1: 句切れの例の比較
+
+三首の比較から、句切れは「終止形によって比較的安定して検出できる場合」から、「意味構造に依存して候補化はできるが確定しにくい場合」、さらに「問いかけと叙景の連動によって機械判定が難しい場合」まで連続的であり、したがって TEI 上では固定的本文情報ではなく、根拠つきの注釈レイヤーとして実装するのが適切である。
