@@ -3,111 +3,83 @@
 * Overview
 
 A kugire (句切れ) annotation layer for the Kokinwakashu (古今和歌集) TEI/XML data.
-Kugire marks a phrase or clause break within a poem — a judgement that is often
-ambiguous. Following Asaoka, two types are distinguished:
+Kugire marks a phrase or clause break within a poem. Two types are distinguished:
 
-1. *Grammatical break* — derivable from morphological analysis of the poem text.
-2. *Semantic break* — derivable from explanatory translations by waka experts.
+1. *Grammatical* (=morph=) — derived from morphological analysis.
+2. *Semantic* (e.g. =kaneko=) — derived from an expert's explanatory translation.
 
-Because different translators may disagree, the annotation schema allows multiple
-competing kugire annotations on the same poem, each tagged with its evidence source.
+Multiple competing annotations are allowed on the same poem (different translators
+may disagree). Each =<k>= element is tagged with its evidence source.
 
-* Tool design
+* Workflow
 
-The pipeline is organised as pure transformation functions composed by a thin I/O
-shell. I/O (file reads, editor, XML writes) is isolated at the edges.
+Two-phase pipeline:
 
-** Data sources
+1. *Batch tagging* (=kugire-tag=) — generate suggestions for all 1111 poems and
+   write cache files + XML annotations automatically.
+2. *Interactive review* (=kugire-review=) — open a specific poem's draft in nano,
+   edit, and write back to XML.
 
-- =data/kokinwakashu.xml= — poem text (TEI XML)
-- =data/morphological-annotation.txt= — one poem per line; tokens as =surface/POS[inflection]/reading=; ID =10NNN=
-- =data/translation-kaneko.txt= — Kaneko's explanatory translation (BBDB); field =$D=; ID =00NNN=
+Cache files (=tools/kugire/cache/kugire-{id}-{source}.txt=) are the persistent
+draft record and are tracked in git.
 
-** Data type
+* Setup
 
-#+begin_src go
-type PoemData struct {
-    ID           int
-    XML          string            // raw TEI <l> fragment
-    Morphemes    []Token           // parsed from morphological-annotation.txt
-    Translations map[string]string // translator_code -> translation text
-}
-
-type KugirePos struct {
-    LineIdx int    // 0-based index into the 5 poem lines
-    Source  string // "morph" | translator code
-}
+#+begin_src sh
+nix develop          # enters devShell; starts ollama serve automatically
+ollama pull qwen2.5  # first time only (~4.7 GB)
 #+end_src
 
-** Pure functions
+* Usage
 
-#+begin_src
-query         :: int    -> PoemData
-suggest-morph :: PoemData -> []KugirePos
-suggest-seman :: PoemData -> TranslatorCode -> []KugirePos
-render-draft  :: PoemData -> []KugirePos -> str
-parse-draft   :: str -> []KugirePos
-diff-kugire   :: []KugirePos -> []KugirePos -> []Change
-annotate-xml  :: PoemXML -> []KugirePos -> str
+Build commands once from =tools/kugire/=:
+
+#+begin_src sh
+go build ./cmd/kugire-tag/
+go build ./cmd/kugire-review/
 #+end_src
 
-** I/O functions
+Batch-tag all poems (run only one instance at a time):
 
-#+begin_src
-load-poem   :: int  -> IO PoemData
-save-poem   :: int  -> str -> IO ()
-write-draft :: str  -> IO path
-open-editor :: path -> IO ()
-read-draft  :: path -> IO str
+#+begin_src sh
+./kugire-tag --source morph   --xml ../../data/kokinwakashu.xml \
+  --morph ../../data/morphological-annotation.txt \
+  --kaneko ../../data/translation-kaneko.txt \
+  --output ../../data/kokin-kugire.xml
+
+./kugire-tag --source kaneko  # same flags; calls Ollama per poem
 #+end_src
 
-** Composed review workflow
+Review a single poem:
 
-#+begin_src go
-func ReviewPoem(id int, translatorCode string) error {
-    data         := LoadPoem(id)
-    suggestions  := append(SuggestMorph(data), SuggestSeman(data, translatorCode)...)
-    path         := WriteDraft(RenderDraft(data, suggestions))
-    OpenEditor(path)
-    positions    := ParseDraft(ReadDraft(path))
-    if len(DiffKugire(suggestions, positions)) == 0 { return nil }
-    return SavePoem(id, AnnotateXML(data.XML, positions))
-}
+#+begin_src sh
+./kugire-review --source morph 1   # opens nano in tmux window kugire-1
 #+end_src
 
 * Draft format
 
-The nano draft is a plain 5-line poem. A kugire is marked with an end-of-line
-tag =​[K:<source>]=. The user adds or removes tags to adjust the suggestion.
+Each line of the poem may carry an end-of-line tag =​[K:<source>]= marking a
+kugire after that segment. Edit tags in nano to accept or adjust suggestions.
 
 #+begin_example
-春はあけぼの [K:morph]
-やうやうしろく
-なりゆく山ぎは [K:seman]
-小紫野も
-すこしあかりて
+年の内に
+春はきにけり [K:morph]
+ひとゝせを
+こそとやいはむ [K:morph]
+ことしとやいはむ
 #+end_example
 
-Source codes:
-- =morph= — grammatical break from morphological analysis
-- translator code (e.g. =kaneko=) — semantic break from that expert's translation
+* Output schema
 
-* Commands
+#+begin_src xml
+<l n="1" xml:id="n1">
+  <seg>年の内に</seg>
+  <seg>春はきにけり</seg>
+  ...
+  <k n="2" source="morph"/>
+  <k n="4" source="kaneko"/>
+</l>
+#+end_src
 
-One command: =review <poem-id>=
-
-On invocation, the user is prompted to select the kugire type:
-
-#+begin_example
-Select kugire source:
-  1) morph   — grammatical break (morphological analysis)
-  2) kaneko  — semantic break (Kaneko's translation)
-  q) quit
-#+end_example
-
-The selected source determines which suggestion function runs. After selection,
-the draft opens in nano for review and editing. On save, changes are written
-back to the output XML.
-
-New sources can be added by registering a new entry in the source list — no
-structural changes required.
+=@n= is the 1-based segment number after which the kugire falls; =@source= is the
+evidence code.
