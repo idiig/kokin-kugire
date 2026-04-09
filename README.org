@@ -21,7 +21,8 @@ Two-phase pipeline:
    edit, and write back to XML.
 
 Cache files (=tools/kugire/cache/kugire-{id}-{source}.txt=) are the persistent
-draft record and are tracked in git.
+draft record and are tracked in git. Commands must be run from =tools/kugire/=
+so that the relative =cache/= path resolves correctly.
 
 * Setup
 
