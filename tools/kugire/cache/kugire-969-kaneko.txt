@@ -1,0 +1,12 @@
+# Poem 969
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 人を待つは苦しいものということを、あなたが待てども待てども来ぬにつけて、今サ、始めて知りました、これではすべて、人を待つであろう所をば、不沙汰をせずに、早く行って遣るべきでありましたわい。
+#
+# morph:
+#
+今そしる
+くるしき物と
+人またむ [K:kaneko]
+さとをはかれす [K:kaneko]
+とふへかりけり

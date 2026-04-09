@@ -1,0 +1,12 @@
+# Poem 1024
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: どのように恋をする人でも、形は窶れ細りながらもサ、あるものと聞くわ、それに自分は恋に心が空になって、立っていてもすわっていても、この身体の形がどうやらない心持がする。
+#
+# morph:
+#
+こひしきか
+方もかたこそ [K:kaneko]
+ありときけ [K:kaneko]
+たてれをれとも [K:kaneko]
+なき心ち哉

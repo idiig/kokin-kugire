@@ -1,0 +1,12 @@
+# Poem 758
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 須磨の海人の塩焼衣は、筬が粗いので、織り目の間が透いて遠いように、道の間が遠い故かして、待てども待てども君がお出でなさらぬわ。
+#
+# morph:
+#
+すまのあまの
+しほやき衣
+おさをあらみ [K:kaneko]
+まとをにあれや [K:kaneko]
+君かきまさぬ

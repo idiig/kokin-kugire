@@ -1,0 +1,12 @@
+# Poem 128
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: いかに惜しんで鳴いても、散るを留め得る花がサないので、流石の鴬さえも挙げ句の果てには、鳴くのが大儀になってしまいそうな様子であるわ。
+#
+# morph:
+#
+なきとむる
+花しなけれは
+鶯も [K:kaneko]
+はては物うく
+なりぬへら也

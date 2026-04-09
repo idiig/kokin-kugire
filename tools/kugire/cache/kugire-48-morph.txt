@@ -1,0 +1,12 @@
+# Poem 48
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: たとえ花は散ってしまうとも、せめて香だけは後に残してくれ、梅の花よ、すれば後にお前の恋しい時の心を慰める思い出し草にしよう。
+#
+# morph:
+#
+ちりぬとも
+かをたにのこせ
+梅花
+こひしき時の
+思いてにせむ

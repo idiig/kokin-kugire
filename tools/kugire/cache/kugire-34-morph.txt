@@ -1,0 +1,12 @@
+# Poem 34
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 以来、家近くこんな梅の木は植えまい、其の故は花よく匂うので、来もせぬ待ち人の袖の匂いに、つまらなく間違えられたわい。
+#
+# morph:
+#
+やとちかく
+梅花うへし
+あちきなく
+松人の
+あやまたれけり

@@ -1,0 +1,17 @@
+# Poem 301
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 白波の上に、この節の木の葉の散り浮いたのを、海人の海に流した、小舟かしらとサ、思うわ。
+#
+# morph:
+#   seg 1: 白浪に  末: に (格助--) K0
+#   seg 2: 秋のこのはの  末: の (格助--) K0
+#   seg 3: うかへるを  末: を (＊助--) K2
+#   seg 4: あまのなかせる  末: る (完-体) K0
+#   seg 5: 舟かとそ見る  末: みる (マ上一-終体) K1
+#
+白浪に
+秋のこのはの
+うかへるを [K:kaneko]
+あまのなかせる [K:kaneko]
+舟かとそ見る

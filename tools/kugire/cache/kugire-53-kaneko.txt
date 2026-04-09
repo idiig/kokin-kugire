@@ -1,0 +1,12 @@
+# Poem 53
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: いっそ世の中に一向に桜という物がないであろうならば、結局春の人心なごやかであろうに、という意で、なまなか桜のある故に、長閑なはずの春も、何かと心騒がしくてならぬ、という余意を含めてある。
+#
+# morph:
+#
+世中に
+たえてさくらの
+ [K:kaneko]
+春の心は [K:kaneko]
+のとけからまし

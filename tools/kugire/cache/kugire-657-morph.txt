@@ -1,0 +1,12 @@
+# Poem 657
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 限りない胸の思いにまかせて、夜も夢に行って逢おう、現に通うは格別の事、夢に通う路まで、人は咎めはすまいわ。
+#
+# morph:
+#
+限なき
+思ひのまゝに
+よるもこむ
+ゆめちをさへに
+人はとかめし

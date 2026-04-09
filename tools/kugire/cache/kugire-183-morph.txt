@@ -1,0 +1,12 @@
+# Poem 183
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 今日は七月八日であるが、さて今日からは、追っ付け又来る年の七月七日の昨日をサ、何時か何時かとばかりに待ちあぐんで、月日を過すはずだ、さてさてつらいことよ。
+#
+# morph:
+#
+
+
+
+
+

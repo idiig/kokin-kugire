@@ -1,0 +1,12 @@
+# Poem 182
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 夜も明け方になったによって、もう今日はと言って別れる時は、帰途の天の川をまだ渡りもせぬ前に、はや川水に浸りもしたように、こう袖がサ、意外にひたひたと濡れるわ。
+#
+# morph:
+#
+
+
+
+
+

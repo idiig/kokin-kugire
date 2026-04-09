@@ -1,0 +1,12 @@
+# Poem 954
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: もうもう世の中の憂いのに飽きはてたわ、いっそ奥山の木の葉に降った雪が消えるように、自分もその奥山へ行って、跡をかき消してしまおう。
+#
+# morph:
+#
+世中の
+うけくに秋ぬ
+奥山の [K:kaneko]
+このはにふれる
+雪やけなまし

@@ -1,0 +1,12 @@
+# Poem 59
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: やあ桜の花が、意外に咲いたらしいなあ、あの山の間から白い雲が見えるわ。
+#
+# morph:
+#
+櫻花
+さきに [K:kaneko]
+あしひきの [K:kaneko]
+山のかひより
+見ゆる白雲

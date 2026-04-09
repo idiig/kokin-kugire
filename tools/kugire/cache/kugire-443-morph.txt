@@ -1,0 +1,12 @@
+# Poem 443
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: すべて物は有ると思っても、はかなくて頼みには成り難いわ、この世の中をばいっそないものと、料簡を着けて見ようか。
+#
+# morph:
+#
+ありと見て
+たのむそかたき
+うつせみの
+世をはなしとや
+思ひなしてむ

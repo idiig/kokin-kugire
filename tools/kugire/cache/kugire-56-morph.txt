@@ -1,0 +1,12 @@
+# Poem 56
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: こう見渡すと、柳の青い色と桜の白い色をまぜこぜにして、この京の景色はサ、存外に春の錦という物であったわい。
+#
+# morph:
+#
+見渡せは
+柳櫻を
+こきませて
+宮こそ春の
+錦なりける

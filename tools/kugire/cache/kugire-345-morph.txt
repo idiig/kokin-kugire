@@ -1,0 +1,12 @@
+# Poem 345
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: しほの山さし出の磯に鳴く千鳥でさえ、あなたの御世をば、八千代八千代とサ、鳴きますわい。
+#
+# morph:
+#
+しほの山
+さしてのいそに
+すむ千鳥
+きみかみよをは
+やちよとそ鳴

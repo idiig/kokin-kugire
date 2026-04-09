@@ -1,0 +1,12 @@
+# Poem 844
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 私はお聞き及びの通り、かような山辺にもはや住み付いて、亡き人の思いに泣き暮して、服の墨染の衣の袖が、乾く時もないのでありますわ。
+#
+# morph:
+#
+葦引の
+山邊に今は
+すみそめの [K:kaneko]
+衣の袖は [K:kaneko]
+ひる時もなし

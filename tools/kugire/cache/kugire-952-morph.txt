@@ -1,0 +1,17 @@
+# Poem 952
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: どのような岩山の中に住んだらまあ、この世間の憂い事が聞えてこぬ事であろうか。
+#
+# morph:
+#   seg 1: いかな覧  末: ん (推-終体) K1 ← K1
+#   seg 2: 巌の中に  末: に (格助--) K0
+#   seg 3: すまはかは  末: は (係助--) K1 ← K1
+#   seg 4: 世のうき事の  末: の (格助--) K0
+#   seg 5: きこえこさ覧  末: ん (推-終体) K1
+#
+いかな覧 [K:morph]
+巌の中に
+すまはかは [K:morph]
+世のうき事の
+きこえこさ覧

@@ -1,0 +1,12 @@
+# Poem 88
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: このように春雨の降るは、世間の人のこぼす涙なのかしら、なぜなれば桜の花の散ることを惜しんで歎かぬ人がサ、世間に一人もないによって。
+#
+# morph:
+#
+春雨の
+ふるは涙か
+さくら花
+ちるをゝしまぬ
+人しなけれは

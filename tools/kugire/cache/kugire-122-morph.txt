@@ -1,0 +1,12 @@
+# Poem 122
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 春雨に濡れた美しい色艶も、見飽きせぬうえに、香までがよくて、側を離れともなく懐かしいわ、山吹の花は。
+#
+# morph:
+#
+春雨に
+ゝほへる色も
+あかなくに
+かさへなつかし
+山吹の花

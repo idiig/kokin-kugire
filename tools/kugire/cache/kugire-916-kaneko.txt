@@ -1,0 +1,12 @@
+# Poem 916
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: たまたま京地から来て、この難波潟の風景を見れば、さてさて珍しく面白くて、帰ることも忘れて、当分玉藻を刈る海士にサ、自分はなってしまいそうだわ。
+#
+# morph:
+#
+なにはかた
+おふるたまもを
+かりそめの [K:kaneko]
+あまとそ我は
+なりぬへらなる

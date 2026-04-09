@@ -1,0 +1,12 @@
+# Poem 100
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 待つ人も来ぬのであるから、折らずとも、のことだったのを、必ず来ることと思って、その人の御馳走にと鴬の面白く鳴いていた、あったら花の枝を折ってのけたことよなあ。
+#
+# morph:
+#
+松人も
+こぬ物ゆへに
+鶯の [K:kaneko]
+なき鶴花を [K:kaneko]
+折てける哉

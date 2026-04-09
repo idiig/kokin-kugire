@@ -1,0 +1,12 @@
+# Poem 187
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 総体の物毎につけて、秋はサ悲しいわ、草や木の色が段々赤くなりなりして、変って衰え行くを、この時節の限りと思えばサ。
+#
+# morph:
+#
+
+
+
+
+

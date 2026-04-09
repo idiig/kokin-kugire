@@ -1,0 +1,12 @@
+# Poem 1072
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: この岡の家で、妻と自分と寝て夜の明けた今朝の、この霜の降りようはまあ、一方ならぬことわ。
+#
+# morph:
+#
+水くきの
+をかのやかたに
+いもとあれと
+ねてのあさけの [K:kaneko]
+しものふりはも

@@ -1,0 +1,12 @@
+# Poem 613
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: もうはや焦れ死んでしまおうものを、何時ぞや逢おうと、あの人が約束して、頼みに思わせたその一言がサ、命となって、こう生きているのであったわい。
+#
+# morph:
+#
+今はゝや
+こひしなましを
+あひ見むと
+たのめし事そ [K:kaneko]
+いのちなりける

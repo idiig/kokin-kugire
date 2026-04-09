@@ -1,0 +1,12 @@
+# Poem 504
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 自分の恋は一途に忍んでいるから、このように思うことを、あの人が知るであろうか、とても知りはすまいわ、しかしこの閏の枕ばかりはサ、もし知るならば知るであろう。
+#
+# morph:
+#
+わかこひを
+人しるらめや
+しきたへの
+枕のみこそ [K:kaneko]
+しらはしるらめ

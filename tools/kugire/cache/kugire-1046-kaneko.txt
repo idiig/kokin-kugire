@@ -1,0 +1,12 @@
+# Poem 1046
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 鴬の去年の宿を古巣というように、あの人が自分を古いものにして見捨てるというので、それでこうも気強くするのであろうか。
+#
+# morph:
+#
+鶯の
+こそのやとりの
+ふるすとや [K:kaneko]
+我には人の
+つれなかる覧

@@ -1,0 +1,12 @@
+# Poem 524
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 恋しい人のことを常住思い遣っているままに、その思い遣る路も段々深入りして、場所が遠く遥かになりもするのやら、あちこちと思い惑う夢の路には、一向に出逢う人がないわ。
+#
+# morph:
+#
+思ひやる
+さかひはるかに
+なりやする [K:kaneko]
+迷夢ちに [K:kaneko]
+あふ人のなき

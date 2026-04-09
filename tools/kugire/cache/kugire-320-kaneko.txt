@@ -1,0 +1,12 @@
+# Poem 320
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: この川についぞ見ぬ紅葉の葉が流れる、こりゃこれ、川上の奥山の雪解けの水がサ、今増さるらしいわ。
+#
+# morph:
+#
+この河に
+もみちはなかる
+おく山の
+ゆきけの水そ [K:kaneko]
+いまゝさるらし

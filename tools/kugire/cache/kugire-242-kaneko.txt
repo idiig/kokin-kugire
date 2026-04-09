@@ -1,0 +1,12 @@
+# Poem 242
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: もうこれからは、薄は庭などに植えてさえも見まいと思う。なぜというに、あのように薄が穂に出て哀れな景色の見える秋は、心細くいやであったわい。
+#
+# morph:
+#
+今よりは
+うへてたに見し
+はなすゝき [K:kaneko]
+ほにいつる秋は
+わひしかりけり

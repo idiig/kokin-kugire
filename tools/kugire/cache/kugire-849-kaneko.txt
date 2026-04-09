@@ -1,0 +1,12 @@
+# Poem 849
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 今朝時鳥の啼く声に驚いて、目が覚めて、つくづく思うと、月日の経つは早いものよ、今が去年君が死に別れて行かれた時でサ、あったわい。
+#
+# morph:
+#
+郭公
+けさなくこゑに
+おとろけは [K:kaneko]
+君をわかれし [K:kaneko]
+時にそありける

@@ -1,0 +1,12 @@
+# Poem 693
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 君が来ぬならば、何時までも閨へ這い入るまいわ、こうして夜の更けるまで外に立ち待って、私の濃紫の元結へ、真白に霜は置くとも構わずにサ。
+#
+# morph:
+#
+君こすは
+ねやへもいらし
+こ紫 [K:kaneko]
+わかもとゆひに [K:kaneko]
+霜はをくとも

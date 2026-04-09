@@ -1,0 +1,12 @@
+# Poem 571
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: あまり恋しいのにつらくなって、魂が迷って出てしまえば、跡のぬけ殻のみに、あれは恋して物の怪になったという名が、世間にぱっとするであろうか。
+#
+# morph:
+#
+こひしきに
+わひてたましひ
+まとひなは [K:kaneko]
+むなしきからの [K:kaneko]
+なにやのこらむ

@@ -1,0 +1,12 @@
+# Poem 936
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: そうであったとて、世を捨てられもせぬのに、何ぞ事がサあれば、まず一番に、ああ憂い世の中だと歎かれたわい。
+#
+# morph:
+#
+しかりとて
+そむかれなくに
+事しあれは [K:kaneko]
+まつなけかれぬ [K:kaneko]
+あなう世中

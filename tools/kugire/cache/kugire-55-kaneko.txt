@@ -1,0 +1,12 @@
+# Poem 55
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: この見事な山の桜の花は、只見たばかりで、戻って人に話そうか、話されはすまい、どりゃ手に手に沢山に折り取っていって土産にしよう。
+#
+# morph:
+#
+見てのみや
+人にかたらむ
+櫻花 [K:kaneko]
+手ことに折て [K:kaneko]
+家つとにせむ

@@ -1,0 +1,12 @@
+# Poem 1077
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 奥山にはもう霰が降るらしいわ、なぜならば、この外山にある正木の葛が色づいて来たわい。
+#
+# morph:
+#
+み山には
+霰ふるらし
+と山なる [K:kaneko]
+まさきのかつら [K:kaneko]
+いろつきにけり

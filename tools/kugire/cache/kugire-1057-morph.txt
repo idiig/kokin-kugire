@@ -1,0 +1,12 @@
+# Poem 1057
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: あまりに木を樵り積むと、山の峡が埋まってなくなるように自分は恋ゆえに歎きばかりが積もって、その歎き甲斐がなくなってしまいそうなわい。
+#
+# morph:
+#
+なけきをは
+こりのみつみて
+あしひきの
+山のかひなく
+なりぬへら也

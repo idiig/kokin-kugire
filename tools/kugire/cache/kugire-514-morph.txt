@@ -1,0 +1,12 @@
+# Poem 514
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 恋しさを忘れられる時がサないから葦鶴の飛び乱れて鳴くように、いろいろと思う心が乱れて、声に立てて泣いてばかりサいるわい。
+#
+# morph:
+#
+わすらるゝ
+時しなけれは
+あしたつの
+思みたれて
+ねをのみそなく

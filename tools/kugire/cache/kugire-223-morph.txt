@@ -1,0 +1,12 @@
+# Poem 223
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 大層綺麗なので、一枝折って見たいが、しかし折って見たら定めて落ちてサ、しまいそうな、秋萩の花の枝がしなうほどに置いた、あの白露がサ。
+#
+# morph:
+#
+おりて見は
+おちそしぬへき
+秋はきの
+枝も
+をけるしらつゆ

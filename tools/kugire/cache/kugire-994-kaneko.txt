@@ -1,0 +1,12 @@
+# Poem 994
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 風が吹けば、沖の白波は立つ事であるが、その立つという名の立田山を、時もあろうに、よる夜中に、君が只一人、越えてお出でなさるであろうかまあ。
+#
+# morph:
+#
+風ふけは
+おきつ白浪
+たつた山 [K:kaneko]
+よはにや君か [K:kaneko]
+ひとりこゆ覧

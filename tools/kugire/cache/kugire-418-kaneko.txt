@@ -1,0 +1,12 @@
+# Poem 418
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: いっその事今日一日をここに狩し暮らして、棚機様に今宵の宿を借ろうぞ、歩きまわって、丁度幸い棚機のいる天の川の川原に、思いがけず来たわい。
+#
+# morph:
+#
+
+
+ [K:kaneko]
+ [K:kaneko]
+

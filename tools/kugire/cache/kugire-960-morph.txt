@@ -1,0 +1,12 @@
+# Poem 960
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 自分の身から、憂い世の中ではあると、歎き歎きして居れ、人はそうもあるまいのに、何で人のうえまで身につまされて、悲しくあるのであろう。
+#
+# morph:
+#
+わか身から
+うき世中と
+なつけつゝ
+人のためさへ
+かなしかるらむ

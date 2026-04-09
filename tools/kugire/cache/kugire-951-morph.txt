@@ -1,0 +1,12 @@
+# Poem 951
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 世にこうしていれば、次第に憂いことがサ、増さるわ、これではかなわぬ故、いっそ吉野山の難所をも踏み開いて、奥深く引き籠ろうぞ。
+#
+# morph:
+#
+世にふれは
+うさこそまされ
+みよしのゝ
+いはのかけ道
+ふみならしてむ

@@ -1,0 +1,12 @@
+# Poem 137
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 五月をおのが鳴く時として待っている山時鳥よ、まだ五月にならぬから、今年の初声は出されずとも、山から飛んで来て、去年の古声なりとも、この卯月の今まあ鳴いてもらいたいわ。
+#
+# morph:
+#
+さ月まつ
+山郭公
+うちはふき
+今もなか南 [K:kaneko]
+こそのふるこゑ

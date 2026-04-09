@@ -1,0 +1,12 @@
+# Poem 49
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 今年から春を知り初めて、はじめて咲くこの桜の花よ、すべての花は咲けば散るが、どうぞその散るということだけは見倣わないでもらいたい。
+#
+# morph:
+#
+ことしより
+春しりそむる
+ [K:kaneko]
+いふ事は [K:kaneko]
+ならはさら南

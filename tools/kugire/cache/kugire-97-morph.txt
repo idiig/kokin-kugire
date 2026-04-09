@@ -1,0 +1,12 @@
+# Poem 97
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 今年に限らずいつの春でも、花の盛りはあるだろうが、その花盛りに出会うことは、即ち人間の寿命次第のことであったわい。
+#
+# morph:
+#
+春ことに
+花のさかりは
+有なめと
+あひ見む事は
+いのちなりけり

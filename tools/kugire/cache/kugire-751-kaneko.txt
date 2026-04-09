@@ -1,0 +1,17 @@
+# Poem 751
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 自分はあの天のような遠くにも住まぬのに、とかくあの人は、自分を余所余所に思う様子であるわ。
+#
+# morph:
+#   seg 1: 久方の  末: の (格助--) K0
+#   seg 2: あまつそらにも  末: も (係助--) K1 ← K1
+#   seg 3: すまなくに  末: に (格助--) K0
+#   seg 4: 人はよそにそ  末: そ (係助--) K1 ← K1
+#   seg 5: 思へらなる  末: へらなる (推-体) K0
+#
+久方の
+あまつそらにも [K:kaneko]
+すまなくに
+人はよそにそ [K:kaneko]
+思へらなる

@@ -1,0 +1,12 @@
+# Poem 106
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 鴬は自分について、花を散らしでもしたように、恨み顔に鳴くが、そりゃお門違いで、あの吹き誘う風を啼き立てて恨んでくれよ、自分は散るが惜しさにこそここには立ち寄ったが、花に手一つさえも触れたことかい。
+#
+# morph:
+#
+吹風を
+鳴て怨よ
+鶯は [K:kaneko]
+我やは花に [K:kaneko]
+手たにふれたる

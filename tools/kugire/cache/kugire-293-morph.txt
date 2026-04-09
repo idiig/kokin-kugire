@@ -1,0 +1,12 @@
+# Poem 293
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: この立田川に散り浮いて赤く見える紅葉が、流れて一つに行き止まる湊には、いつもの白波とは違って、定めし真赤な色の深い波が立つ事であろうか。
+#
+# morph:
+#
+もみちはの
+流てとまる
+みなとには
+紅深き
+浪や立らむ

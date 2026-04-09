@@ -1,0 +1,12 @@
+# Poem 179
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 棚機は毎年欠かさず今夜逢いはするが、よくよく思えば、一年にわずか一度ずつだから、年こそ多けれ、まことに逢って寝る夜の数はサ、少ないことだったわい。
+#
+# morph:
+#
+
+
+ [K:kaneko]
+ [K:kaneko]
+

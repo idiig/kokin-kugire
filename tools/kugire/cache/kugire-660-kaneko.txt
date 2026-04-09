@@ -1,0 +1,12 @@
+# Poem 660
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: たぎり落ちる川瀬のように、逸る胸の思いであるものを、何故かまあ、堤の水を堰き止めるように、人目を包むばかりに、堪え忍んでいる事であろうぞ。
+#
+# morph:
+#
+たきつせの
+はやき心を
+なにしかも [K:kaneko]
+人めつゝみの [K:kaneko]
+せきとゝむ覧

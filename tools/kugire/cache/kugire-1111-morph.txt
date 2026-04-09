@@ -1,0 +1,17 @@
+# Poem 1111
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 
+#
+# morph:
+#   seg 1: 道しらは  末: は (接助--) K0
+#   seg 2: つみにもゆかむ  末: ん (推-終体) K1 ← K1
+#   seg 3: 住のえの  末: の (格助--) K0
+#   seg 4: 岸におふてふ  末: てふ (助詞--) K2
+#   seg 5: こひわすれくさ  末: 恋わすれくさ (名--) K2
+#
+道しらは
+つみにもゆかむ [K:morph]
+住のえの
+岸におふてふ
+こひわすれくさ

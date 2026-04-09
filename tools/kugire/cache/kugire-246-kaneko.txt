@@ -1,0 +1,12 @@
+# Poem 246
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: この色々さまざまの草の花が、帯紐解いて乱れた面白い秋の野で、ふざけて遊ぼうと思う、それ故人は見ても見ぬふりして、怪しからぬ奴と咎め立てをしてくれるなよ。
+#
+# morph:
+#
+もゝくさの
+花のひもとく
+秋のゝに
+思たはれむ [K:kaneko]
+人なとかめそ

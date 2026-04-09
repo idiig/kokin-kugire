@@ -1,0 +1,12 @@
+# Poem 681
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 思う人には、現には勿論夢にさえ、こちらから逢うとは見られますまいわ、毎朝鏡に向こうにも、いたくやつれた自分の面影に、恥ずかしく堪らぬ身であればサ。
+#
+# morph:
+#
+夢にたに
+見ゆとは見えし
+あさな〳〵 [K:kaneko]
+わかおもかけに [K:kaneko]
+はつる身なれは

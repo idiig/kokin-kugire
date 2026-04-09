@@ -1,0 +1,12 @@
+# Poem 450
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 花の色はほんの一盛りだけ濃いけれども、これまでに染め返し返し、何遍も露がサ染めたわ。
+#
+# morph:
+#
+花の色は
+たゝひとさかり
+こけれとも [K:kaneko]
+返々そ [K:kaneko]
+つゆはそめける

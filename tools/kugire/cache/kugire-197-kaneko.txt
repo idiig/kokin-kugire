@@ -1,0 +1,12 @@
+# Poem 197
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: この長い秋の夜の明けるのも知らずに、あのように鳴くキリギリスは、自分のようにあれも、何か悲しくあるのであろうか。
+#
+# morph:
+#
+
+ [K:kaneko]
+
+
+

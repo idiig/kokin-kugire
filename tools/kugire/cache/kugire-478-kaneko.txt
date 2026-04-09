@@ -1,0 +1,12 @@
+# Poem 478
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: この春日野の雪の消え間を分けて生えて出て来る草の、チラリと見えるように、今日一寸の姿の見えたあなたはまあ。
+#
+# morph:
+#
+春日野ゝ
+雪まをわけて
+おひいてくる
+草のはつかに [K:kaneko]
+見えし君はも

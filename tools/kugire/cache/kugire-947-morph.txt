@@ -1,0 +1,17 @@
+# Poem 947
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: どちらの方へ、この世を捨てて行こうか、この心というものがサ、野に行っても、山に入っても、やはり惑いそうな様子だわい。
+#
+# morph:
+#   seg 1: いつくにか  末: か (係助--) K1 ← K1
+#   seg 2: 世をはいとはむ  末: ん (推-終体) K1 ← K1
+#   seg 3: 心こそ  末: こそ (係助--) K1 ← K1
+#   seg 4: のにも山にも  末: も (係助--) K1 ← K1
+#   seg 5: まとふへらなれ  末: へらなれ (推-已命) K1
+#
+いつくにか [K:morph]
+世をはいとはむ [K:morph]
+心こそ [K:morph]
+のにも山にも [K:morph]
+まとふへらなれ

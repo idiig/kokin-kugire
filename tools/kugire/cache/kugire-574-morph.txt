@@ -1,0 +1,12 @@
+# Poem 574
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 夢に思う人の所へ通う道にも、露が置くのであろうか、なぜなれば、夜一夜夢に幾度も幾度も、その道を通った袖が、ひどく濡れて今朝も乾かぬわ。
+#
+# morph:
+#
+夢ちにも
+つゆやをく覧
+よもすから
+かよへるそての
+ひちてかはかぬ

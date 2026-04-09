@@ -1,0 +1,12 @@
+# Poem 87
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 山が高いので花のそばには行かず、残念ながら余所に見ながら、自分が帰って来たその桜の花を、風は自由に散らしなどして、心に任せそうな様子であるな。
+#
+# morph:
+#
+山たかみ
+ゝつゝわかこし
+櫻花
+風は心に [K:kaneko]
+まかすへらなり

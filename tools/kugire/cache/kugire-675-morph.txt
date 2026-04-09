@@ -1,0 +1,12 @@
+# Poem 675
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: あなた故に、自分のうき名は、花にかかるこの節の春霞が、野にも山にも一面に立つように、世にあまねく立ってしまったわい。
+#
+# morph:
+#
+きみにより
+わかなは花に
+春霞
+のにも山にも
+たちみちにけり

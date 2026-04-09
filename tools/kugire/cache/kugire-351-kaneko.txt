@@ -1,0 +1,12 @@
+# Poem 351
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 何のこともなしに過ぎて行く月日は、何とも思われないでうかうか暮らすが、このように面白い花を見て暮らす春はサ、ひどく日数が少ないわ。
+#
+# morph:
+#
+いたつらに
+すくす月日は
+おもほえて
+花見てくらす [K:kaneko]
+春そすくなき

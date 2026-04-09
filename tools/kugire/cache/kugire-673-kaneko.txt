@@ -1,0 +1,12 @@
+# Poem 673
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 自分達二人の中は、逢う事は、丁度玉の緒ぐらいのわずかな事で、その癖憂き名の立つことは、吉野川の瀧の音の高いようで、世間へ響き渡って、それはそれは喧しい事よ。
+#
+# morph:
+#
+あふことは
+玉のを許
+なのたつは [K:kaneko]
+よしのゝ河の [K:kaneko]
+たきつせのこと

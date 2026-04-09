@@ -1,0 +1,12 @@
+# Poem 35
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 梅の花陰にほんの立ち寄るか寄るかという程のことがあったその時から、今までどんな人に寄り添っていたのかと、皆、人の怪しむ香にサ、着物が染みたわ。
+#
+# morph:
+#
+梅花
+たちよる許
+ありしより [K:kaneko]
+人のとかむる [K:kaneko]
+かにそしみぬる

@@ -1,0 +1,12 @@
+# Poem 701
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: あのように、大空を踏み轟かして、仰山な音を立てる鳴神は、何でも割り裂く恐ろしい物ではあるが、その鳴神さえも、互いに思い合った中をば遠ざけるものか、いや遠ざけはせぬわ。
+#
+# morph:
+#
+あまの原
+ふみとゝろかし
+なる神も
+思ふ中をは [K:kaneko]
+さくる物かは

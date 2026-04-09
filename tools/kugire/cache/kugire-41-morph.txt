@@ -1,0 +1,12 @@
+# Poem 41
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 春の夜の闇という奴は、さてさて理屈もないものよ、暗くすれば梅の花はそりゃ見えぬなれども、香がサ、隠れることかい。
+#
+# morph:
+#
+春の夜の
+やみはあやなし
+梅花
+色こそ見えね
+かやはかくるゝ

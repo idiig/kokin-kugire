@@ -1,0 +1,12 @@
+# Poem 66
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: まことの花でなくとも、着物は今から桜色によくよく染めて着ようと思う、それは追付け花が散ってしまうであろう、その後の形見にサ。
+#
+# morph:
+#
+櫻色に
+衣は深く
+染てきむ
+花のちりなむ [K:kaneko]
+のちのかたみに

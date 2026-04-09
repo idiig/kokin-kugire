@@ -1,0 +1,12 @@
+# Poem 189
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 何時は物を思う時という時節の差別なしに、年中物思いはあるけれど、この秋の夜がサ、殊に物思いする頂上であったわい。
+#
+# morph:
+#
+
+ [K:kaneko]
+ [K:kaneko]
+ [K:kaneko]
+

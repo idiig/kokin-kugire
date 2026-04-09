@@ -1,0 +1,12 @@
+# Poem 76
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: このまあ花を散らす風の奴の宿所は、誰ぞ知らぬかえ。知った者あらば自分に教えてくれよ、然らば、そこに行って思う存分恨みをいおうわ。
+#
+# morph:
+#
+花ちらす
+風のやとりは
+誰かしる [K:kaneko]
+我にをしへよ [K:kaneko]
+行て怨む

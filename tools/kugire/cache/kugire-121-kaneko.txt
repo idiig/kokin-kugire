@@ -1,0 +1,12 @@
+# Poem 121
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 昔見た時は見事に咲き匂っていたが、この節も相変わらず咲き匂うことであろうか、まあ、あの橘の小島の崎の山吹の花は。
+#
+# morph:
+#
+今もかも
+さきにほふ覧
+橘の [K:kaneko]
+こしまのさきの
+山吹の花

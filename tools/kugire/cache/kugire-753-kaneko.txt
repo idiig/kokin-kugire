@@ -1,0 +1,12 @@
+# Poem 753
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 空に雲もなくて和いだ朝は、いと晴れてあるものだが、その朝のような自分であればかして、人に厭い嫌われてばかりいて、一生を暮らしてしまうであろう。
+#
+# morph:
+#
+雲もなく
+なきたるあさの
+我なれや [K:kaneko]
+いとはれてのみ [K:kaneko]
+よをはへぬらむ

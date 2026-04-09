@@ -1,0 +1,12 @@
+# Poem 177
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 久し振りで渡る、この天の川の水の浅瀬がわからぬので、白波の立つ処を尋ねさまよいさまよいして、隙取ったのかしら、まだ明けようとも思わぬに、夜が意外に明けてしまったわい。
+#
+# morph:
+#
+
+
+
+
+

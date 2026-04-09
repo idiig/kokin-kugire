@@ -1,0 +1,12 @@
+# Poem 433
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: これ程逢い見る日の稀になる人を、どうしてまあ、つらい事と思わずにおられようか、実に辛い事と思うわ。
+#
+# morph:
+#
+かく許
+あふひのまれに
+なる人を
+いかゝつらしと
+おもはさるへき

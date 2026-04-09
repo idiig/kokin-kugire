@@ -1,0 +1,12 @@
+# Poem 781
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: あちこち吹き迷わす野の風が寒いので、秋萩の花の移ろって行くように、思う人の心が、余所へ移ってまあ行くことよ。
+#
+# morph:
+#
+吹まよふ
+野風をさむみ
+秋はきの
+うつりもゆくか
+人の心の

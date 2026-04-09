@@ -1,0 +1,12 @@
+# Poem 461
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 山辺に住んでいると、只さえ気のふさぐものを、どうせよということか、白雪がかかって晴れる時がないわ。
+#
+# morph:
+#
+葦引の
+山へにをれは
+白雲の
+いかにせよとか
+はるゝ時なき

@@ -1,0 +1,12 @@
+# Poem 953
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 山のあるについて、何処へでも行って、隠れてしまおうわ、なぜなれば、このように憂い世の中は、住んでいる詮もないわ。
+#
+# morph:
+#
+葦引の
+山のまに〳〵
+隠南
+うき世中は
+あるかひもなし

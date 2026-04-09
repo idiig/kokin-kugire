@@ -1,0 +1,12 @@
+# Poem 718
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: あのように不実な人の事は、もう忘れてしまおうと思う心が付くにつけて、さて絶えて後はどうであろうかと、又心細くなって、今までよりはなお増さって、別れぬ先から早恋しいわ。
+#
+# morph:
+#
+忘なむと
+思心の
+つくからに [K:kaneko]
+有しよりけに [K:kaneko]
+まつそこひしき

@@ -1,0 +1,12 @@
+# Poem 245
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 春萌え出た時は、只皆同じ青い一色の草とばかり思ったが、春見たとは存外に、秋になって見れば、このように色々の見事な花でサあったわい。
+#
+# morph:
+#
+緑なる
+ひとつ草とそ
+春は見し
+秋は色〳〵の
+花にそ有ける

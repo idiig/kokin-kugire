@@ -1,0 +1,12 @@
+# Poem 103
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 長閑な霞の立つ春の山のあたりは遠方なれど、其の山の方から吹いて来る風は、花の匂が存外するわ。
+#
+# morph:
+#
+霞立
+春の山邊は
+とをけれと
+吹くる風は [K:kaneko]
+花のかそする

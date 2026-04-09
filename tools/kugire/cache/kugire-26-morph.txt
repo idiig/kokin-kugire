@@ -1,0 +1,12 @@
+# Poem 26
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 糸を縒れば綻びも縫えるはずなのに、あの青柳が糸を縒りかける春のこの節はサ、却って花が思いがけず大層咲き乱れて綻びたわい。
+#
+# morph:
+#
+あをやきの
+いとよりかくる
+そ
+みたれて花の
+ほころひにける

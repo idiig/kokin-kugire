@@ -1,0 +1,12 @@
+# Poem 1086
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 近江の国にまあ、鏡山という山が立ててあるによって、前もってサ、よく見えるわ、君が御代の千年でござることは。
+#
+# morph:
+#
+あふみのや
+かゝみの山を
+たてたれは
+かねてそ見ゆる
+君かちとせは

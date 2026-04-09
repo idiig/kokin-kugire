@@ -1,0 +1,12 @@
+# Poem 105
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 鴬の悲しそうになく野辺毎に、自分が来て見ると、啼くも道理、いずれの野辺も散り方になった花に、風がサ吹いたわい。
+#
+# morph:
+#
+鶯の
+鳴野邊ことに
+きて見れは
+うつろふ花に
+風そ吹ける

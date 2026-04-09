@@ -1,0 +1,12 @@
+# Poem 935
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 雁のくる時分の、その嶺の朝霧の曇っているように、心が晴れずにばかり、常住思い事の尽きぬ、この世の中の憂さよ。
+#
+# morph:
+#
+鳫のくる
+峯の朝霧
+はれすのみ
+思ひつきせぬ [K:kaneko]
+世中のうさ

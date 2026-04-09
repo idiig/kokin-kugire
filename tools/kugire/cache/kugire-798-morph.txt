@@ -1,0 +1,12 @@
+# Poem 798
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 私一人ばかり、世が憂いという名の鴬の鳴くように、泣いて辛気に暮らすであろうか、あの人の心が花の散るように、自分を離れようならばサ。
+#
+# morph:
+#
+我のみや
+世を鶯と
+なきわひむ
+人の心の
+花とちりなは

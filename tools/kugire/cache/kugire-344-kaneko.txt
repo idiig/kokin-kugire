@@ -1,0 +1,12 @@
+# Poem 344
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 海の浜の砂の、限りもない数を数え数えて、それを、君の御長寿で経なさる数にしようと存じます。
+#
+# morph:
+#
+渡津海の
+濱のまさこを
+かそへつゝ
+君か千年の [K:kaneko]
+有かすにせむ

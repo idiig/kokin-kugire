@@ -1,0 +1,12 @@
+# Poem 1011
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 自分は梅の花を愛して、見にサ、来たのである、然れば、梅に寝ぐらを占めている鴬は喜ぶべきはずなのになぜか鴬が人が来る人が来ると鳴いて、自分の近寄るのを厭ってサ、まあいるわ。
+#
+# morph:
+#
+梅花
+見にこそきつれ
+鶯の [K:kaneko]
+ひとく〳〵と
+いとひしもをる

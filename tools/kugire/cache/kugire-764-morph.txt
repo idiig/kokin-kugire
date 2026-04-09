@@ -1,0 +1,12 @@
+# Poem 764
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 山の井のような、浅い心では私は思わぬのに、何であの方は、その山の井に映る影ほどばかり一寸見えて、落ち付いてはとまらぬのであろうぞ。
+#
+# morph:
+#
+山の井の
+浅き心も
+おもはぬを
+影許のみ
+人の見ゆらむ

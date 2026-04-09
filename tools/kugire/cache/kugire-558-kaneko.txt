@@ -1,0 +1,12 @@
+# Poem 558
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 思っても思っても逢われぬ為に、恋い倦んで寝た間に、あの人の処へ行き通ったと見た夢の直路は、どうぞ現在の事実であってもらいたいわ。
+#
+# morph:
+#
+こひわひて
+うちぬるなかに
+行かよふ
+夢のたゝちは [K:kaneko]
+うつゝなら南

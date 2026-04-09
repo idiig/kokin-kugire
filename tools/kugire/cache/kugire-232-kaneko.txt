@@ -1,0 +1,12 @@
+# Poem 232
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 誰か飽きたという秋でもないもの故に、移ろうにも及ばぬのに、女郎花はどうした事ぞ、あのように色に出て、早くも自身の方から移ろうのであろう。
+#
+# morph:
+#
+たか秋に
+あらぬ物ゆへ
+女郎花
+なそ色にいてゝ [K:kaneko]
+またきうつろふ

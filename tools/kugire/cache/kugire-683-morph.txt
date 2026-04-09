@@ -1,0 +1,12 @@
+# Poem 683
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 伊勢の海の海士が、朝夕食物にかつぎ上げるという海松藻のように、思う人を逢い見ることに、飽き足る仕方があってほしい事よ。
+#
+# morph:
+#
+伊勢のあまの
+あさなゆふなに
+かつくてふ
+見るめに人を
+あくよしも哉

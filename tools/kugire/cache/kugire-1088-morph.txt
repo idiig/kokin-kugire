@@ -1,0 +1,12 @@
+# Poem 1088
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 奥州は、どこにも面白い所があるけれど、別して、この塩竃の浦を漕ぐ舟の綱手を曳いてゆく景色が、面白いことであるはまあ。
+#
+# morph:
+#
+みちのくは
+いつくはあれと
+しほかまの
+浦こく舟の
+つなてかなしも

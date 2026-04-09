@@ -1,0 +1,12 @@
+# Poem 283
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: この立田川の一面に見事なのは、紅葉が散り乱れて流れるようであるわ、これでは今渡ったら、あったら錦の中が断たれるであろうか。
+#
+# morph:
+#
+龍田河
+紅葉みたれて
+流めり
+わたらは錦
+中やたえなむ

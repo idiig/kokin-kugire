@@ -1,0 +1,12 @@
+# Poem 188
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 草の葉こそ露に濡れるものなれ、自分が独り寝の床は草の葉ではないが、まるで草の葉のようで、物悲しい秋の夜は、いつもとは違って、それは露っぽいことであったわい。
+#
+# morph:
+#
+
+
+
+ [K:kaneko]
+

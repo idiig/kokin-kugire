@@ -1,0 +1,12 @@
+# Poem 944
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 山家は物さびしい事こそわるいが、それでも世の中の憂いのよりは、存外に住みよい事であるわい。
+#
+# morph:
+#
+山里は
+物のわひしき
+事こそあれ
+世のうきよりは
+すみよかりけり

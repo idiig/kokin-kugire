@@ -1,0 +1,12 @@
+# Poem 454
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: つい逢う時を待つ間に、ひどく日数が経ったわ、逢いたいという心持をば、先の人に、とくと見られ見られしてサ。
+#
+# morph:
+#
+いさゝめに
+時まつまにそ
+ひはへぬる
+心はせをは
+人に見えつゝ

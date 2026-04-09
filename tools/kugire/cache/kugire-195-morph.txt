@@ -1,0 +1,12 @@
+# Poem 195
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: このように秋の夜の月の光がサ、春夏とは違って格別明るいので、暗いという名のくらぶ山さえも越えられそうな。
+#
+# morph:
+#
+
+
+
+
+

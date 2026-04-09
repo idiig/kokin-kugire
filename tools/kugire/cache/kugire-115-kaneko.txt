@@ -1,0 +1,12 @@
+# Poem 115
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 春の頃志賀山越えをすると、道も除けている間もなく、花がサ、ばらばらと散ったわい。
+#
+# morph:
+#
+梓弓
+春の山邊を
+超くれは
+道もさりあへす [K:kaneko]
+花そちりける

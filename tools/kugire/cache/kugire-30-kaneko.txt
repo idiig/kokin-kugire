@@ -1,0 +1,12 @@
+# Poem 30
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 長閑な春が来れば、声を立てて雁がアレ故郷へ帰ることよ、さては空の雲路を遠く北国へ行くことなれば、そこに住む自分の朋友の宿のあたりを通るだろうが、其の出会い頭に「君も帰り給え」という伝言を頼もうかしら。
+#
+# morph:
+#
+春くれは
+鳫帰なり [K:kaneko]
+白雲の
+道ゆきふりに [K:kaneko]
+事やつてまし

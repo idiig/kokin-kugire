@@ -1,0 +1,12 @@
+# Poem 152
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 山へ帰る時鳥よ、これよちょっと待ってくれ、山里人へ伝言を頼もうわ、その伝言はほかでもない、自分はもうこの世の中に住みあぐんだということよ。
+#
+# morph:
+#
+やよやまて
+山郭公
+事つてむ
+我世中に
+すみわひぬとよ

@@ -1,0 +1,12 @@
+# Poem 592
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: たぎり流れる川瀬に、根元が着かずに浮く浮き草のように、何の取りしめもない浮いた恋をまあ、自分はすることよ。
+#
+# morph:
+#
+たきつせに
+ねさしとゝめぬ
+うき草の [K:kaneko]
+うきたるこひも
+我はするかな

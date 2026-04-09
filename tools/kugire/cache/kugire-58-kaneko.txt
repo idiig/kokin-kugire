@@ -1,0 +1,12 @@
+# Poem 58
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 誰がまあ在処をつきとめて、こうも折って来たことぞ、さぞや霞が立ち隠すであろうと思う、山のこの桜だのを。
+#
+# morph:
+#
+誰しかも
+とめて折つる
+春かすみ [K:kaneko]
+立 [K:kaneko]
+山のさくらを

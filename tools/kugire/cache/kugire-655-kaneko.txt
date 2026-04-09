@@ -1,0 +1,12 @@
+# Poem 655
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 言われる通り、もしいずれか恋い死んだ時は、恋しくて泣き慕う涙に、袖が甚く濡れようから、それを脱ぎ換えがてら、人の見ぬ夜の間サ、その喪服をば着ましょうわさ。
+#
+# morph:
+#
+なきこふる
+涙に袖の
+そほちなは
+ぬきかへかてら [K:kaneko]
+よるこそはきめ

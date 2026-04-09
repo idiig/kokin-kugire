@@ -1,0 +1,12 @@
+# Poem 1073
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 四極山をずっと越えて見渡すと、アレあの笠ぬい島の蔭へ、漕ぎ隠れて行くよ、棚なし小舟がサ。
+#
+# morph:
+#
+しはつ山
+うちいてゝ見れは
+かさゆひの [K:kaneko]
+嶋こきかくる [K:kaneko]
+たなゝしを舟

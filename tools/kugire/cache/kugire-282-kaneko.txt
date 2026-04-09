@@ -1,0 +1,17 @@
+# Poem 282
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: この深山の岩垣の紅葉が、このままで散ってしまいそうな、日の目もろくに見る時がなくてサ。
+#
+# morph:
+#   seg 1: 奥山の  末: の (格助--) K0
+#   seg 2: いはかき紅葉  末: もみぢ (ダ上二-未用) K2
+#   seg 3: ちりぬへし  末: へし (推-終) K1 ← K1
+#   seg 4: てる日のひかり  末: 光 (名--) K2
+#   seg 5: 見る時なくて  末: て (接助--) K0
+#
+奥山の
+いはかき紅葉
+ちりぬへし [K:kaneko]
+てる日のひかり [K:kaneko]
+見る時なくて

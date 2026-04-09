@@ -1,0 +1,12 @@
+# Poem 1087
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 阿武隈川に霧が立ち渡って、夜が明けたりとも、思う人をばやるまいぞ、やってしまって、又来るまでを待てば、その間が何とも仕方がないわ。
+#
+# morph:
+#
+あふくまに
+きりたちくもり
+あけぬとも
+きみをはやらし
+まてはすへなし

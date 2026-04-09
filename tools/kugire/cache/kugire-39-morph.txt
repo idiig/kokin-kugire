@@ -1,0 +1,12 @@
+# Poem 39
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: いつもとは違って、梅の花の咲き匂う春の頃は、取り分け暗いという名のくらぶの山を、しかも真の闇夜に越えて行っても、梅の花が存外に判然とよく知れたわい。
+#
+# morph:
+#
+梅花
+にほふ春へは
+くらふ山
+やみにと
+しるくそ有ける

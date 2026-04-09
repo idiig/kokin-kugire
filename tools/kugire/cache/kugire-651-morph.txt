@@ -1,0 +1,12 @@
+# Poem 651
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 瀬の早い吉野川の水のように、自分の恋の心ははやるとも、その川の瀧の音を立てるように、素振りには出しはすまいとサ、思うわ。
+#
+# morph:
+#
+吉野河
+水の心は
+ゝやくとも
+たきのをとには
+たてしとそ思

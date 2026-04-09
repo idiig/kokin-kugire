@@ -1,0 +1,12 @@
+# Poem 123
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 山吹は無分別に決して今咲くなよ、花を見ようと思って植えて置かれたあの御方が、今夜、来もせられぬのに、咲いても何の詮もないことなのを。
+#
+# morph:
+#
+山吹は
+あやなゝさきそ
+花見むと
+うへけむ君か
+こよひこなくに

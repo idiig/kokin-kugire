@@ -1,0 +1,12 @@
+# Poem 57
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: この桜は色も香も変りなく、昔の通りに咲くであろうが、年を取った人はサ、桜とは違って、昔の若い時とは存外に変ったわい。
+#
+# morph:
+#
+色もかも
+おなし
+さくらめと
+年ふる人そ
+あらたまりける

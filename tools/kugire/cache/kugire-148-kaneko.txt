@@ -1,0 +1,12 @@
+# Poem 148
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 恋しい人を思い出す時に、常盤山の時鳥が、あたかも自分とおなじように、声を振り立ててサ、アレ鳴くわ。
+#
+# morph:
+#
+思出る
+ときはの山の
+時鳥 [K:kaneko]
+唐紅の
+ふりいてゝそ鳴

@@ -1,0 +1,12 @@
+# Poem 249
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 山風が吹くによって、それにも見立てられて、秋の草や木があのように萎れるから、道理で山の風を物を荒すという名の嵐というのであろう。
+#
+# morph:
+#
+吹からに
+秋の草木の
+しほるれは
+むへ山かせを
+嵐といふらむ

@@ -1,0 +1,12 @@
+# Poem 142
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 音羽山を今朝越えて来れば、時鳥が梢の方、遥かに、思いがけず今サ、始めてアレ鳴くわ。
+#
+# morph:
+#
+
+
+
+
+

@@ -1,0 +1,12 @@
+# Poem 437
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 白露を玉にして貫くといってか、蜘蛛がこの露の置く女郎花の花にも葉にも、糸を皆引き張った。
+#
+# morph:
+#
+白露を
+たまにぬくとや [K:kaneko]
+さゝかにの [K:kaneko]
+花にもはにも [K:kaneko]
+絲をみなへし

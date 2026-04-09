@@ -1,0 +1,12 @@
+# Poem 193
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 秋は世間一統の事で、自分一人の秋ではないけれど、それを自分一人の秋かのように、世間の人はとにかく、自分は月を見ると、さまざまに物悲しいわい。
+#
+# morph:
+#
+
+
+
+ [K:kaneko]
+

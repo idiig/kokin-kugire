@@ -1,0 +1,12 @@
+# Poem 517
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: この恋の苦しみに命を換えられる物であるならば、死ぬということは、造作ないことでサ、ありそうな事であるわい。
+#
+# morph:
+#
+こひしきに
+いのちをかふる
+物ならは [K:kaneko]
+しにはやすくそ
+あるへかりける

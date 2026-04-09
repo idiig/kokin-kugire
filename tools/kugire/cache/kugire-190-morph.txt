@@ -1,0 +1,12 @@
+# Poem 190
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 夜の明けるのが情けなくて、これほどに惜しいと思う、あったら秋の月夜であるものを、惜しいとも思わず、むざむざと寝てしまって、この夜を明かすであろう人までがサ、情けない。
+#
+# morph:
+#
+
+
+
+
+

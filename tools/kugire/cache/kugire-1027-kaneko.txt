@@ -1,0 +1,12 @@
+# Poem 1027
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 山田の案山子を見るような汝さえ、自分を望んで逢いたいという、さても厄介なことよ。
+#
+# morph:
+#
+葦引の
+山田のそほつ [K:kaneko]
+をのれさへ
+我おほしてふ [K:kaneko]
+うれはしきこと

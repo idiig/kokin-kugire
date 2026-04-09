@@ -1,0 +1,12 @@
+# Poem 47
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 梅の花はああ散るわとばかり、つい一通りに見て置こうものを、厄介にも梅の香が、何時か袖に留まっているわ。
+#
+# morph:
+#
+ちると見て
+あるへき物を
+梅花
+うたて匂の
+袖にとまれる

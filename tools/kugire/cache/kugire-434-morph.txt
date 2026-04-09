@@ -1,0 +1,12 @@
+# Poem 434
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 人目を憚る故に、これから後に若し逢う日が間遠になるならば、その訳も知らずに、自分がつらい仕打をすることのように、思い成されようか。
+#
+# morph:
+#
+人めゆへ
+のちにあふひの
+はるけくは
+わかつらきにや
+思なされむ

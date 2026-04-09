@@ -1,0 +1,12 @@
+# Poem 904
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 宇治の橋守よ、ほかの人よりはそなたをサ、取り分けて不憫な者ぞとは思うわ、自分と同じように、ひどく年寄った者と思うによってサ。
+#
+# morph:
+#
+ちはやふる
+宇治の橋守
+なれをしそ [K:kaneko]
+あはれとは思 [K:kaneko]
+年のへぬれは

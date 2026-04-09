@@ -1,0 +1,12 @@
+# Poem 32
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 梅の花を折ったれば、移り香で袖がこれこのように匂うわ、それだけで真の梅の花はありもせぬのに、袖の匂うのをここに梅の花があると思ってか、アレ鴬が鳴くわ。
+#
+# morph:
+#
+折つれは
+袖こそにほへ
+梅花
+ありとやこゝに [K:kaneko]
+うくひすのなく

@@ -1,0 +1,12 @@
+# Poem 184
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 先頃とは様子が違って、葉のまばらに透いた木の間から、洩れてさして来る月の光の、さやかに物哀れなのを見ると、さてさて物事辛気な秋は、意外に早くも来たわい。
+#
+# morph:
+#
+
+
+
+ [K:kaneko]
+

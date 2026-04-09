@@ -1,0 +1,12 @@
+# Poem 400
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 残り多く思って別れる袖の涙は、まるで白玉と見えるが、この白玉はあなたのお蔭で出来たもの故、あなたのお形見と存じて、大事に袖に包んでサ行くわ。
+#
+# morph:
+#
+あかすして
+わかるゝ袖の
+白玉を
+君かゝたみと
+つゝみてそ行

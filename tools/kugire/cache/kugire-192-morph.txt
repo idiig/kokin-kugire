@@ -1,0 +1,12 @@
+# Poem 192
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: アレあの雁の鳴く声が聞える遥か空の方へ、もう月が廻って見える事よ、さてはもはや夜中とまで、夜が更けたらしいわ。
+#
+# morph:
+#
+
+
+
+
+

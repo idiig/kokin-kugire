@@ -1,0 +1,12 @@
+# Poem 610
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 弓を挽けばその本末が自分の方へ寄るが、そのよるという夜がサ、昼よりも格別に、人恋しく思う心は増さるわ。
+#
+# morph:
+#
+梓弓
+ひけはもとすゑ
+わか方に [K:kaneko]
+よるこそまされ [K:kaneko]
+こひの心は

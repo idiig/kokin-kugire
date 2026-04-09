@@ -1,0 +1,12 @@
+# Poem 1097
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 故郷の甲斐が嶺をば、ありありとあざやかに見たいわ、それに心もなく、あのように横たわり臥して、目の前をふさいでいる小夜の中山であることよ。
+#
+# morph:
+#
+かひかねを
+さやにも見しか
+けゝれなく [K:kaneko]
+よこほりふせる [K:kaneko]
+さやの中山

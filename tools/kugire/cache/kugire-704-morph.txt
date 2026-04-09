@@ -1,0 +1,12 @@
+# Poem 704
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 世間の噂は、たとえ夏の草のように繁くあるとしても、それ故遠のいてゆく君に、逢わずにおこうか、いや逢わずにおきはすまいわ。
+#
+# morph:
+#
+
+
+
+
+

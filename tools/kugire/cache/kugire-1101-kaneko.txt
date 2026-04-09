@@ -1,0 +1,17 @@
+# Poem 1101
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 
+#
+# morph:
+#   seg 1: そま人は  末: は (係助--) K1 ← K1
+#   seg 2: 宮木ひくらし  末: らし (推-終体已) K2
+#   seg 3: あしひきの  末: の (格助--) K0
+#   seg 4: 山の山ひこ  末: やまひこ (名--) K2
+#   seg 5: よりとよむなり  末: なり (推-終) K1
+#
+そま人は
+宮木ひくらし
+あしひきの
+山の山ひこ
+よりとよむなり

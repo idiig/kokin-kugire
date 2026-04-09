@@ -1,0 +1,12 @@
+# Poem 171
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 夏とは違って、我が夫の君の着物の裾を、裏の見えるほどに吹き返して、それはそれは心珍しい秋の初風であることよ。
+#
+# morph:
+#
+わかせこの
+衣のすそを
+吹返し
+うらめつらしき
+秋のはつ風

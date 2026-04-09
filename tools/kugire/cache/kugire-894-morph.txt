@@ -1,0 +1,12 @@
+# Poem 894
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: あの難波の御津で焼く塩はからいものであるが、そのからくも即ちつらくもまあ、自分は年が寄ってしまったことよ。
+#
+# morph:
+#
+をしてるや
+なにはのみつに
+やくしほの
+からくも我は
+おいにける哉

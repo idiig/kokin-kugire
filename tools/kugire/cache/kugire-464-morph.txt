@@ -1,0 +1,12 @@
+# Poem 464
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 花という花をば、皆残り多いのに散らした風であるから、どれほど自分が、あの風めの仕打を憂いと思った事か、並大抵に憂いと思った事ではないわ。
+#
+# morph:
+#
+花ことに
+あかすちらしゝ
+風なれは
+いくそはくわか
+うしとかは思

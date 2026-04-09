@@ -1,0 +1,12 @@
+# Poem 278
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 初めの程は白く、この頃は紫に色の変るあの秋の菊をば、同じ花であることは忘れ、一年の内に白と紫と二度咲き匂う花とサ、これを見るわ。
+#
+# morph:
+#
+色かはる
+秋の菊をは
+ひとゝせに
+ふたゝひにほふ
+花とこそ見れ

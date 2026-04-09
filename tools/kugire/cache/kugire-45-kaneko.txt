@@ -1,0 +1,12 @@
+# Poem 45
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 庭前の梅なので、日が暮れるといっては見、夜が明けるといっては見して、暫しの目放しもせぬものを、この梅の花は何時の我がおらぬ間に、こうは散ってしまったのだろう。
+#
+# morph:
+#
+くるとあくと
+めかれぬ物を
+梅花 [K:kaneko]
+いつの人まに [K:kaneko]
+

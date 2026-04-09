@@ -1,0 +1,12 @@
+# Poem 54
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: この岩の上を迸る激流がなくてまあ欲しいことよ、すれば向こう岸の面白い桜を、家にいて見えぬ人の為に家苞にするように、一枝折っても来ように。
+#
+# morph:
+#
+
+たきなくも哉 [K:kaneko]
+さくら花 [K:kaneko]
+たおりても [K:kaneko]
+見ぬ人のため

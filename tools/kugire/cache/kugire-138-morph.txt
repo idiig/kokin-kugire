@@ -1,0 +1,12 @@
+# Poem 138
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 時鳥は五月が来るならば、しばしば鳴くので、声が古臭くなってしまおう、それゆえ今のまだ早いうちの声を聞きたいものよ。
+#
+# morph:
+#
+五月こは
+鳴もふり南
+郭公
+またしきほとの
+こゑをきかはや

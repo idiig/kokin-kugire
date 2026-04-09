@@ -1,0 +1,12 @@
+# Poem 25
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 妻がわが夫の衣を洗い張りする、その張るという名の春雨の降る度毎に、野辺の草木の緑の色は、存外に増ったわい。
+#
+# morph:
+#
+わかせこか
+衣はるさめ
+ふる
+のへのみとりそ
+色まさりける

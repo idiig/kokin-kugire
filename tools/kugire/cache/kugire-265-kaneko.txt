@@ -1,0 +1,17 @@
+# Poem 265
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: この佐保山の紅葉は、誰の為に大切にして置く錦であるかして、他人には見せまいと、秋霧がああも立って隠すのであろうぞ。
+#
+# morph:
+#   seg 1: たかための  末: の (格助--) K0
+#   seg 2: 錦なれはか  末: か (係助--) K1 ← K1
+#   seg 3: 秋きりの  末: の (格助--) K0
+#   seg 4: さほの山へを  末: を (格助--) K0
+#   seg 5: 立かくすらむ  末: らん (推-終体) K1
+#
+たかための
+錦なれはか [K:kaneko]
+秋きりの [K:kaneko]
+さほの山へを [K:kaneko]
+立かくすらむ

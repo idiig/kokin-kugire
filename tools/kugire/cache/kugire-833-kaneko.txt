@@ -1,0 +1,12 @@
+# Poem 833
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: この度の御主人の御不幸に就いて思って見れば、夢というものは、寝ていても見え、寝ずにいても見えるわい、するともともとこの人間の世がサ、はじめから夢あったわい。
+#
+# morph:
+#
+ねても見ゆ
+ねても見えけり
+おほかたは [K:kaneko]
+うつせみの世そ [K:kaneko]
+夢には有ける

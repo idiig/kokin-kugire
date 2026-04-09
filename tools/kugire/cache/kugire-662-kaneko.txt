@@ -1,0 +1,12 @@
+# Poem 662
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 冬の池に住む鳰鳥は、氷を潜って、水底を通うによって、うわべには見えぬように、私がそこ許に通うということを、何気なく知らぬ顔して、人に知らせるなよ。
+#
+# morph:
+#
+冬の池に
+すむにほとりの
+つれもなく [K:kaneko]
+そこにかよふと [K:kaneko]
+人にしらすな

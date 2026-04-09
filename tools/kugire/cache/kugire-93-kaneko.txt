@@ -1,0 +1,12 @@
+# Poem 93
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 天下一帯の春だから、その気色が行き渡った里行き渡らぬ里の分け隔てはあるまい、それを何で咲いている花や、まだ咲かずにいる花や、の見えるのであろう。
+#
+# morph:
+#
+春の色の
+いたりいたらぬ
+さとはあらし [K:kaneko]
+さけるさかさる [K:kaneko]
+花の見ゆらむ

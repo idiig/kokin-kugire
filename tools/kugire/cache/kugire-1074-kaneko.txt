@@ -1,0 +1,12 @@
+# Poem 1074
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 神のましますお社の山の榊の葉は、まことにしあわせなことで、神様のお前に茂り合っているわい。
+#
+# morph:
+#
+神かきの
+みむろの山の
+さかきはゝ
+神のみまへに [K:kaneko]
+しけりあひにけり

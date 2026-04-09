@@ -1,0 +1,12 @@
+# Poem 999
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 人には知られず密かにわが望み願うこの心は、春霞のように立ち現われて、お上のお目にも止まってほしいわ。
+#
+# morph:
+#
+人しれす
+思心は
+春霞
+たちいてゝきみか [K:kaneko]
+めにも見えなむ

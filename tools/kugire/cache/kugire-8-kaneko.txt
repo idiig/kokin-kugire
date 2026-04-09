@@ -1,0 +1,12 @@
+# Poem 8
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 普通では春の日影に会えば雪は消える、然るに今は冬の日に当たりながら、かように頭が白くなって、年寄ることが辛くございます。
+#
+# morph:
+#
+春の日の
+ひかりにあたる
+なれと [K:kaneko]
+かしらの [K:kaneko]
+なるそわひしき

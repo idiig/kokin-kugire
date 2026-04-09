@@ -1,0 +1,12 @@
+# Poem 841
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 今、喪服に着ている、この藤衣のほつれる糸は、父親に別れて難儀している者の、悲しさにこぼす涙の玉を、数珠繋ぎにする緒とサ、なったわ。
+#
+# morph:
+#
+藤衣
+はつるゝいとは
+わひ人の [K:kaneko]
+涙の玉の
+をとそなりける

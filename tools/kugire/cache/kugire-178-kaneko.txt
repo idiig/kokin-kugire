@@ -1,0 +1,12 @@
+# Poem 178
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: そもそものはじめ、一年に一度と約束されたであろう棚機様の心がサ気強いわ、なぜというに、一年に只の一度ぐらい逢うのが逢うのかい、それは逢うというものではないわ。
+#
+# morph:
+#
+
+
+
+ [K:kaneko]
+

@@ -1,0 +1,12 @@
+# Poem 5
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 梅の枝に来馴れている鴬が、冬時分からこの春へかけて頻りに鳴くけれども、未だ雪は降り降りして、一向春めかぬことよ。
+#
+# morph:
+#
+梅かえに
+きゐるうくひす
+春かけて
+なけともいまた
+雪はふりつゝ

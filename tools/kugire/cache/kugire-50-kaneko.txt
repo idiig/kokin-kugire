@@ -1,0 +1,12 @@
+# Poem 50
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 山が格別に高いので、花見の人も来て賞翫せぬこの桜の花よ、人が賞翫せぬからとて、大してくよくよ思うなよ、なぜというに、この私が見はやして遣ろうわ。
+#
+# morph:
+#
+山高み
+人もすさめぬ
+さくら花 [K:kaneko]
+ [K:kaneko]
+我見はやさむ

@@ -1,0 +1,12 @@
+# Poem 200
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 見捨てて寄り付かない貴君を恋い忍ぶという名の付いた忍草が、軒端などに生えて見苦しくなった故里は、ほかとは違って荒れ庭に鳴く松虫の声がサ、人を待つという名のあるせいか、一入悲しいことであるわい。
+#
+# morph:
+#
+
+
+
+ [K:kaneko]
+

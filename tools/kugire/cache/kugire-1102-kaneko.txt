@@ -1,0 +1,17 @@
+# Poem 1102
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 
+#
+# morph:
+#   seg 1: かけりても  末: も (係助--) K1 ← K1
+#   seg 2: なにをか玉の  末: の (格助--) K0
+#   seg 3: きてもみむ  末: ん (推-終体) K1 ← K1
+#   seg 4: からはほのほと  末: と (格助--) K0
+#   seg 5: なりにしものを  末: を (格助--) K0
+#
+かけりても
+なにをか玉の
+きてもみむ
+からはほのほと
+なりにしものを

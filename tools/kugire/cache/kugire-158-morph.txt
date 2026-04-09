@@ -1,0 +1,17 @@
+# Poem 158
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: この夏山に恋しい人が籠ってしまったのであろうか、頻りにこの節声を張りあげて時鳥が鳴くわ。
+#
+# morph:
+#   seg 1: 夏山に  末: に (格助--) K0
+#   seg 2: こひしき人や  末: や (係助--) K1 ← K1
+#   seg 3: いりにけむ  末: けん (推-終体) K1 ← K1
+#   seg 4: 聲ふりたてゝ  末: ゝ (接助--) K0
+#   seg 5: なく郭公  末: 郭公 (名--) K2
+#
+夏山に
+こひしき人や [K:morph]
+いりにけむ [K:morph]
+聲ふりたてゝ
+なく郭公

@@ -1,0 +1,12 @@
+# Poem 180
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 棚機様に供えてお貸し申した糸のように、長く延び延びに、この先も年久しく人に恋い焦れて、月日を過すであろうか。
+#
+# morph:
+#
+
+
+
+
+

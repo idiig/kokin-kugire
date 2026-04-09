@@ -1,0 +1,12 @@
+# Poem 498
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: アレあの庭の植込みの梅の木の高い枝に、鴬が声を立てて泣くが、自分もあのように、声を立てて泣きもしそうな、切ない恋もすることよ。
+#
+# morph:
+#
+わかそのゝ
+むめのほつえに
+鶯の
+ねに鳴ぬへき
+こひもする哉

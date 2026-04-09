@@ -1,0 +1,12 @@
+# Poem 982
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 私の家は三輪の山の麓であります、逢いたくば尋ねてお出でなされ、杉の立って居る門が、それでありますぞ。
+#
+# morph:
+#
+わかいほは
+みわの山本
+こひしくは
+とふらひきませ
+すきたてる門

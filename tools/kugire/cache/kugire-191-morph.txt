@@ -1,0 +1,12 @@
+# Poem 191
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 遥かに高い大空のあたりに、羽と羽とを打ち交して連れ立って飛び渡る雁の、その数までもよく見える秋の夜の月であることよ。
+#
+# morph:
+#
+
+
+
+
+

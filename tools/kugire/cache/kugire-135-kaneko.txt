@@ -1,0 +1,17 @@
+# Poem 135
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 自分の庭の池の辺の藤の花は、意外に咲いたわい、さては山の時鳥はいつごろ山から出て来て鳴こうか。
+#
+# morph:
+#   seg 1: わかやとの  末: の (格助--) K0
+#   seg 2: 池の藤波  末: 藤なみ (名--) K2
+#   seg 3: さきにけり  末: けり (過-終) K1 ← K1
+#   seg 4: 山郭公  末: 山郭公 (名--) K2
+#   seg 5: いつかきなかむ  末: ん (推-終体) K1
+#
+わかやとの
+池の藤波
+さきにけり [K:kaneko]
+山郭公 [K:kaneko]
+いつかきなかむ

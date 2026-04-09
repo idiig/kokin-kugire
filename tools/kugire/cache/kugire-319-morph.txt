@@ -1,0 +1,12 @@
+# Poem 319
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 山の雪は積もりも敢えず、降る傍らからサ消えてしまうらしいわ、其の証拠には、この谷川の早瀬の水の音が、アレ高く鳴るわい。
+#
+# morph:
+#
+ふる雪は
+かつそけぬらし
+葦引の
+山のたきつせ
+をとまさるなり

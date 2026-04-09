@@ -1,0 +1,12 @@
+# Poem 636
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 秋の夜を長いとも、え思いきめられぬわ、以前から逢う人物次第によって、長くも短くも覚える秋の夜であるから。
+#
+# morph:
+#
+長しとも
+思そはてぬ
+昔より [K:kaneko]
+あふ人からの [K:kaneko]
+秋のよなれは

@@ -1,0 +1,12 @@
+# Poem 1090
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: あの小黒崎にある三つの小島が、もし人であるならば、京へのみやげに、さあ来いといって連れようものを、人でない故それもならぬが、残念であるわ。
+#
+# morph:
+#
+おくろさき
+みつのこしまの
+人ならは [K:kaneko]
+宮このつとに [K:kaneko]
+いさといはましを

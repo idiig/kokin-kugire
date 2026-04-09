@@ -1,0 +1,12 @@
+# Poem 706
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 大幣が数多の人の手に手に引かれるように、あなたは近頃は引っ張られる所が、方々に多くなったので、私こそ浅からず思うけれども、あなたは一向頼みになりませぬ事わい。
+#
+# morph:
+#
+おほぬさの
+ひくてあまたに
+なりぬれは
+おもへとえこそ [K:kaneko]
+たのまさりけれ

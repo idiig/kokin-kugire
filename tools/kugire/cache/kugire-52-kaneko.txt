@@ -1,0 +1,12 @@
+# Poem 52
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 年数が経てば、存外に自分の齢は老いくれたわい、これがいかにも悲しい、そうではあるが、こう立派な花をサ、見れば、悲しいどころか何の心配もないわ。
+#
+# morph:
+#
+年ふれは
+よはひはおいぬ
+しかはあれと [K:kaneko]
+花をし見れは [K:kaneko]
+物思もなし

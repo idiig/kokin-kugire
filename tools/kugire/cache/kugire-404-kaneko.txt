@@ -1,0 +1,12 @@
+# Poem 404
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 山の井は浅くて、掬い上げる手から落ちる雫の為に忽ちに濁るゆえ、思うように飲み足らぬ残り多い物であるが、丁度その如く、残り多いのにまあ、あなたに別れてしまうことよ。
+#
+# morph:
+#
+結手の
+しつくにゝこる
+山の井の [K:kaneko]
+あかても人に [K:kaneko]
+別ぬる哉

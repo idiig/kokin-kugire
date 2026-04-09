@@ -1,0 +1,12 @@
+# Poem 185
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 世間一統の秋が来るにつけて、自分は悲しく感ずるのに、他人はさほどにも思わぬのを見ると、秋の為悲しいのではなく、素からの自分の身がサ、悲しいものぞと思い知ったわ。
+#
+# morph:
+#
+
+
+
+
+

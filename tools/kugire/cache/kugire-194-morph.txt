@@ -1,0 +1,12 @@
+# Poem 194
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: この国土とは違った大空の月の中の桂でさえも、秋はやはり紅葉するせいかして、いつもよりは光があるように、照り増さるのであろう。
+#
+# morph:
+#
+
+
+
+
+

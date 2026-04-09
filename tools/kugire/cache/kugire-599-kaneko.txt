@@ -1,0 +1,12 @@
+# Poem 599
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 始めの程は白い玉のように見えた涙も、段々に年を経ては、血の涙になったかして、真赤に色が変ってしまったわ。
+#
+# morph:
+#
+白玉と
+見えし涙も
+年ふれは
+から紅に [K:kaneko]
+うつろひにけり

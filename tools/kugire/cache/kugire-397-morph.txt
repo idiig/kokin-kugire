@@ -1,0 +1,12 @@
+# Poem 397
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: あの前栽の萩の花を、この雨に濡らすは惜しいものではあるが、それよりもお別れ申すあなたをば、なおの事惜しいとサ思いますわ。
+#
+# morph:
+#
+秋はきの
+花をは雨に
+ぬらせとも
+君をはまして
+おしとこそおもへ

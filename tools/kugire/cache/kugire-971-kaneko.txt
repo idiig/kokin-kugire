@@ -1,0 +1,12 @@
+# Poem 971
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 今、私が、年久しく住んで来た、この里を出て去のうならば、たださえ深草の里が、いよいよ草深くなって野となるであろうか。
+#
+# morph:
+#
+年をへて
+すみこし里を
+いてゝいなは [K:kaneko]
+いとゝ深草の [K:kaneko]
+のとやなり南

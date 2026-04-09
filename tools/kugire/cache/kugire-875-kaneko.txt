@@ -1,0 +1,12 @@
+# Poem 875
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 女中達よ、そうお笑いなさるな、この通り形こそ見る影もない、深山の奥の朽木のようではあれ、しかも心は花にしようならば、花にもなろうはサ。
+#
+# morph:
+#
+かたちこそ
+み山かくれの
+くち木なれ [K:kaneko]
+心は花に [K:kaneko]
+なさはなり南

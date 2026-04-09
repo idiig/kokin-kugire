@@ -1,0 +1,12 @@
+# Poem 291
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 霜から出来た縦糸、露から出来た緯糸がサ、弱いらしい、そのせいかして、あの山の紅葉の錦が、折角織り上げるそばから破れて散るわ。
+#
+# morph:
+#
+霜のたて
+つゆのぬきこそ
+よはからし
+山の錦の
+をれはかつちる

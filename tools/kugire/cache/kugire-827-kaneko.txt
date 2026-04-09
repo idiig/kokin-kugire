@@ -1,0 +1,12 @@
+# Poem 827
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: せめては長らえての末でなりとも添われよう、という頼りさえ無いこの身は、いっその事、水に浮きながら、消えてしまう泡ともなってほしいわ、憂き身ながらに死んでしまいたいと思うから。
+#
+# morph:
+#
+うきなから
+けぬるあわとも
+なりなゝむ [K:kaneko]
+流てとたに [K:kaneko]
+たのまれぬ身は

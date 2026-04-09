@@ -1,0 +1,12 @@
+# Poem 315
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 山家は、冬がサ、取り分け寂しさが増さるわい、今まではたまたまながらも見えた人目も離れ、草も枯れてしまうと思えばサ。
+#
+# morph:
+#
+山里は
+冬そさひしさ
+まさりける
+人めも草も
+枯ぬとおもへは

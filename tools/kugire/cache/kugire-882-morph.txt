@@ -1,0 +1,12 @@
+# Poem 882
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 天の川は、下界の川とは違って、雲の水脈で瀬が早いので、光を暫くも留めずに、月がサ、早く流れて行くわ。
+#
+# morph:
+#
+あまの河
+雲のみおにて
+はやけれは
+ひかりとゝめす
+月そなかるゝ

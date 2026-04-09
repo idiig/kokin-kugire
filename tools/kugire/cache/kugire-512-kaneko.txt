@@ -1,0 +1,12 @@
+# Poem 512
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 種がサあれば、生えそうにもない岩の上にも、松は存外に生えたわい、然れば、たとえ出来にくい恋でも、一生懸命にこの恋をサ恋い通そうなら、逢われぬ事があろうか、いや逢われぬという事はあるまい。
+#
+# morph:
+#
+たねしあれは
+いはにも松は
+おひにけり [K:kaneko]
+戀をしこひは [K:kaneko]
+あはさらめやも

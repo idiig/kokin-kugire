@@ -1,0 +1,12 @@
+# Poem 134
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: もう今日だけと春を思わぬ時でさえも、立ち去ることができやすい花影かまあ、それでさえ、立ち去り難い花蔭だったのに。
+#
+# morph:
+#
+けふのみと
+春をおもはぬ
+時たにも
+立ことやすき
+花のかけかは

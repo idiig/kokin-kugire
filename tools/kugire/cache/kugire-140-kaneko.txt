@@ -1,0 +1,17 @@
+# Poem 140
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: これはまあ何時の間に五月が来たのであろう、五月を時として鳴く山の時鳥が、思いもかけず今サ、始めてアレ鳴くわ。
+#
+# morph:
+#   seg 1: いつのまに  末: に (格助--) K0
+#   seg 2: 五月きぬ覧  末: らん (推-終体) K1 ← K1
+#   seg 3: 葦引の  末: の (格助--) K0
+#   seg 4: 山郭公  末: 山郭公 (名--) K2
+#   seg 5: 今そなくなる  末: なる (推-体) K0
+#
+いつのまに
+五月きぬ覧
+葦引の [K:kaneko]
+山郭公 [K:kaneko]
+今そなくなる

@@ -1,0 +1,12 @@
+# Poem 111
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 諸君よ、御一緒に馬を乗り並べて、さあ見に行きましょうぞ、この節はさだめて故里は雪のように、ひたすら花は散ることであろうわ。
+#
+# morph:
+#
+こまなめて
+いさ見にゆかむ
+故郷は
+雪とのみこそ
+花はちるらめ

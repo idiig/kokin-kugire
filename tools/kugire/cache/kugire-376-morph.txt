@@ -1,0 +1,12 @@
+# Poem 376
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: とてもいつも逢われそうなあなた様とはサ頼まれぬ故、あきらめて思い立ちました、今度の旅でございますわ。
+#
+# morph:
+#
+あさなけに
+見へきゝみとし
+たのまねは
+思立ぬる
+草枕なり

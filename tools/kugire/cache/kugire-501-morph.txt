@@ -1,0 +1,12 @@
+# Poem 501
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 我が恋の思うに任せぬことの切なさに、どうぞ恋をしはすまいと思って、御手洗川でした禊を神は意外にお受けくださらずにサ、なってしまったそうなわ。
+#
+# morph:
+#
+戀せしと
+みたらし河に
+せしみそき
+神はうけすそ
+成にけらしも

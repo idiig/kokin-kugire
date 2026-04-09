@@ -1,0 +1,12 @@
+# Poem 36
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 古くから鴬が笠に縫うといっている梅の花だから、全く笠なら一つ折り取って、我が容貌の老も隠れるかどうかと、試しに挿頭してみよう。
+#
+# morph:
+#
+鶯の
+笠にぬふといふ
+梅花 [K:kaneko]
+折てかさゝむ
+おいかくるやと

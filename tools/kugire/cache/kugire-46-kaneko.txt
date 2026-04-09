@@ -1,0 +1,12 @@
+# Poem 46
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 梅の香を袖へ染ませて留めて置いたらば、春はよしや過ぎても、其の香が春の形見であるだろうに、しかしそうする手段もないので残念な。
+#
+# morph:
+#
+
+袖にうつして [K:kaneko]
+とゝめては [K:kaneko]
+春はすくとも [K:kaneko]
+かたみならまし

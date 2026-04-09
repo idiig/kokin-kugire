@@ -1,0 +1,12 @@
+# Poem 442
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 自分の庭の大事の花を踏みにじる、あの鳥を打とうわ、あれは住むのがないかして、とかくここにサ来る迷惑なことよ。
+#
+# morph:
+#
+わかやとの
+はなふみちらす
+とりうたむ [K:kaneko]
+のはなけれはや [K:kaneko]
+こゝにしもくる

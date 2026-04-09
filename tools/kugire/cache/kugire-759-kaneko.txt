@@ -1,0 +1,12 @@
+# Poem 759
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 山城の淀の若菰は里人が刈るが、その刈りという仮そめにさえも、自分の処には来てくれぬ人をあてにして、来るか来るかと待っている自分はサ、さてさてたよりないことわ。
+#
+# morph:
+#
+山しろの
+よとのわかこも
+かりにたに [K:kaneko]
+こぬ人たのむ [K:kaneko]
+我そはかなき

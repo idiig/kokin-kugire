@@ -1,0 +1,12 @@
+# Poem 1066
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 梅の花が咲いて後になる実は、酸いものであるが、そのようなこの身であればかして、自分を好色者だ好色者だとばかり、人がいうであろう。
+#
+# morph:
+#
+梅花
+さきてのゝちの
+みなれはや
+すき物とのみ
+人のいふ覧

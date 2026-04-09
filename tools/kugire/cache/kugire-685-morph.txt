@@ -1,0 +1,12 @@
+# Poem 685
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: この心をサ、道理ない物と思い定めたわ、一体逢っていながら恋しかろうか、いや恋しいはずがない、然るにこう恋しい故にサ。
+#
+# morph:
+#
+心をそ
+わりなき物と
+思ひぬる
+見る物からや
+こひしかるへき

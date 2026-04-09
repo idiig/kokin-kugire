@@ -1,0 +1,12 @@
+# Poem 61
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: これ桜の花よ、せめて春の一月加わって長くなった今年なりとも、人の心にはなぜ厭かれはせぬぞ、厭かれそうなものであるに。
+#
+# morph:
+#
+櫻花
+春くはゝれる
+ [K:kaneko]
+人の心に [K:kaneko]
+あかれやはせぬ

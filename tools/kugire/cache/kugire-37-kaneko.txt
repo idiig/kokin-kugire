@@ -1,0 +1,12 @@
+# Poem 37
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: これまでは梅の花を只遠方からばかり、一途にああ見事なと見ていた。然し今思えば、梅の花の飽かれぬよい色香は、存外に斯く手に折り取って近く見てのうえのことであったわい。
+#
+# morph:
+#
+よそにのみ
+あはれとそ見し
+梅花
+あかぬ色かは [K:kaneko]
+折てなりけり

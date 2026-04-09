@@ -1,0 +1,12 @@
+# Poem 1019
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: つい一とおりの花を思って折ろうとすれば、女郎花の女という名は、生憎な訳合のある名でサ、あったわい、女にはどうも手がさしにくいて。
+#
+# morph:
+#
+花と見て
+おらむとすれは
+をみなへし
+うたゝあるさまの
+なにこそありけれ

@@ -1,0 +1,12 @@
+# Poem 352
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 春が来ると、この庭に先ず一番に咲く梅の花を、君が御長寿の春のお髪挿とサ、存じますわ。
+#
+# morph:
+#
+春くれは
+やとにまつさく
+梅花
+君かちとせの
+かさしとそ見る

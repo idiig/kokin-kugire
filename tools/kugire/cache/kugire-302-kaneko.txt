@@ -1,0 +1,12 @@
+# Poem 302
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 水という物は、いつも同じ色だから、もしこのように水の赤くなる紅葉の、流れずにありもするならば、この立田川の水にある秋をば、誰が知ろうぞ誰も知りはすまい。
+#
+# morph:
+#
+もみちはの
+流さりせは
+龍田河
+水の秋をは [K:kaneko]
+誰かしらまし

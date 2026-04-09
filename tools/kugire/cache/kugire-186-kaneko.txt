@@ -1,0 +1,12 @@
+# Poem 186
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 悲しい思いを起こさせようとて、わざわざ自分の為に来る秋でもないのを、なぜか自分の為ばかりに来る秋かのように、虫声を聞くや否や、何はさておいてサ、秋が物悲しいわ。
+#
+# morph:
+#
+
+
+
+ [K:kaneko]
+

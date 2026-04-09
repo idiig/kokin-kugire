@@ -1,0 +1,17 @@
+# Poem 22
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 春日野の若菜を摘みにあのように面白そうに、白妙の袖を振って招き合いつつ、ああわざわざ女達の出掛けるのであろうか。
+#
+# morph:
+#   seg 1: かすかのゝ  末: の (格助--) K0
+#   seg 2: わかなつみにや  末: や (係助--) K1 ← K1
+#   seg 3: 白妙の  末: の (格助--) K0
+#   seg 4: 袖ふりはへて  末: て (接助--) K0
+#   seg 5: 人のゆくらむ  末: らん (推-終体) K1
+#
+かすかのゝ
+わかなつみにや [K:kaneko]
+白妙の [K:kaneko]
+袖ふりはへて [K:kaneko]
+人のゆくらむ

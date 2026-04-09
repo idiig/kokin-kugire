@@ -1,0 +1,12 @@
+# Poem 797
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 草や木の花は、色にあらわれて移ろうと見えるが、そう気色にもたたずして移り変るものは、ただ一つ、世の中の人の心の花でサ、あったわい。
+#
+# morph:
+#
+いろ見えて
+うつろふ物は
+世中の
+人の心の
+花にそ有ける

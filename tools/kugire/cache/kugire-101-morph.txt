@@ -1,0 +1,12 @@
+# Poem 101
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 世に春咲く花は種々ありながら、皆悉く仇な物だが、それでも誰がまあ、その仇な花を咲かす春を恨んで見限ったぞ、やはり恨み切った者とてはないわ。
+#
+# morph:
+#
+さく花は
+ちくさなからに
+あたなれと
+誰かは春を
+怨はてたる

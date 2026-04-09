@@ -1,0 +1,12 @@
+# Poem 1103
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 
+#
+# morph:
+#
+うし時と
+こひつゝをれは
+ゆふくれの
+おもかけにのみ
+見えわたる哉

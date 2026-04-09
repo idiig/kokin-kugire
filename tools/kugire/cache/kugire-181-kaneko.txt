@@ -1,0 +1,12 @@
+# Poem 181
+# Add/remove [K:<source>] tags. Lines starting with # are ignored.
+#
+# kaneko: 今夜来る人には逢うまいと思う、なぜというに今夜は七夕だから、万が一にも棚機の一年に一度逢う待ち遠しさにあやかって、自分も久しく待つことになるかも知れぬによってサ。
+#
+# morph:
+#
+
+ [K:kaneko]
+
+ [K:kaneko]
+
