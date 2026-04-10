@@ -132,7 +132,11 @@ and are the persistent draft record. `AnnotateXML` is called after every nano se
 - Managed by `flake.nix`; `ollama serve` starts automatically via `shellHook` on `nix develop`
 - Endpoint: `http://localhost:11434/api/generate` (package var `ollamaEndpoint`; override in tests)
 - Model: `qwen2.5` (pull once with `ollama pull qwen2.5`; ~4.7 GB)
-- Prompt includes 3 few-shot examples drawn from real Kokinwakashu poems with Kaneko's translation
+- Prompt instructs the LLM to follow a 3-step judgment process:
+  1. 対応関係の確認 — confirm which segments correspond to which parts of the translation
+  2. 訳文の切れ目の判定 — find sentence break points (end of sentence, exclamation, semantic shift)
+  3. 句切れ位置への対応付け — map break points to segment positions in the original poem
+- Prompt includes 3 few-shot examples demonstrating the same reasoning chain
 - Few-shot is translator-agnostic (uses generic 「現代語訳:」label); works for any future translator
 
 ## XML Annotation Schema

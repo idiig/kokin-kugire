@@ -5,8 +5,11 @@
 A kugire (句切れ) annotation layer for the Kokinwakashu (古今和歌集) TEI/XML data.
 Kugire marks a phrase or clause break within a poem. Two types are distinguished:
 
-1. *Grammatical* (=morph=) — derived from morphological analysis.
-2. *Semantic* (e.g. =kaneko=) — derived from an expert's explanatory translation.
+1. *Grammatical* (=morph=) — derived from morphological analysis; certainty levels
+   =high= (終止・命令・已然・終助詞), =mid= (係助詞), =low= (体言止め等).
+2. *Semantic* (e.g. =kaneko=) — derived from an expert's explanatory translation
+   via local LLM (Ollama =qwen2.5=), using a 3-step judgment process:
+   segment alignment → translation break detection → position mapping.
 
 Multiple competing annotations are allowed on the same poem (different translators
 may disagree). Each =<k>= element is tagged with its evidence source.
@@ -59,14 +62,15 @@ Review a single poem:
 
 * Draft format
 
-Each line of the poem may carry an end-of-line tag =​[K:<source>]= marking a
+Each line of the poem may carry an end-of-line tag =​[K:<source>:<cert>]= marking a
 kugire after that segment. Edit tags in nano to accept or adjust suggestions.
+The =cert= field (=high= / =mid= / =low=) is set automatically for =morph= suggestions.
 
 #+begin_example
 年の内に
-春はきにけり [K:morph]
-ひとゝせを
-こそとやいはむ [K:morph]
+春はきにけり [K:morph:high]
+ひとゝせを [K:morph:low]
+こそとやいはむ [K:morph:high]
 ことしとやいはむ
 #+end_example
 
@@ -77,10 +81,12 @@ kugire after that segment. Edit tags in nano to accept or adjust suggestions.
   <seg>年の内に</seg>
   <seg>春はきにけり</seg>
   ...
-  <k n="2" source="morph"/>
+  <k n="2" source="morph" cert="high"/>
+  <k n="3" source="morph" cert="low"/>
   <k n="4" source="kaneko"/>
 </l>
 #+end_src
 
-=@n= is the 1-based segment number after which the kugire falls; =@source= is the
-evidence code.
+- =@n= — 1-based segment number after which the kugire falls
+- =@source= — evidence code (=morph=, =kaneko=, etc.)
+- =@cert= — certainty: =high= / =mid= / =low=; omitted when unspecified (e.g. semantic sources)
