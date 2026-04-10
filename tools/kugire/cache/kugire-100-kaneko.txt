@@ -6,7 +6,7 @@
 # morph:
 #
 松人も
-こぬ物ゆへに
-鶯の [K:kaneko]
+こぬ物ゆへに [K:kaneko]
+鶯の
 なき鶴花を [K:kaneko]
 折てける哉

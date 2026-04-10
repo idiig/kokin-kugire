@@ -6,7 +6,7 @@
 # morph:
 #
 櫻花
-春くはゝれる
- [K:kaneko]
+春くはゝれる [K:kaneko]
+
 人の心に [K:kaneko]
 あかれやはせぬ

@@ -6,7 +6,7 @@
 # morph:
 #
 君ならて
-誰にか見せむ
-梅花 [K:kaneko]
+誰にか見せむ [K:kaneko]
+梅花
 色をもかをも [K:kaneko]
 しる人そ

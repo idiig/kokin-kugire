@@ -6,7 +6,7 @@
 # morph:
 #
 折とらは
-おしけにもあるか [K:kaneko]
+おしけにもあるか
 櫻花 [K:kaneko]
 いさ [K:kaneko]
 ちるまては見む
