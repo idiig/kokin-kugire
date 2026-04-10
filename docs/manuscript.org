@@ -13,10 +13,6 @@ The data of kugire can be applicable to the analysis of the structure of waka li
 
 As mentioned above, data on kugire is not well-developed.  [atuko315] is one of the few data sources of kugire, which provides a program to identify kugire and provides kugire data of Hyakuninisshu for evaluation. The program is also performed on the Kokinwakashu and the Shinkokinwakashu to compare the results with [okaasa] and [kamihiro]. However, kugire, different from the physical text data, is an interpretive layer without a single correct answer. Thus, the dataset is expected to not be a fixed, authoritative, definitive annotation provided by a single source. Instead, the dataset is expected to be a collection of annotations from multiple sources with clear documentation of their criteria and interpretations.
 
-** Tag example
-
-[murata2023] has 
-
 ** Kugire standard
 
 [okaasa] proposes a standard for kugire. He defines the criteria for determining kugire as follows:
@@ -35,17 +31,22 @@ Relation between kugire position and the style of the poem.
 
 Enjambment
 
-* Methods
+Pyhisical punctuation and tanka structure analysis [murata]
+
+* Materials
 
 ** Base data
 
-本研究では、Zenodo で公開されている Hachidaishu part of speech dataset を基盤データとして用いる。このデータには、八代集各歌の語分割、品詞、読み、活用情報が含まれており、古今集の歌についても抽出可能である。ただし、句切れ注釈自体は含まれていないため、句切れ情報は別レイヤーの注釈として新たに付与する必要がある。
+The base data for this study is the Karoku second year manuscript TEI data of the Kokinwakashu [ikuura]. [ikuura] provides detailed descriptions of the physical format of the manuscript, various annotations, e.g., marginalia, apparatus, notes, and a list of authors with their social attributes. The data allows for the further annotation and serch of the poem text.
+
+[chin2026] map a lexical and morphological layer on top of [ikuura] based on the Hachidaishu Vocabulary Dataset [Hodoscek2022]. On this mapped dataset, we add the kugire annotation. 
 
 ** Reference data
-Zenodo Hachidaishu-pos.txt には、57577に単語分割、品詞、活用形などの情報が付与されているが、句切れの注釈は含まれていない。句切れの注釈は、本文の文字列や語彙・品詞データとは異なり、解釈に依存するため、独自に注釈を行う必要がある。([GitHub][1])
 
+For the grammatical kugire, we refer to the Hachidaishu Part-of-Speech Dataset [Yamamoto], which provides conjugation data for each verb and part of speech information. These information functions as a reference for the grammartical kugire criteria.
 
 * Annotation workflow
+
 
 ** Grammartical kugire
 
@@ -88,8 +89,6 @@ Last change: 2026/04/08-15:38:40.
 
 [2]より
 句切れを見つける
-
-句全体でどこを句切りとするかには様々な流儀があり、単一の正解はない。句切れは「底本の文字列」のような固定データではなく、「どの理論・どの基準で切るか」に依存する注釈だと見た方がよい。([Qiita][2])
 
 文法上の切れ目を基準としては、
 
