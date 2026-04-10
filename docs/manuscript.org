@@ -112,7 +112,7 @@ The process of the rule-based suggestion takes the original poem and its morphol
 
 ** LLM-based explanation-wise kugire suggestion
 
-Besides the rule-based suggestion, we also use a large language model (LLM) to suggest candidate kugire positions based on the explanatory translation data of [kaneko] encoded by [yamamoto]. While the rule-based approach derives candidate positions from morphological and grammatical features, the LLM-based approach derives them from the semantic structure of the modern Japanese prose translation, offering a complementary perspective that can capture breaks rooted in meaning rather than grammar alone.
+Besides the rule-based suggestion, we also use a large language model (LLM) to suggest candidate kugire positions based on the explanatory translation data of [kaneko] encoded by [yamamoto]. While the rule-based approach derives candidate positions from morphological and grammatical features, the LLM-based approach derives them from the contemporary Japanese translation, offering  perspectives that can capture breaks rooted in meaning rather than morphological and grammatical rules alone.
 
 The LLM employed is =qwen2.5=, a locally hosted model served via Ollama [ollama]. Running the model locally avoids external API dependencies and ensures reproducibility. The model is prompted with the five segments of the original poem and the corresponding explanatory translation, and asked to output candidate kugire positions in a structured JSON format: ={"positions": [...]}=.
 
@@ -124,9 +124,7 @@ To guide the model toward a consistent and interpretively grounded judgment, the
 
 This three-step process mirrors the judgment workflow that a human annotator would follow when using an explanatory translation as a reference for kugire determination.
 
-The prompt also includes three few-shot examples drawn from real Kokinwakashu poems, each demonstrating the same three-step reasoning chain: one example with no kugire, one with a second-segment break, and one with a fourth-segment break. The few-shot examples use a generic label (「現代語訳:」) rather than naming a specific translator, making the prompt reusable with any future translation source without modification.
+The prompt also includes three few-shot examples drawn from real Kokinwakashu poems, each demonstrating the same three-step reasoning chain: one example with no kugire, one with a second-segment break, and one with a fourth-segment break.
 
 The output of the LLM is parsed as JSON, and valid segment indices (1-based, excluding the final segment) are converted to kugire positions tagged with the translator code as their evidence source. Invalid or out-of-range positions are silently discarded. Each position produced by this process is recorded as a separate =<k>= element in the TEI data with =source= set to the translator code (e.g., =kaneko=), independent of any positions produced by the rule-based method.
-
-The LLM-based suggestion is computationally heavier than the rule-based approach, requiring approximately 30 seconds per poem. For the full Kokinwakashu of 1111 poems, a batch run takes several hours. Results are cached as plain-text draft files (one per poem per source), so the suggestion step need not be repeated unless the model or prompt changes.
 
