@@ -37,106 +37,96 @@ Pyhisical punctuation and tanka structure analysis [murata]
 
 ** Base data
 
-The base data for this study is the Karoku second year manuscript TEI data of the Kokinwakashu [ikuura]. [ikuura] provides detailed descriptions of the physical format of the manuscript, various annotations, e.g., marginalia, apparatus, notes, and a list of authors with their social attributes. The data allows for the further annotation and serch of the poem text.
-
-[chin2026] map a lexical and morphological layer on top of [ikuura] based on the Hachidaishu Vocabulary Dataset [Hodoscek2022]. On this mapped dataset, we add the kugire annotation. 
+The base data for this study is a lexically extended version [chin2026] of the Karoku second year manuscript TEI data of the Kokinwakashu [ikuura]. [ikuura] provides detailed descriptions of the physical format of the manuscript, various annotations, e.g., marginalia, apparatus, notes, and a list of authors with their social attributes. The data allows for the further annotation and serch of the poem text.  [chin2026] map a lexical and morphological layer on top of [ikuura] based on the Hachidaishu Vocabulary Dataset [Hodoscek2022].
+The mapped data provides lexical information and the segmentation of the waka text, which is the basis for the kugire annotation. On this mapped data, we add the kugire annotation.
 
 ** Reference data
 
 For the grammatical kugire, we refer to the Hachidaishu Part-of-Speech Dataset [Yamamoto], which provides conjugation data for each verb and part of speech information. These information functions as a reference for the grammartical kugire criteria.
 
-* Annotation workflow
+For the semantic kugire, we refer to the explanatory translations of the Kokinwakashu by [kaneko], which is the earlist contemporary translation in the 20th century.
+The translation data is open-sourced and available on Zenodo [yamamoto].
 
+* Annotation pipeline
 
-** Grammartical kugire
+The annotation follows a Large Language Model (LLM) assisted pipeline of the following steps:
 
-句切れを自然言語処理によって、文法的な切れ目を基準として、終止形、命令形、已然形の単語で終わる句、係助詞で終わる句、疑問、禁止、詠嘆、感動等を表す終助詞で終わる句のうち最初に現れる句の後を句切れとする方法がある。([Qiita][2])
-しかし、句切れの位置は様々な流儀があり、単一の正解はないため、おおまかな基準を設け、github copilot のようなツールを活用して、注釈者が基準に従って注釈を行う方法が現実的である。特に、判定が揺れる歌は、一つに決め打ちせず、複数の▼候補を並立させる設計の方が学術資源として意義あると考える。([Qiita][2])
+1. Rule-based automatic suggestion of candidate kugire positions based on the [Yamamoto]
+2. LLM-based automatic suggestion of candidate kugire positions based on the translation data of [kaneko,Yamamoto]
+3. Review and correction on the poped-up editor, which shows the original poem and it reference data.
+4. Rendering the reviewed annotation into the TEI data.
 
-実務的には、まず「句切れなしの本文」
-「二句切れ・三句切れ・無切れ」などの分類、
-「句切れ位置」、
-「判定根拠」、
-「注釈者」、
-「出典研究」
-を別要素として重ねるのがよいと考える。特に、研究ごとに判定が揺れる歌は、一つに決め打ちせず、複数候補を並立させる設計の方が学術資源として意義あると考える。句切れの公開標準データが見当たらない以上、注釈としての句切れの参考データ開発という方針を明示して作ることに十分な意義がある。([Qiita][2])
+The pipeline is for fastening the annoation process. The one-poem-one-batch-one-buffer-at-a-time review and correction is for cognitive ease and accuracy.
 
-batch checker. nano
+** Rule-based grammar-wise kugire suggestion
 
+The above-mentioned rule-based program by [atuko315] use the conjugation information to identify candidate kugire positions. The program identifies candidate positions based on the following criteria:
 
-we dont evaluate the precition, but we manually checked all the annotations.
+1. Phrases ending with verbs in the first suffix group and the third suffix group, in gakko bunpou, which correspond to the termination form, the imperative form, and the realis form.
+2. Phrases ending with the copula, e.g., ``nari", ``tari".
+3. Phrases ending with sentence-final particles,e.g., particles expressing question, prohibition, excalamation.
 
+Our automatic suggestion of candidate kugire positions is similar to that, but we allow for multiple candidate positions and devide candidates into strong, miderate,
+and weak ones.
 
-JADH 2026/04/15
+Strong candidates are based on the termination form of tokens. For example, in the first poem of the Kokinwakasu below, the past tense auxiliary verb ``keri" is in the termination form, which is a strong indication of a grammatical break after it, making it a strong candidate for kugire.
 
-# 句切れのデータの作成
+#+begin_example
+年の内に / 春はきにけり / 一とせを / こぞとやいはん / ことしとやいはん
 
-Last change: 2026/04/08-15:38:40.
+tosi=no uchi=ni / paru=pa k-in-iker-i / pito+tose=wo / kozo=to=ya ip-am-u / ko+tosi=to=ya ip-am-u
 
-陳 旭東 (早稲田大学)  
-ホドシチェク ボル (大阪大学)  
-山元 啓史 (東京科学大学)
+year=gen inside=dat / spring=top come-mnf-hps-ccl / one+year=acc / last.year=cmp=xcl say-cjt-ccl
+/ this+year=cmp=xcl say-cjt-ccl
 
-公開されている代表的な基盤データとしては、八代集の TEI 版や語彙・品詞データがあるが、そこから確認できるのは本文・語彙・形態情報が中心で、句切れ注釈そのものが標準項目として整備されているとは言いにくい。TEI 版の存在と語彙・品詞データの公開は確認できるが、句切れアノテーションの配布までは見当たらない。([GitHub][1])
+translation: Within the year / spring has come! / one year / shall (we) call (it) last year? / shall (we) call (it) this year? 
+#+end_example
 
-加えて、句切れは本文と違って「一意の事実データ」ではなく、かなり解釈層に属する。実際、句切れ推定を試みた記事でも、「句全体でどこを句切りとするかには様々な流儀があり、単一の正解はない」と明記したうえで、句切れは「底本の文字列」のような固定データではなく、「どの理論・どの基準で切るか」に依存する注釈だと見た方がよい。([Qiita][2])
+Moderate candidates are based on the copula and information structure, which possibly indicate a break but not certainly. For example, in the second poem of the Kokinwakashu below, segments before and after the token ``wo" are dependency-wise connected, but the former segments present a scene, while the latter segments present a conjectural statement regarding the scene, which can be an indication of a break.
 
-本プロジェクトが試みていることは、「既存データを貼る」というより、「本文 TEI の上に、別レイヤーの解釈注釈として句切れを実装する」作業になる。本文そのものに句切れを埋め込んでしまうより、誰の判断か、どの基準か、異説があるかを保持できる注釈層として持つ方が後で拡張しやすい。つまり、句切れが複数解ありうるという性質からの推論である。([GitHub][1])
+#+begin_example
+袖ひちて / むすびし水の / こほれるを / 春立つけふの / 風やとくらん
 
+sode pit-ite / musub-isi mizu=no / kopor-er-u=wo / paru tat-u kepu=no / kaze=ya tok-uram-u
 
-[1]: https://github.com/yamagen/hachidaishu?utm_source=chatgpt.com "Hachidaishu classical Japanese poetic vocabulary dataset"
-[2]: https://qiita.com/atuko315/items/1b7b04ffae2d5a5ee916 "和歌を句切る～古今和歌集と新古今和歌集を例に～ #自然言語処理 - Qiita"
+sleeve be.wet-seq / scoop.up-pst.adn water=gen / freeze-sta-adn.nl=acc / spring start-adn today=gen / wind=xcl melt-cjt-ccl
 
-[2]より
-句切れを見つける
+translation: making sleeve wet, / water (I) scooped up / has frozen, while / spring starts, starting today's / wind! would (you) melt (it)? 
+#+end_example
 
-文法上の切れ目を基準としては、
+Weak candidates involve variant semantic interpretations, where sentence-final particles may indicate a break but semantically the former and latter part are interdependent. For example, in the third poem of the Kokinwakashu below, the sentence-final particle of question is used in the second segment, which can be an indication of a break, but the following segment is an answer to the question, which shows a semantic interdependence between the two segments, making the break less certain.
 
-1. 「終止形」「命令形」「已然形」の単語で終わる句
-2. 「係助詞」
-3. 疑問、禁止、詠嘆、感動等を表す終助詞
+#+begin_example
+春霞 / たてるやいづこ / みよしのの / 吉野の山に / 雪はふりつつ
 
-で終わる句のうち最初に現れる句の後を句切れとしたとしても、判定が揺れる歌は多い。([Qiita][2])
+paru+kasumi / tat-er-u=ya izuko / mi-Yosino=no / Yosino=no yama=ni / yuki=pa pur-itutu
 
-1. 年の内に / 春はきにけり / 一とせをこぞとやいはん / ことしとやいはん
-2. 袖ひちて / むすびし水の / こほれるを / 春立つけふの / 風やとくらん
-3. 春霞 / たてるやいづこ / みよしのの / 吉野の山に / 雪はふりつつ
+spring+haze / rise-sta-ccl=xcl where / hpf-Yosino=gen / Yosino=gen mountain=dat / snow=top fall-itr
 
-三首は、それぞれ「文法的に強く切れる例」「意味的には切れやすいが文法的には弱い例」「問いと叙景が連動し、さらに判定が難しい例」として次のように比較できる。
+translation: Spring haze / where is (it) rising /  Yoshino / on the Mountain Yoshino / snow is falling
+#+end_example
 
-表1: 句切れの例の比較
+The source of judgement is recorded as cached log for each poem, which is used for the review and correction step. In the future, the source of judgement can be recorded as a separate element in the TEI data, which allows for the retention.
 
-| 歌番号 | 主要な箇所                                | 形態的な特徴                 | 句切れ候補     | 判定の強さ | コメント                                                                                         |
-| ------ | ----------------------------------------- | ---------------------------- | -------------- | ---------- | ------------------------------------------------------------------------------------------------ |
-| 10001  | 「春はきにけり」                          | 「けり」が終止               | 第二句末       | 強い       | 終止形によって前半がひとまとまりになり、機械的にも句切れ候補を立てやすい。                       |
-| 10002  | 「こほれるを」                            | 連体形 + 「を」              | 第三句末候補   | 中程度     | 文法的にはまだ後続に接続しているが、意味構造としては前半の情景提示と後半の推量的叙述が分かれる。 |
-| 10003  | 「春霞たてるやいづこ」 / 「雪はふりつつ」 | 係助詞「や」、末尾は「つつ」 | 第三句付近候補 | 弱い       | 問いと叙景の対応はあるが、明確な終止標識がなく、機械的な句切れ判定は難しい。                     |
+The process of the rule-based suggestion takes the original poem and its morphologicaland lexical data by [yamamoto] as arguments, and outputs the candidate kugire positions.
 
-10001 は、終止の「けり」によって、文法的にも意味的にも切れ目が明確である。10002 は、「こほれるを」によって文法的には後続へつながるが、前半の情景提示と後半の判断表現とのあいだに意味上の切れ目が認められる。10003 は、「や」による問いかけと後半の叙景とが連動しており、構造上の転換はあるものの、終止形などの明確な指標を欠くため、自動判定の確信度は低い。これら三首は、句切れが単純な形態情報だけでは一意に決定できず、解釈注釈として扱う必要があることを示している。
+** LLM-based explanation-wise kugire suggestion
 
-```dot
-digraph kugire_examples {
-  rankdir=LR;
-  node [shape=box, fontsize=12];
+Besides the rule-based suggestion, we also use a large language model (LLM) to suggest candidate kugire positions based on the explanatory translation data of [kaneko] encoded by [yamamoto]. While the rule-based approach derives candidate positions from morphological and grammatical features, the LLM-based approach derives them from the semantic structure of the modern Japanese prose translation, offering a complementary perspective that can capture breaks rooted in meaning rather than grammar alone.
 
-  A1 [label="10001\n春はきにけり"];
-  A2 [label="終止『けり』"];
-  A3 [label="第二句末\n強い候補"];
+The LLM employed is =qwen2.5=, a locally hosted model served via Ollama [ollama]. Running the model locally avoids external API dependencies and ensures reproducibility. The model is prompted with the five segments of the original poem and the corresponding explanatory translation, and asked to output candidate kugire positions in a structured JSON format: ={"positions": [...]}=.
 
-  B1 [label="10002\nこほれるを"];
-  B2 [label="連体形 + を"];
-  B3 [label="第三句末候補\n中程度"];
+To guide the model toward a consistent and interpretively grounded judgment, the prompt instructs it to follow a three-step reasoning process:
 
-  C1 [label="10003\nたてるやいづこ"];
-  C2 [label="問い + 叙景\n末尾『つつ』"];
-  C3 [label="第三句付近候補\n弱い"];
+1. *Segment alignment*: Identify which segments of the original poem correspond to which parts of the explanatory translation.
+2. *Break detection*: Locate sentence break points in the translation — places where the meaning comes to a close, where an exclamation ends, or where a semantic shift occurs.
+3. *Position mapping*: Map the identified break points back to the corresponding segment boundaries in the original poem.
 
-  A1 -> A2 -> A3;
-  B1 -> B2 -> B3;
-  C1 -> C2 -> C3;
-}
-```
+This three-step process mirrors the judgment workflow that a human annotator would follow when using an explanatory translation as a reference for kugire determination.
 
-図1: 句切れの例の比較
+The prompt also includes three few-shot examples drawn from real Kokinwakashu poems, each demonstrating the same three-step reasoning chain: one example with no kugire, one with a second-segment break, and one with a fourth-segment break. The few-shot examples use a generic label (「現代語訳:」) rather than naming a specific translator, making the prompt reusable with any future translation source without modification.
 
-三首の比較から、句切れは「終止形によって比較的安定して検出できる場合」から、「意味構造に依存して候補化はできるが確定しにくい場合」、さらに「問いかけと叙景の連動によって機械判定が難しい場合」まで連続的であり、したがって TEI 上では固定的本文情報ではなく、根拠つきの注釈レイヤーとして実装するのが適切である。
+The output of the LLM is parsed as JSON, and valid segment indices (1-based, excluding the final segment) are converted to kugire positions tagged with the translator code as their evidence source. Invalid or out-of-range positions are silently discarded. Each position produced by this process is recorded as a separate =<k>= element in the TEI data with =source= set to the translator code (e.g., =kaneko=), independent of any positions produced by the rule-based method.
+
+The LLM-based suggestion is computationally heavier than the rule-based approach, requiring approximately 30 seconds per poem. For the full Kokinwakashu of 1111 poems, a batch run takes several hours. Results are cached as plain-text draft files (one per poem per source), so the suggestion step need not be repeated unless the model or prompt changes.
+
