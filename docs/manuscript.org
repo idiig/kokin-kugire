@@ -2,26 +2,24 @@
 
 * Introduction
 
-Kugire, breaks within waka poems, are a basic structural element of waka. However, data on kugire is not well-developed. In particular, when incorporating kugire data for the TEI/XML data of waka, standardized, publicly available data on kugire is lacking. It is necessary to create annotations independently.
+Kugire — phrase breaks within waka poems — are a basic structural element of waka, yet no standardized, publicly available kugire dataset exists. For TEI/XML encoding of waka, each project must annotate from scratch.
 
-This project attempts to implement kugire as an interpretive annotation layer on top of the TEI/XML data of the Kokinwakashu, which is the one of the most important waka anthologies. Rather than embedding kugire directly into the waka text, maintaining the kugire as an annotation layer allows for the retention of information about what criteria were used for the annotation, and whether alternative interpretations exist.
-The data of kugire can be applicable to the analysis of the structure of waka literature, enjambment in waka, and can be used as a case study for the development of ambiguity-aware, invisibly layered interpretive annotations in literary and linguistic studies.
+This project adds kugire as an interpretive annotation layer to the TEI/XML data of the Kokinwakashu, one of the most important waka anthologies. Keeping kugire as a separate layer — rather than embedding it in the text — preserves the annotation criteria and any competing interpretations. The kugire data supports analysis of waka structure and enjambment, and serves as a case study in ambiguity-aware, layered interpretive annotation for literary and linguistic research.
 
 * Previous works
 
 ** Kugire-related data
 
-As mentioned above, data on kugire is not well-developed.  [atuko315] is one of the few data sources of kugire, which provides a program to identify kugire and provides kugire data of Hyakuninisshu for evaluation. The program is also performed on the Kokinwakashu and the Shinkokinwakashu to compare the results with [okaasa] and [kamihiro]. However, kugire, different from the physical text data, is an interpretive layer without a single correct answer. Thus, the dataset is expected to not be a fixed, authoritative, definitive annotation provided by a single source. Instead, the dataset is expected to be a collection of annotations from multiple sources with clear documentation of their criteria and interpretations.
+[atuko315] is one of the few existing kugire resources: it provides a program to identify kugire and a dataset for the Hyakuninisshu, a classical selection of one hundred waka poems by one hundred poets. The program was later applied to the Kokinwakashu and Shinkokinwakashu and compared against [okaasa] and [kamihiro]. The dataset, however, cannot capture the interpretive nature of kugire, which admits no single correct answer. A kugire dataset should therefore be a collection of annotations from multiple sources, each with documented criteria and interpretations.
 
 ** Kugire standard
 
-[okaasa] proposes a standard for kugire. He defines the criteria for determining kugire as follows:
+[okaasa] proposes two criteria for kugire:
 
-1. The necessary condition :: The existence of two or more semantically indenpendent core sentences in the poem;
-2. The sufficient condition :: The existence of a clear grammartical break in the poem.  
+1. The necessary condition :: two or more semantically independent core sentences in the poem;
+2. The sufficient condition :: a clear grammatical break in the poem.
 
-While both conditions remain interpretive ambiguty. Considering the interpretive nature of kugire, instead of making a single, fixed annotation of kugire, we maintain its ambiguity and descriptively annotate the kugire from grammatical and semantic perspectives from multiple sources.
-That is, implementing kugire as an annotation layer on top of the TEI data. That allows for the retention of information about whose judgement it is, what criteria were used, and whether alternative interpretations exist.
+Both conditions, however, remain open to interpretation. We therefore annotate kugire from grammatical and semantic perspectives across multiple sources, implemented as a separate layer on top of the TEI data. This preserves information about whose judgment it is, what criteria were applied, and whether alternative interpretations exist.
 
 ** Applications of kugire
 
@@ -37,39 +35,34 @@ Pyhisical punctuation and tanka structure analysis [murata]
 
 ** Base data
 
-The base data for this study is a lexically extended version [chin2026] of the Karoku second year manuscript TEI data of the Kokinwakashu [ikuura]. [ikuura] provides detailed descriptions of the physical format of the manuscript, various annotations, e.g., marginalia, apparatus, notes, and a list of authors with their social attributes. The data allows for the further annotation and serch of the poem text.  [chin2026] map a lexical and morphological layer on top of [ikuura] based on the Hachidaishu Vocabulary Dataset [Hodoscek2022].
-The mapped data provides lexical information and the segmentation of the waka text, which is the basis for the kugire annotation. On this mapped data, we add the kugire annotation.
+The base data is a lexically extended version [chin2026] of the TEI data of the Karoku second-year manuscript of the Kokinwakashu [ikuura]. [ikuura] describes the physical format of the manuscript and encodes various annotations — marginalia, apparatus, notes — and a list of authors with their social attributes; it also provides the segmentation of the waka text. [chin2026] maps tokenization from the Hachidaishu Vocabulary Dataset [Hodoscek2022] onto this segmented text, forming the basis for the kugire annotation.
 
 ** Reference data
 
-For the grammatical kugire, we refer to the Hachidaishu Part-of-Speech Dataset [Yamamoto], which provides conjugation data for each verb and part of speech information. These information functions as a reference for the grammartical kugire criteria.
-
-For the semantic kugire, we refer to the explanatory translations of the Kokinwakashu by [kaneko], which is the earlist contemporary translation in the 20th century.
-The translation data is open-sourced and available on Zenodo [yamamoto].
+For grammatical kugire, we use the Hachidaishu Part-of-Speech Dataset [Yamamoto], which provides conjugation and part-of-speech data for each token. For semantic kugire, we use the explanatory translation of the Kokinwakashu by [kaneko], the earliest twentieth-century explanatory translation of the anthology, digitized and published on Zenodo [yamamoto].
 
 * Annotation pipeline
 
-The annotation follows a Large Language Model (LLM) assisted pipeline of the following steps:
+The annotation follows an LLM-assisted pipeline:
 
-1. Rule-based automatic suggestion of candidate kugire positions based on the [Yamamoto]
-2. LLM-based automatic suggestion of candidate kugire positions based on the translation data of [kaneko,Yamamoto]
-3. Review and correction on the poped-up editor, which shows the original poem and it reference data.
-4. Rendering the reviewed annotation into the TEI data.
+1. Rule-based suggestion of candidate kugire positions based on [Yamamoto]
+2. LLM-based suggestion of candidate kugire positions based on the translation data of [kaneko, Yamamoto]
+3. Review and correction in a pop-up editor showing the original poem and its reference data
+4. Rendering the confirmed annotation into the TEI data
 
-The pipeline is for fastening the annoation process. The one-poem-one-batch-one-buffer-at-a-time review and correction is for cognitive ease and accuracy.
+The pipeline accelerates the annotation process. The per-poem review cycle reduces cognitive load and improves accuracy [reference].
 
 ** Rule-based grammar-wise kugire suggestion
 
-The above-mentioned rule-based program by [atuko315] use the conjugation information to identify candidate kugire positions. The program identifies candidate positions based on the following criteria:
+[atuko315] uses conjugation information to identify candidate kugire positions based on three criteria:
 
-1. Phrases ending with verbs in the first suffix group and the third suffix group, in gakko bunpou, which correspond to the termination form, the imperative form, and the realis form.
-2. Phrases ending with the copula, e.g., ``nari", ``tari".
-3. Phrases ending with sentence-final particles,e.g., particles expressing question, prohibition, excalamation.
+1. Phrases ending in the conclusive, imperative, or realis form (the first and third suffix groups in gakkō bunpō)
+2. Phrases ending with the copula, e.g., =nari=, =tari=
+3. Phrases ending with sentence-final particles expressing question, prohibition, or exclamation
 
-Our automatic suggestion of candidate kugire positions is similar to that, but we allow for multiple candidate positions and devide candidates into strong, miderate,
-and weak ones.
+Our suggestion extends this approach by allowing multiple candidates and classifying them into strong, moderate, and weak.
 
-Strong candidates are based on the termination form of tokens. For example, in the first poem of the Kokinwakasu below, the past tense auxiliary verb ``keri" is in the termination form, which is a strong indication of a grammatical break after it, making it a strong candidate for kugire.
+Strong candidates are phrases ending in the conclusive form. For example, in the first poem of the Kokinwakashu, the past-tense auxiliary verb /keri/ appears in the conclusive form, indicating a grammatical break after it.
 
 #+begin_example
 年の内に / 春はきにけり / 一とせを / こぞとやいはん / ことしとやいはん
