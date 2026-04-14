@@ -2,6 +2,8 @@
 # Add/remove [K:<source>] tags. Lines starting with # are ignored.
 #
 # kaneko: 大空に張る雪が、一面に降ってあれば、梅の花が梅の花とも見えぬわ、同じ白さなので。
+#   alignment: 句1〜2が「梅の花が梅の花とも見えぬわ」、句3〜5が「同じ白さなので」に対応。
+#   breaks: 「見えぬわ」で詠嘆的に一文が完結。「同じ白さなので」は独立した別の文として続く。句2の後が句切れ。
 #
 # morph:
 #   seg 1: 梅花  末: 花 (名--) K2 ← K2 [low]

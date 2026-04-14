@@ -2,6 +2,8 @@
 # Add/remove [K:<source>] tags. Lines starting with # are ignored.
 #
 # kaneko: 
+#   alignment: 
+#   breaks: 
 #
 # morph:
 #   seg 1: きみか世に  末: に (格助--) K0

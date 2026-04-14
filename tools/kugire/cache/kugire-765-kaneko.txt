@@ -2,6 +2,8 @@
 # Add/remove [K:<source>] tags. Lines starting with # are ignored.
 #
 # kaneko: 思う人に逢う事が、ひどくこのようになりにくいものぞということを、早うから知りもしたらば、この苦しい恋を忘れるように、忘れ草の種を取って置こうであったものを。
+#   alignment: 句1〜2が「忘れ草の種を取って置こうであったものを」、句3〜5が「思う人に逢う事がひどくこのようになりにくいものぞということを早うから知りもしたらば」と対応。
+#   breaks: 全体が一続きの文であり、「forgettable grass seeds...」と「knowing that it is difficult to meet the person I think of...」は条件節と結句として繋がっているため、詠嘆的な文末がない。句切れなし。
 #
 # morph:
 #   seg 1: 忘草  末: 忘草 (名--) K2 ← K2 [low]
@@ -12,6 +14,6 @@
 #
 忘草
 たねとらましを
-あふことの [K:kaneko]
+あふことの
 いとかくかたき
 物としりせは
