@@ -73,7 +73,7 @@ func main() {
 					fmt.Fprintf(os.Stderr, "  parse draft: %v (skipping)\n", err)
 					continue
 				}
-				if err := kugire.AnnotateXML(*outputPath, id, confirmed); err != nil {
+				if err := kugire.AnnotateXML(*outputPath, id, *sourceName, confirmed); err != nil {
 					fmt.Fprintf(os.Stderr, "  annotate xml: %v (skipping)\n", err)
 				}
 				continue
@@ -87,24 +87,27 @@ func main() {
 		}
 
 		var positions []kugire.KugirePos
+		reasoning := map[string]kugire.SemanReasoning{}
 		switch *sourceName {
 		case "morph":
 			positions = kugire.SuggestMorph(d)
 		case "kaneko":
-			positions, err = kugire.SuggestSeman(d, "kaneko")
+			var r kugire.SemanReasoning
+			positions, r, err = kugire.SuggestSeman(d, "kaneko")
 			if err != nil {
 				fmt.Fprintf(os.Stderr, "  SuggestSeman: %v (skipping)\n", err)
 				continue
 			}
+			reasoning["kaneko"] = r
 		}
 
-		draft := kugire.RenderDraft(d, positions)
+		draft := kugire.RenderDraft(d, positions, reasoning)
 		if err := os.WriteFile(draftPath, []byte(draft), 0644); err != nil {
 			fmt.Fprintf(os.Stderr, "  write cache: %v (skipping)\n", err)
 			continue
 		}
 
-		if err := kugire.AnnotateXML(*outputPath, id, positions); err != nil {
+		if err := kugire.AnnotateXML(*outputPath, id, *sourceName, positions); err != nil {
 			fmt.Fprintf(os.Stderr, "  annotate xml: %v\n", err)
 		}
 	}

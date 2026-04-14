@@ -57,22 +57,25 @@ func main() {
 		}
 
 		var positions []kugire.KugirePos
+		reasoning := map[string]kugire.SemanReasoning{}
 		switch *sourceName {
 		case "morph":
 			positions = kugire.SuggestMorph(d)
 			fmt.Printf("morph: %d suggestion(s)\n", len(positions))
 		case "kaneko":
 			fmt.Println("Calling Ollama (qwen2.5)…")
-			positions, err = kugire.SuggestSeman(d, "kaneko")
+			var r kugire.SemanReasoning
+			positions, r, err = kugire.SuggestSeman(d, "kaneko")
 			if err != nil {
 				log.Fatalf("SuggestSeman: %v", err)
 			}
+			reasoning["kaneko"] = r
 			fmt.Printf("kaneko: %d suggestion(s)\n", len(positions))
 		default:
 			log.Fatalf("unknown source: %q (use morph or kaneko)", *sourceName)
 		}
 
-		draft := kugire.RenderDraft(d, positions)
+		draft := kugire.RenderDraft(d, positions, reasoning)
 		if err := os.MkdirAll("cache", 0755); err != nil {
 			log.Fatalf("mkdir cache: %v", err)
 		}
@@ -97,7 +100,7 @@ func main() {
 	if err := ensureOutput(*outputPath, *xmlPath); err != nil {
 		log.Fatalf("ensure output xml: %v", err)
 	}
-	if err := kugire.AnnotateXML(*outputPath, id, confirmed); err != nil {
+	if err := kugire.AnnotateXML(*outputPath, id, *sourceName, confirmed); err != nil {
 		log.Fatalf("annotate xml: %v", err)
 	}
 	fmt.Printf("Written %d kugire position(s) for poem %d to %s\n",

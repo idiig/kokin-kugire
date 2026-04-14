@@ -23,8 +23,10 @@ func formatTag(p KugirePos) string {
 // 5 content lines — one per segment — with [K:<source>] tags appended
 // where a kugire is suggested. Tags on the final segment are omitted.
 //
+// reasoning is an optional map from translator code to SemanReasoning;
+// when present, alignment and breaks are rendered as comment lines.
 // Comment lines (starting with #) are ignored by ParseDraft.
-func RenderDraft(d PoemData, positions []KugirePos) string {
+func RenderDraft(d PoemData, positions []KugirePos, reasoning map[string]SemanReasoning) string {
 	var sb strings.Builder
 
 	// ── header ──────────────────────────────────────────────────
@@ -35,6 +37,10 @@ func RenderDraft(d PoemData, positions []KugirePos) string {
 	// ── translations ────────────────────────────────────────────
 	for code, text := range d.Translations {
 		fmt.Fprintf(&sb, "# %s: %s\n", code, text)
+		if r, ok := reasoning[code]; ok {
+			fmt.Fprintf(&sb, "#   alignment: %s\n", r.Alignment)
+			fmt.Fprintf(&sb, "#   breaks: %s\n", r.Breaks)
+		}
 	}
 	sb.WriteString("#\n")
 

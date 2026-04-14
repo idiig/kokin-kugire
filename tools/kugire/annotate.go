@@ -7,10 +7,11 @@ import (
 )
 
 // AnnotateXML writes kugire positions for poem id into the XML file at path.
-// Existing <k> children of the target <l> are removed and replaced.
+// Only existing <k> elements with the given source are removed and replaced;
+// <k> elements from other sources are preserved.
 // <k> elements are appended at the end of <l>, after all <seg> children.
 // @n is 1-based (AfterSeg + 1); @source is the evidence code.
-func AnnotateXML(path string, id int, positions []KugirePos) error {
+func AnnotateXML(path string, id int, source string, positions []KugirePos) error {
 	doc := etree.NewDocument()
 	doc.ReadSettings.PreserveCData = true
 	if err := doc.ReadFromFile(path); err != nil {
@@ -22,9 +23,11 @@ func AnnotateXML(path string, id int, positions []KugirePos) error {
 		return fmt.Errorf("poem %d not found in %s", id, path)
 	}
 
-	// Remove existing <k> children
+	// Remove existing <k> children for this source only
 	for _, k := range l.SelectElements("k") {
-		l.RemoveChild(k)
+		if k.SelectAttrValue("source", "") == source {
+			l.RemoveChild(k)
+		}
 	}
 
 	// Append new <k> elements (sorted by AfterSeg for readability)

@@ -30,6 +30,12 @@ type TranslationSource struct {
 	Load func(r io.Reader) (map[int]string, error) // format-specific parser
 }
 
+// SemanReasoning holds the chain-of-thought output from the LLM suggestion step.
+type SemanReasoning struct {
+	Alignment string // step 1: which segments correspond to which parts of the translation
+	Breaks    string // step 2: where and why a sentence break occurs (or "なし")
+}
+
 // PoemData holds all data for one poem needed by the kugire pipeline.
 type PoemData struct {
 	ID           int
