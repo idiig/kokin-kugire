@@ -2,11 +2,13 @@
 
 * Introduction
 
-Kugire — phrase breaks within waka poems — are a basic structural element of waka, yet no standardized, publicly available kugire dataset exists. For TEI/XML encoding of waka, each project must annotate from scratch.
+Kugire — phrase breaks within waka poems — are a basic structural element of waka, yet no standardized, publicly available kugire dataset exists [kamihiro]. For TEI/XML encoding of waka, each project must annotate from scratch.
 
 This project adds kugire as an interpretive annotation layer to the TEI/XML data of the Kokinwakashu, one of the most important waka anthologies. Keeping kugire as a separate layer — rather than embedding it in the text — preserves the annotation criteria and any competing interpretations. The kugire data supports analysis of waka structure and enjambment, and serves as a case study in ambiguity-aware, layered interpretive annotation for literary and linguistic research.
 
-* Previous works
+* Related works
+
+Prior work on kugire is sparse. The few available resources treat annotation as a fixed, single-source task, yet the criteria proposed for kugire determination remain inherently ambiguous. Richer, multi-source annotation data would enable waka analysis across multiple dimensions: diachronic study of kugire, its relation to poetic style, enjambment, and the reading history of waka. The following sections review each area in detail.
 
 ** Kugire-related data
 
@@ -31,7 +33,7 @@ Enjambment
 
 Pyhisical punctuation and tanka structure analysis [murata]
 
-* Materials
+* Data sources
 
 ** Base data
 
@@ -40,6 +42,34 @@ The base data is a lexically extended version [chin2026] of the TEI data of the 
 ** Reference data
 
 For grammatical kugire, we use the Hachidaishu Part-of-Speech Dataset [Yamamoto], which provides conjugation and part-of-speech data for each token. For semantic kugire, we use the explanatory translation of the Kokinwakashu by [kaneko], the earliest twentieth-century explanatory translation of the anthology, digitized and published on Zenodo [yamamoto].
+
+* Output Data
+
+The output is =kokin-kugire.xml=, a TEI/XML file derived from the base data by appending kugire annotations to each poem. The original text, segmentation, and all existing TEI markup are preserved without modification; the annotation layer is additive.
+
+Each kugire position is encoded as a =<k>= element placed after the final =<seg>= child of the corresponding line element =<l>=:
+
+#+begin_example
+<l n="1" xml:id="n1">
+  <seg>年の内に</seg>
+  <seg>春はきにけり</seg>
+  <seg>ひとゝせを</seg>
+  <seg>こそとやいはむ</seg>
+  <seg>ことしとやいはむ</seg>
+  <k n="2" source="morph" cert="high"/>
+  <k n="3" source="morph" cert="low"/>
+  <k n="4" source="morph" cert="high"/>
+  <k n="2" source="kaneko"/>
+</l>
+#+end_example
+
+The rule-based method identifies three candidate positions. The strongest (=cert="high"=) is after the second segment, where /けり/ appears in the conclusive form, ending the first complete sentence. A weaker candidate (=cert="low"=) is also placed after the third segment. The LLM-based method, drawing on [kaneko]'s explanatory translation, identifies only the second segment as a kugire. The competing candidates are preserved independently.
+
+The =@n= attribute gives the 1-based index of the segment after which the break falls; =@source= identifies the annotation source (=morph= for the rule-based method, =kaneko= for the LLM-assisted method drawing on [kaneko]'s translation). Rule-based annotations carry a =@cert= attribute (=high=, =mid=, or =low=) reflecting the strength of the grammatical evidence; LLM-based annotations do not, because the translation-based criterion does not yield an analogous confidence gradient.
+
+Multiple =<k>= elements at the same position represent competing interpretations — from the same source at different grammatical strengths, or from different sources — and are preserved as-is. No normalization or deduplication is applied.
+
+The =<k>= element is a project-internal tag pending a decision on the target TEI encoding.
 
 * Annotation pipeline
 
