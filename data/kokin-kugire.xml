@@ -6158,7 +6158,7 @@
               <w lemmaRef="#ふれ.触る">ふれ</w>
               <w lemmaRef="#たる.たり">たる</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -6321,7 +6321,7 @@
               <w lemmaRef="#く.く">く</w>
               <w lemmaRef="#に.に">に</w>
             </seg>
-          <k n="2" source="morph" cert="high"/><k n="4" source="morph" cert="high"/></l>
+          <k n="2" source="morph" cert="high"/><k n="4" source="morph" cert="high"/><k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -6473,7 +6473,7 @@
               <w lemmaRef="#とどめ.止む">とゝめ</w>
               <w lemmaRef="#む.む">む</w>
             </seg>
-          <k n="1" source="morph" cert="high"/><k n="3" source="morph" cert="high"/><k n="2" source="kaneko"/></l>
+          <k n="1" source="morph" cert="high"/><k n="3" source="morph" cert="high"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -6512,7 +6512,7 @@
               <w lemmaRef="#ちり.散る">ちり</w>
               <w lemmaRef="#ける.けり">ける</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -6549,7 +6549,7 @@
               <w lemmaRef="#まどひ.惑ふ">まとひ</w>
               <w lemmaRef="#ぬ.ぬ">ぬ</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -6662,7 +6662,7 @@
               <w lemmaRef="#と.と">と</w>
               <w lemmaRef="#も.も">も</w>
             </seg>
-          <k n="4" source="kaneko"/></l>
+          </l>
         </div>
         <pb n="1-21r" facs="#p029"/>
         <lb/>
@@ -6950,7 +6950,7 @@
               <w lemmaRef="#おもほゆる.思ほゆ">おもほゆる</w>
               <w lemmaRef="#かな.哉">哉</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="4" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
+          <k n="1" source="morph" cert="low"/><k n="4" source="morph" cert="mid"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -7101,7 +7101,7 @@
               <w lemmaRef="#か.か">か</w>
               <w lemmaRef="#は.は">は</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="2" source="morph" cert="low"/><k n="4" source="morph" cert="low"/></l>
+          <k n="1" source="morph" cert="low"/><k n="2" source="morph" cert="low"/><k n="4" source="morph" cert="low"/><k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -7178,7 +7178,7 @@
               <w lemmaRef="#おもへ.思ふ">おもへ</w>
               <w lemmaRef="#ば.ば">は</w>
             </seg>
-          <k n="1" source="morph" cert="mid"/><k n="4" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="1" source="morph" cert="mid"/><k n="4" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
         </div>
         <pb n="1-22v" facs="#p031"/>
         <lb/>
@@ -7302,7 +7302,7 @@
               <w lemmaRef="#さく.咲く">さく</w>
               <w lemmaRef="#らむ.らむ">らむ</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="3" source="morph" cert="mid"/></l>
+          <k n="1" source="morph" cert="low"/><k n="3" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -7468,7 +7468,7 @@
               <w lemmaRef="#から.借る">から</w>
               <w lemmaRef="#なむ.なむ">南</w>
             </seg>
-          <k n="3" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="3" source="morph" cert="low"/><k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -7484,7 +7484,7 @@
             <seg>郭公</seg>
             <seg>こすゑはるかに</seg>
             <seg>今そなくなる</seg>
-          </l>
+          <k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -7547,7 +7547,7 @@
               <w lemmaRef="#なり.なり">なり</w>
               <w lemmaRef="#けれ.けり">けれ</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="3" source="morph" cert="low"/><k n="4" source="morph" cert="mid"/><k n="4" source="kaneko"/></l>
+          <k n="1" source="morph" cert="low"/><k n="3" source="morph" cert="low"/><k n="4" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
         </div>
         <pb n="1-24r" facs="#p032"/>
         <lb/>
@@ -7611,7 +7611,7 @@
               <w lemmaRef="#こひしかり.恋し">こひしかり</w>
               <w lemmaRef="#ける.けり">ける</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="4" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="1" source="morph" cert="low"/><k n="4" source="morph" cert="mid"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -7642,7 +7642,7 @@
               <w lemmaRef="#もの.物">物</w>
               <w lemmaRef="#から.から">から</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="2" source="kaneko"/></l>
+          <k n="1" source="morph" cert="low"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -7671,7 +7671,7 @@
               <w lemmaRef="#ぞ.ぞ">そ</w>
               <w lemmaRef="#なく.鳴く">鳴</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -7764,7 +7764,7 @@
               <w lemmaRef="#に.に">に</w>
               <w lemmaRef="#なけ.鳴く">なけ</w>
             </seg>
-          <k n="2" source="morph" cert="high"/><k n="3" source="morph" cert="low"/><k n="4" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
+          <k n="2" source="morph" cert="high"/><k n="3" source="morph" cert="low"/><k n="4" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -7798,7 +7798,7 @@
               <w lemmaRef="#と.と">と</w>
               <w lemmaRef="#よ.よ">よ</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -7834,7 +7834,7 @@
               <w lemmaRef="#ゆく.行く">行</w>
               <w lemmaRef="#らむ.らむ">覧</w>
             </seg>
-          <k n="3" source="morph" cert="low"/></l>
+          <k n="3" source="morph" cert="low"/><k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -7902,7 +7902,7 @@
               <w lemmaRef="#ぬ.ぬ">ぬ</w>
               <w lemmaRef="#らむ.らむ">覧</w>
             </seg>
-          <k n="2" source="morph" cert="mid"/><k n="4" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="2" source="morph" cert="mid"/><k n="4" source="morph" cert="low"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -7938,7 +7938,7 @@
               <w lemmaRef="#あくる.明く">あくる</w>
               <w lemmaRef="#しののめ.東雲">しのゝめ</w>
             </seg>
-          <k n="3" source="morph" cert="low"/><k n="2" source="kaneko"/></l>
+          <k n="3" source="morph" cert="low"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -7975,7 +7975,7 @@
             <seg>
               <w lemmaRef="#やまほととぎす.山郭公">山郭公</w>
             </seg>
-          <k n="3" source="morph" cert="low"/><k n="4" source="morph" cert="high"/><k n="2" source="kaneko"/></l>
+          <k n="3" source="morph" cert="low"/><k n="4" source="morph" cert="high"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -8009,7 +8009,7 @@
               <w lemmaRef="#なく.鳴く">なく</w>
               <w lemmaRef="#ほととぎす.郭公">郭公</w>
             </seg>
-          <k n="2" source="morph" cert="mid"/><k n="3" source="morph" cert="high"/></l>
+          <k n="2" source="morph" cert="mid"/><k n="3" source="morph" cert="high"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -8046,7 +8046,7 @@
               <w lemmaRef="#かはら.変はる">かはら</w>
               <w lemmaRef="#ぬ.ず">ぬ</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="3" source="morph" cert="low"/><k n="4" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="1" source="morph" cert="low"/><k n="3" source="morph" cert="low"/><k n="4" source="morph" cert="mid"/></l>
         </div>
         <pb n="1-25r" facs="#p033"/>
         <lb/>
@@ -8265,7 +8265,7 @@
               <w lemmaRef="#と.と">と</w>
               <w lemmaRef="#あざむく.欺く">あさむく</w>
             </seg>
-          <k n="4" source="morph" cert="low"/><k n="2" source="kaneko"/></l>
+          <k n="4" source="morph" cert="low"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -8303,7 +8303,7 @@
               <w lemmaRef="#やどる.宿る">やとる</w>
               <w lemmaRef="#らむ.らむ">覧</w>
             </seg>
-          <k n="1" source="morph" cert="mid"/><k n="3" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="1" source="morph" cert="mid"/><k n="3" source="morph" cert="low"/><k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -8345,7 +8345,7 @@
               <w lemmaRef="#の.の">の</w>
               <w lemmaRef="#はな.花">花</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="2" source="morph" cert="high"/></l>
+          <k n="1" source="morph" cert="low"/><k n="2" source="morph" cert="high"/><k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -8529,7 +8529,7 @@
               <w lemmaRef="#の.の">の</w>
               <w lemmaRef="#ふく.吹く">吹</w>
             </seg>
-          <k n="1" source="morph" cert="mid"/><k n="2" source="morph" cert="high"/><k n="3" source="kaneko"/></l>
+          <k n="1" source="morph" cert="mid"/><k n="2" source="morph" cert="high"/><k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -8562,7 +8562,7 @@
               <w lemmaRef="#は.は">は</w>
               <w lemmaRef="#なし.無し">なし</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <pb n="1-27r" facs="#p035"/>
         <lb/>
@@ -8593,7 +8593,7 @@
               <w lemmaRef="#て.て">て</w>
               <w lemmaRef="#よ.よ">よ</w>
             </seg>
-          <k n="3" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="3" source="morph" cert="low"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -8670,7 +8670,7 @@
             <seg>たとりつゝ</seg>
             <seg>渡りはてねは</seg>
             <seg>あけそしにける</seg>
-          </l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -8701,7 +8701,7 @@
             <seg>織女の</seg>
             <seg>ぬる夜のかすそ</seg>
             <seg>すくなかりける</seg>
-          </l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <pb n="1-27v" facs="#p036"/>
         <lb/>
@@ -8727,7 +8727,7 @@
             <seg>たなはたの</seg>
             <seg>ひさしき程に</seg>
             <seg>まちもこそすれ</seg>
-          </l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -8743,7 +8743,7 @@
             <seg>天河</seg>
             <seg>わたらぬさきに</seg>
             <seg>袖そひちぬる</seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -8758,7 +8758,7 @@
             <seg>昨日をそ</seg>
             <seg>いつしかとのみ</seg>
             <seg>まちわたるへき</seg>
-          </l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -8773,7 +8773,7 @@
             <seg>影見れは</seg>
             <seg>心つくしの</seg>
             <seg>秋はきにけり</seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -8783,7 +8783,7 @@
             <seg>わか身こそ</seg>
             <seg>悲き物と</seg>
             <seg>思しりぬれ</seg>
-          </l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -8793,7 +8793,7 @@
             <seg>あらなくに</seg>
             <seg>虫のねきけは</seg>
             <seg>まつそ悲き</seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="4" source="kaneko"/></l>
         </div>
         <pb n="1-28r" facs="#p036"/>
         <lb/>
@@ -8814,7 +8814,7 @@
             <seg>あらねとも</seg>
             <seg>秋くるよゐは</seg>
             <seg>つゆけかりけり</seg>
-          </l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -8828,7 +8828,7 @@
             <seg>秋の夜そ</seg>
             <seg>物思事の</seg>
             <seg>限なりける</seg>
-          </l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -8844,7 +8844,7 @@
             <seg>いたつらに</seg>
             <seg>ねてあかすらむ</seg>
             <seg>人さへそうき</seg>
-          </l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -8901,7 +8901,7 @@
             <seg>秋は猶</seg>
             <seg>もみちすれはや</seg>
             <seg>てりまさるらむ</seg>
-          </l>
+          <k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -8985,7 +8985,7 @@
               <w lemmaRef="#は.は">は</w>
               <w lemmaRef="#かなしき.悲し">かなしき</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -8995,7 +8995,7 @@
             <seg>さむからし</seg>
             <seg>草むらことに</seg>
             <seg>虫のわふれは</seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -9005,7 +9005,7 @@
             <seg>ふるさとは</seg>
             <seg>松虫のねそ</seg>
             <seg>悲かりける</seg>
-          </l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -9071,7 +9071,7 @@
               <w lemmaRef="#とぶらは.訪ふ">とふらは</w>
               <w lemmaRef="#む.む">む</w>
             </seg>
-          <k n="3" source="morph" cert="high"/><k n="3" source="kaneko"/></l>
+          <k n="3" source="morph" cert="high"/><k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -9167,7 +9167,7 @@
               <w lemmaRef="#も.も">も</w>
               <w lemmaRef="#なし.無し">なし</w>
             </seg>
-          <k n="3" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="3" source="morph" cert="mid"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -9202,7 +9202,7 @@
               <w lemmaRef="#めづらしき.珍し">めつらしき</w>
               <w lemmaRef="#かな.哉">哉</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -9241,7 +9241,7 @@
               <w lemmaRef="#つ.つ">つ</w>
               <w lemmaRef="#らむ.らむ">覧</w>
             </seg>
-          <k n="2" source="morph" cert="mid"/><k n="4" source="morph" cert="low"/><k n="2" source="kaneko"/></l>
+          <k n="2" source="morph" cert="mid"/><k n="4" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -9370,7 +9370,7 @@
               <w lemmaRef="#に.ぬ">に</w>
               <w lemmaRef="#けり.けり">けり</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="2" source="morph" cert="low"/><k n="4" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="1" source="morph" cert="low"/><k n="2" source="morph" cert="low"/><k n="4" source="morph" cert="mid"/></l>
           <lb/>
           <note type="左注" style="margin-top: 2em" target="#n211">この哥はある人のいはく
             <persName>柿本の人まろ</persName>か也と</note>
@@ -9414,7 +9414,7 @@
               <w lemmaRef="#あり.有り">有</w>
               <w lemmaRef="#ける.けり">ける</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -9450,7 +9450,7 @@
               <w lemmaRef="#の.の">の</w>
               <w lemmaRef="#よなよな.夜な夜な">よな〳〵</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="4" source="morph" cert="high"/></l>
+          <k n="1" source="morph" cert="low"/><k n="4" source="morph" cert="high"/><k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -9486,7 +9486,7 @@
               <w lemmaRef="#さまし.覚ます">さまし</w>
               <w lemmaRef="#つつ.つつ">つゝ</w>
             </seg>
-          <k n="1" source="morph" cert="mid"/><k n="2" source="morph" cert="low"/><k n="3" source="morph" cert="high"/><k n="2" source="kaneko"/></l>
+          <k n="1" source="morph" cert="mid"/><k n="2" source="morph" cert="low"/><k n="3" source="morph" cert="high"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -9585,7 +9585,7 @@
               <w lemmaRef="#さやけ.明けし">さやけ</w>
               <w lemmaRef="#さ.さ">さ</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="1" source="morph" cert="low"/><k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -9730,7 +9730,7 @@
               <w lemmaRef="#の.の">の</w>
               <w lemmaRef="#つゆ.露">つゆ</w>
             </seg>
-          <k n="1" source="morph" cert="high"/><k n="2" source="morph" cert="mid"/><k n="3" source="morph" cert="high"/><k n="3" source="kaneko"/></l>
+          <k n="1" source="morph" cert="high"/><k n="2" source="morph" cert="mid"/><k n="3" source="morph" cert="high"/><k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -9765,7 +9765,7 @@
               <w lemmaRef="#ながら.ながら">なから</w>
               <w lemmaRef="#みよ.見る">見よ</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="3" source="morph" cert="high"/><k n="4" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
+          <k n="1" source="morph" cert="low"/><k n="3" source="morph" cert="high"/><k n="4" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
           <lb/>
           <note type="左注" style="margin-top: 2em">ある人のいはくこの哥は
             <persName corresp="#平城天皇">ならのみかと</persName>の御哥也と</note>
@@ -9836,7 +9836,7 @@
               <w lemmaRef="#と.と">と</w>
               <w lemmaRef="#も.も">も</w>
             </seg>
-          </l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -9950,7 +9950,7 @@
               <w lemmaRef="#おもへ.思ふ">思へ</w>
               <w lemmaRef="#ば.ば">は</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="2" source="morph" cert="mid"/><k n="4" source="morph" cert="low"/></l>
+          <k n="1" source="morph" cert="low"/><k n="2" source="morph" cert="mid"/><k n="4" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -10063,7 +10063,7 @@
               <w lemmaRef="#よす.寄す">よす</w>
               <w lemmaRef="#らむ.らむ">らむ</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="1" source="morph" cert="low"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -10100,7 +10100,7 @@
               <w lemmaRef="#ぬ.ず">ぬ</w>
               <w lemmaRef="#ものゆゑ.物故">ものゆへ</w>
             </seg>
-          <k n="3" source="morph" cert="low"/><k n="2" source="kaneko"/></l>
+          <k n="3" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -10135,7 +10135,7 @@
               <w lemmaRef="#まだき.夙">またき</w>
               <w lemmaRef="#うつろふ.移ろふ">うつろふ</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -10203,7 +10203,7 @@
               <w lemmaRef="#こそ.こそ">こそ</w>
               <w lemmaRef="#しるけれ.著し">しるけれ</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="3" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="1" source="morph" cert="low"/><k n="3" source="morph" cert="mid"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -10268,7 +10268,7 @@
               <w lemmaRef="#まし.まし">まし</w>
               <w lemmaRef="#を.を">を</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="2" source="morph" cert="mid"/><k n="3" source="morph" cert="low"/><k n="2" source="kaneko"/></l>
+          <k n="1" source="morph" cert="low"/><k n="2" source="morph" cert="mid"/><k n="3" source="morph" cert="low"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -10377,7 +10377,7 @@
               <w lemmaRef="#を.を">を</w>
               <w lemmaRef="#にほはす.匂はす">にほはす</w>
             </seg>
-          <k n="1" source="morph" cert="mid"/><k n="3" source="morph" cert="low"/><k n="2" source="kaneko"/></l>
+          <k n="1" source="morph" cert="mid"/><k n="3" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
         </div>
         <pb n="1-32v" facs="#p041"/>
         <lb/>
@@ -10414,7 +10414,7 @@
               <w lemmaRef="#にほひ.匂ふ">ゝほひ</w>
               <w lemmaRef="#つつ.つつ">つゝ</w>
             </seg>
-          <k n="2" source="morph" cert="mid"/><k n="3" source="morph" cert="low"/></l>
+          <k n="2" source="morph" cert="mid"/><k n="3" source="morph" cert="low"/><k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -10489,7 +10489,7 @@
               <w lemmaRef="#わびしかり.侘し">わひしかり</w>
               <w lemmaRef="#けり.けり">けり</w>
             </seg>
-          </l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -10528,7 +10528,7 @@
               <w lemmaRef="#みゆ.見ゆ">見ゆ</w>
               <w lemmaRef="#らむ.らむ">らむ</w>
             </seg>
-          <k n="2" source="morph" cert="mid"/><k n="3" source="morph" cert="low"/><k n="4" source="morph" cert="high"/></l>
+          <k n="2" source="morph" cert="mid"/><k n="3" source="morph" cert="low"/><k n="4" source="morph" cert="high"/><k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -10600,7 +10600,7 @@
               <w lemmaRef="#あり.有り">有</w>
               <w lemmaRef="#ける.けり">ける</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -10710,7 +10710,7 @@
               <w lemmaRef="#のら.野良">ゝら</w>
               <w lemmaRef="#なる.なり">なる</w>
             </seg>
-          <k n="3" source="morph" cert="mid"/><k n="4" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
+          <k n="3" source="morph" cert="mid"/><k n="4" source="morph" cert="mid"/><k n="4" source="kaneko"/></l>
         </div>
       </div>
       <div type="部立">
@@ -10754,7 +10754,7 @@
               <w lemmaRef="#いふ.言ふ">いふ</w>
               <w lemmaRef="#らむ.らむ">らむ</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div>
@@ -10829,7 +10829,7 @@
               <w lemmaRef="#わたる.渡る">渡</w>
               <w lemmaRef="#らむ.らむ">らむ</w>
             </seg>
-          <k n="2" source="morph" cert="mid"/><k n="4" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="2" source="morph" cert="mid"/><k n="4" source="morph" cert="low"/></l>
         </div>
         <lb/>
         <div>
@@ -11000,7 +11000,7 @@
               <w lemmaRef="#に.ぬ">に</w>
               <w lemmaRef="#けり.けり">けり</w>
             </seg>
-          <k n="3" source="morph" cert="low"/><k n="4" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
+          <k n="3" source="morph" cert="low"/><k n="4" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div>
@@ -11039,7 +11039,7 @@
               <w lemmaRef="#そむ.染む">そむ</w>
               <w lemmaRef="#らむ.らむ">覧</w>
             </seg>
-          <k n="2" source="morph" cert="low"/><k n="2" source="kaneko"/></l>
+          <k n="2" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
         </div>
         <pb n="1-34v" facs="#p043"/>
         <lb/>
@@ -11227,7 +11227,7 @@
               <w lemmaRef="#に.ぬ">に</w>
               <w lemmaRef="#けり.けり">けり</w>
             </seg>
-          <k n="1" source="morph" cert="high"/><k n="3" source="morph" cert="mid"/><k n="4" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="1" source="morph" cert="high"/><k n="3" source="morph" cert="mid"/><k n="4" source="morph" cert="low"/></l>
         </div>
         <pb n="1-35r" facs="#p043"/>
         <lb/>
@@ -11264,7 +11264,7 @@
               <w lemmaRef="#ぞ.ぞ">そ</w>
               <w lemmaRef="#てる.照る">てる</w>
             </seg>
-          <k n="3" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
+          <k n="3" source="morph" cert="mid"/></l>
         </div>
         <lb/>
         <div>
@@ -11303,7 +11303,7 @@
               <w lemmaRef="#つれ.つ">つれ</w>
               <w lemmaRef="#ば.ば">は</w>
             </seg>
-          <k n="1" source="morph" cert="mid"/><k n="3" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
+          <k n="1" source="morph" cert="mid"/><k n="3" source="morph" cert="mid"/></l>
         </div>
         <lb/>
         <div>
@@ -11380,7 +11380,7 @@
               <w lemmaRef="#み.見る">見</w>
               <w lemmaRef="#む.む">む</w>
             </seg>
-          <k n="1" source="morph" cert="mid"/><k n="2" source="morph" cert="high"/><k n="2" source="kaneko"/></l>
+          <k n="1" source="morph" cert="mid"/><k n="2" source="morph" cert="high"/><k n="3" source="kaneko"/></l>
         </div>
         <pb n="1-35v" facs="#p044"/>
         <lb/>
@@ -11618,7 +11618,7 @@
               <w lemmaRef="#よする.寄す">よする</w>
               <w lemmaRef="#か.か">か</w>
             </seg>
-          <k n="3" source="morph" cert="mid"/><k n="4" source="morph" cert="mid"/><k n="4" source="kaneko"/></l>
+          <k n="3" source="morph" cert="mid"/><k n="4" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div>
@@ -11659,7 +11659,7 @@
               <w lemmaRef="#に.ぬ">に</w>
               <w lemmaRef="#けむ.けむ">けむ</w>
             </seg>
-          <k n="1" source="morph" cert="high"/><k n="4" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="1" source="morph" cert="high"/><k n="4" source="morph" cert="low"/></l>
         </div>
         <pb n="1-36v" facs="#p045"/>
         <lb/>
@@ -11731,7 +11731,7 @@
               <w lemmaRef="#うゑ.植う">うへ</w>
               <w lemmaRef="#けむ.けむ">けむ</w>
             </seg>
-          <k n="2" source="morph" cert="low"/><k n="4" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="2" source="morph" cert="low"/><k n="4" source="morph" cert="mid"/><k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div>
@@ -11771,7 +11771,7 @@
               <w lemmaRef="#み.身">身</w>
               <w lemmaRef="#を.を">を</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="2" source="morph" cert="mid"/><k n="3" source="morph" cert="high"/><k n="2" source="kaneko"/></l>
+          <k n="1" source="morph" cert="low"/><k n="2" source="morph" cert="mid"/><k n="3" source="morph" cert="high"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div>
@@ -11843,7 +11843,7 @@
               <w lemmaRef="#こそ.こそ">こそ</w>
               <w lemmaRef="#みれ.見る">見れ</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div>
@@ -11955,7 +11955,7 @@
               <w lemmaRef="#てらす.照らす">てらす</w>
               <w lemmaRef="#つきかげ.月影">月影</w>
             </seg>
-          <k n="3" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="3" source="morph" cert="low"/></l>
         </div>
         <lb/>
         <div>
@@ -12027,7 +12027,7 @@
               <w lemmaRef="#な.ぬ">な</w>
               <w lemmaRef="#む.む">む</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
           <lb/>
           <note type="左注" style="margin-top: 3em" target="#n283" resp="#よみ人知らず">この哥はある人
             <persName corresp="#平城天皇">ならのみかと</persName>の御哥也となむ申</note>
@@ -12121,7 +12121,7 @@
               <w lemmaRef="#ぞ.ぞ">そ</w>
               <w lemmaRef="#かなしき.悲し">かなしき</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div>
@@ -12155,7 +12155,7 @@
               <w lemmaRef="#は.は">は</w>
               <w lemmaRef="#なし.無し">なし</w>
             </seg>
-          <k n="1" source="morph" cert="high"/><k n="3" source="morph" cert="high"/><k n="2" source="kaneko"/></l>
+          <k n="1" source="morph" cert="high"/><k n="3" source="morph" cert="high"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div>
@@ -12187,7 +12187,7 @@
               <w lemmaRef="#み.見る">見</w>
               <w lemmaRef="#ながら.ながら">なから</w>
             </seg>
-          <k n="2" source="morph" cert="high"/><k n="2" source="kaneko"/></l>
+          <k n="2" source="morph" cert="high"/></l>
         </div>
         <lb/>
         <div>
@@ -12218,7 +12218,7 @@
               <w lemmaRef="#と.と">と</w>
               <w lemmaRef="#か.か">か</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="3" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="1" source="morph" cert="low"/><k n="3" source="morph" cert="mid"/></l>
         </div>
         <lb/>
         <div>
@@ -12364,7 +12364,7 @@
               <w lemmaRef="#たつ.立つ">立</w>
               <w lemmaRef="#らむ.らむ">らむ</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div>
@@ -12398,7 +12398,7 @@
               <w lemmaRef="#と.と">と</w>
               <w lemmaRef="#は.は">は</w>
             </seg>
-          <k n="1" source="morph" cert="high"/><k n="2" source="morph" cert="low"/><k n="3" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="1" source="morph" cert="high"/><k n="2" source="morph" cert="low"/><k n="3" source="morph" cert="low"/></l>
         </div>
         <lb/>
         <div>
@@ -12549,7 +12549,7 @@
               <w lemmaRef="#ちる.散る">ちる</w>
               <w lemmaRef="#らめ.らむ">らめ</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="3" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
+          <k n="1" source="morph" cert="low"/><k n="3" source="morph" cert="mid"/></l>
         </div>
         <lb/>
         <div>
@@ -12664,7 +12664,7 @@
               <w lemmaRef="#ぞ.ぞ">そ</w>
               <w lemmaRef="#みる.見る">見る</w>
             </seg>
-          <k n="3" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="3" source="morph" cert="low"/></l>
         </div>
         <lb/>
         <div>
@@ -12701,7 +12701,7 @@
               <w lemmaRef="#しら.知る">しら</w>
               <w lemmaRef="#まし.まし">まし</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div>
@@ -12738,7 +12738,7 @@
               <w lemmaRef="#なり.なり">なり</w>
               <w lemmaRef="#けり.けり">けり</w>
             </seg>
-          <k n="3" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="3" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div>
@@ -12775,7 +12775,7 @@
               <w lemmaRef="#みえ.見ゆ">見え</w>
               <w lemmaRef="#つつ.つつ">つゝ</w>
             </seg>
-          <k n="2" source="morph" cert="low"/><k n="3" source="morph" cert="low"/><k n="4" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="2" source="morph" cert="low"/><k n="3" source="morph" cert="low"/><k n="4" source="morph" cert="low"/></l>
         </div>
         <lb/>
         <div>
@@ -12812,7 +12812,7 @@
               <w lemmaRef="#まさら.増さる">まさら</w>
               <w lemmaRef="#じ.じ">し</w>
             </seg>
-          <k n="2" source="morph" cert="high"/><k n="3" source="morph" cert="mid"/><k n="4" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
+          <k n="2" source="morph" cert="high"/><k n="3" source="morph" cert="mid"/><k n="4" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div>
@@ -12922,7 +12922,7 @@
               <w lemmaRef="#と.と">と</w>
               <w lemmaRef="#か.か">か</w>
             </seg>
-          <k n="3" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="3" source="morph" cert="mid"/></l>
         </div>
         <lb/>
         <div>
@@ -13005,7 +13005,7 @@
               <w lemmaRef="#しり.知る">しり</w>
               <w lemmaRef="#ぬる.ぬ">ぬる</w>
             </seg>
-          <k n="3" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="3" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div>
@@ -13040,7 +13040,7 @@
               <w lemmaRef="#なる.なり">なる</w>
               <w lemmaRef="#らむ.らむ">らむ</w>
             </seg>
-          <k n="2" source="morph" cert="high"/><k n="3" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="2" source="morph" cert="high"/><k n="3" source="morph" cert="low"/></l>
         </div>
         <lb/>
         <div>
@@ -13074,7 +13074,7 @@
               <w lemmaRef="#くる.暮る">くる</w>
               <w lemmaRef="#らむ.らむ">らむ</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="4" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="1" source="morph" cert="low"/><k n="4" source="morph" cert="mid"/><k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div>
@@ -13112,7 +13112,7 @@
               <w lemmaRef="#いに.去ぬ">いに</w>
               <w lemmaRef="#けり.けり">けり</w>
             </seg>
-          <k n="2" source="morph" cert="high"/><k n="3" source="morph" cert="low"/><k n="4" source="kaneko"/></l>
+          <k n="2" source="morph" cert="high"/><k n="3" source="morph" cert="low"/><k n="2" source="kaneko"/></l>
         </div>
       </div>
       <div type="部立">
@@ -13351,7 +13351,7 @@
               <w lemmaRef="#まさる.増さる">ゝさる</w>
               <w lemmaRef="#らし.らし">らし</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="4" source="kaneko"/></l>
         </div>
         <pb n="1-41v" facs="#p050"/>
         <lb/>
@@ -13383,7 +13383,7 @@
               <w lemmaRef="#は.は">は</w>
               <w lemmaRef="#なし.無し">なし</w>
             </seg>
-          <k n="1" source="morph" cert="mid"/><k n="2" source="morph" cert="low"/><k n="4" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="1" source="morph" cert="mid"/><k n="2" source="morph" cert="low"/><k n="4" source="morph" cert="low"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -13417,7 +13417,7 @@
               <w lemmaRef="#なけれ.無し">なけれ</w>
               <w lemmaRef="#ば.ば">は</w>
             </seg>
-          <k n="1" source="morph" cert="mid"/><k n="3" source="morph" cert="high"/><k n="4" source="morph" cert="high"/><k n="2" source="kaneko"/></l>
+          <k n="1" source="morph" cert="mid"/><k n="3" source="morph" cert="high"/><k n="4" source="morph" cert="high"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -13564,7 +13564,7 @@
               <w lemmaRef="#ぞ.ぞ">そ</w>
               <w lemmaRef="#みる.見る">見る</w>
             </seg>
-          <k n="2" source="morph" cert="mid"/><k n="4" source="morph" cert="low"/><k n="2" source="kaneko"/></l>
+          <k n="2" source="morph" cert="mid"/><k n="4" source="morph" cert="low"/><k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -13631,7 +13631,7 @@
               <w lemmaRef="#きゆ.消ゆ">きゆ</w>
               <w lemmaRef="#らむ.らむ">らむ</w>
             </seg>
-          <k n="3" source="morph" cert="mid"/><k n="4" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="3" source="morph" cert="mid"/><k n="4" source="morph" cert="mid"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -13707,7 +13707,7 @@
               <w lemmaRef="#ある.有り">ある</w>
               <w lemmaRef="#らむ.らむ">覧</w>
             </seg>
-          <k n="3" source="morph" cert="mid"/><k n="4" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="3" source="morph" cert="mid"/><k n="4" source="morph" cert="mid"/><k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -13783,7 +13783,7 @@
               <w lemmaRef="#る.り">る</w>
               <w lemmaRef="#しらゆき.白雪">白雪</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="1" source="morph" cert="low"/><k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -14131,7 +14131,7 @@
               <w lemmaRef="#なり.なり">なり</w>
               <w lemmaRef="#けり.けり">けり</w>
             </seg>
-          <k n="3" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="3" source="morph" cert="low"/><k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -14214,7 +14214,7 @@
               <w lemmaRef="#むす.生す">むす</w>
               <w lemmaRef="#まで.まで">まて</w>
             </seg>
-          <k n="1" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="1" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -14419,7 +14419,7 @@
               <w lemmaRef="#まがふ.紛ふ">まかふ</w>
               <w lemmaRef="#がに.がに">かに</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="2" source="morph" cert="high"/><k n="2" source="kaneko"/></l>
+          <k n="1" source="morph" cert="low"/><k n="2" source="morph" cert="high"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -14517,7 +14517,7 @@
               <w lemmaRef="#ぞ.ぞ">そ</w>
               <w lemmaRef="#すくなき.少なし">すくなき</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -14562,7 +14562,7 @@
               <w lemmaRef="#ぞ.ぞ">そ</w>
               <w lemmaRef="#みる.見る">見る</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -14600,7 +14600,7 @@
               <w lemmaRef="#はじめ.始む">はしめ</w>
               <w lemmaRef="#む.む">む</w>
             </seg>
-          <k n="2" source="morph" cert="mid"/><k n="3" source="morph" cert="mid"/><k n="4" source="morph" cert="low"/></l>
+          <k n="2" source="morph" cert="mid"/><k n="3" source="morph" cert="mid"/><k n="4" source="morph" cert="low"/><k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -14673,7 +14673,7 @@
               <w lemmaRef="#て.つ">ゝ</w>
               <w lemmaRef="#む.む">む</w>
             </seg>
-          <k n="1" source="morph" cert="mid"/><k n="2" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="1" source="morph" cert="mid"/><k n="2" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
           <pb n="1-45v" facs="#p054"/>
           <lb/>
           <note type="左注" style="margin-top: 3em" target="#n355">このうたはある人
@@ -14791,7 +14791,7 @@
               <w lemmaRef="#ぞ.ぞ">そ</w>
               <w lemmaRef="#なき.無し">なき</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="3" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="1" source="morph" cert="low"/><k n="3" source="morph" cert="low"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -14855,7 +14855,7 @@
               <w lemmaRef="#つ.つ">つ</w>
               <w lemmaRef="#しらなみ.白浪">白浪</w>
             </seg>
-          <k n="2" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="2" source="morph" cert="low"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -14918,7 +14918,7 @@
               <w lemmaRef="#かし.貸す">かし</w>
               <w lemmaRef="#ける.けり">ける</w>
             </seg>
-          <k n="3" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="3" source="morph" cert="low"/><k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -14989,7 +14989,7 @@
               <w lemmaRef="#てらす.照らす">てらす</w>
               <w lemmaRef="#べらなり.べらなり">へらなり</w>
             </seg>
-          <k n="3" source="morph" cert="mid"/></l>
+          <k n="3" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
         </div>
       </div>
       <div type="部立">
@@ -15034,7 +15034,7 @@
               <w lemmaRef="#こ.来">こ</w>
               <w lemmaRef="#む.む">む</w>
             </seg>
-          <k n="1" source="morph" cert="low"/></l>
+          <k n="1" source="morph" cert="low"/><k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -15071,7 +15071,7 @@
               <w lemmaRef="#また.待つ">また</w>
               <w lemmaRef="#む.む">む</w>
             </seg>
-          <k n="1" source="morph" cert="high"/><k n="2" source="morph" cert="low"/><k n="4" source="morph" cert="low"/><k n="2" source="kaneko"/></l>
+          <k n="1" source="morph" cert="high"/><k n="2" source="morph" cert="low"/><k n="4" source="morph" cert="low"/><k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -15251,7 +15251,7 @@
               <w lemmaRef="#せ.す">せ</w>
               <w lemmaRef="#む.む">む</w>
             </seg>
-          <k n="4" source="morph" cert="mid"/><k n="4" source="kaneko"/></l>
+          <k n="4" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -15331,7 +15331,7 @@
               <w lemmaRef="#ぞ.ぞ">そ</w>
               <w lemmaRef="#やる.遣る">やる</w>
             </seg>
-          <k n="1" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
+          <k n="1" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -15450,7 +15450,7 @@
               <w lemmaRef="#くさまくら.草枕">草枕</w>
               <w lemmaRef="#なり.なり">なり</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -15491,7 +15491,7 @@
               <w lemmaRef="#ぬ.ず">ぬ</w>
               <w lemmaRef="#と.と">と</w>
             </seg>
-          <k n="2" source="morph" cert="high"/></l>
+          <k n="2" source="morph" cert="high"/><k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -15563,7 +15563,7 @@
               <w lemmaRef="#たび.旅">たひ</w>
               <w lemmaRef="#かな.哉">哉</w>
             </seg>
-          <k n="3" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="3" source="morph" cert="low"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -15601,7 +15601,7 @@
               <w lemmaRef="#へだつ.隔つ">へたつ</w>
               <w lemmaRef="#な.な">な</w>
             </seg>
-          <k n="2" source="morph" cert="high"/><k n="3" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="2" source="morph" cert="high"/><k n="3" source="morph" cert="mid"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -15635,7 +15635,7 @@
               <w lemmaRef="#わびしかる.侘し">わひしかる</w>
               <w lemmaRef="#らむ.らむ">らむ</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="2" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="1" source="morph" cert="low"/><k n="2" source="morph" cert="mid"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -15676,7 +15676,7 @@
               <w lemmaRef="#あり.有り">あり</w>
               <w lemmaRef="#けれ.けり">けれ</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="3" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
+          <k n="1" source="morph" cert="low"/><k n="3" source="morph" cert="mid"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -15824,7 +15824,7 @@
               <w lemmaRef="#わたら.渡る">わたら</w>
               <w lemmaRef="#む.む">む</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -15906,7 +15906,7 @@
               <w lemmaRef="#な.ぬ">な</w>
               <w lemmaRef="#む.む">む</w>
             </seg>
-          <k n="3" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="3" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -15989,7 +15989,7 @@
               <w lemmaRef="#あり.有り">有</w>
               <w lemmaRef="#けれ.けり">けれ</w>
             </seg>
-          <k n="2" source="morph" cert="mid"/><k n="3" source="morph" cert="mid"/><k n="4" source="kaneko"/></l>
+          <k n="2" source="morph" cert="mid"/><k n="3" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -16107,7 +16107,7 @@
               <w lemmaRef="#の.の">の</w>
               <w lemmaRef="#まにまに.随に">まに〳〵</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -16183,7 +16183,7 @@
               <w lemmaRef="#あら.有り">あら</w>
               <w lemmaRef="#ぬ.ず">ぬ</w>
             </seg>
-          <k n="3" source="morph" cert="high"/></l>
+          <k n="3" source="morph" cert="high"/><k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -16222,7 +16222,7 @@
               <w lemmaRef="#みゆ.見ゆ">見る</w>
               <w lemmaRef="#らむ.らむ">らむ</w>
             </seg>
-          <k n="2" source="morph" cert="low"/><k n="3" source="morph" cert="high"/><k n="4" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="2" source="morph" cert="low"/><k n="3" source="morph" cert="high"/><k n="4" source="morph" cert="mid"/><k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -16439,7 +16439,7 @@
               <w lemmaRef="#とどめ.止む">とゝめ</w>
               <w lemmaRef="#む.む">む</w>
             </seg>
-          <k n="2" source="morph" cert="high"/></l>
+          <k n="2" source="morph" cert="high"/><k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -16591,7 +16591,7 @@
               <w lemmaRef="#か.か">か</w>
               <w lemmaRef="#も.も">も</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="2" source="kaneko"/></l>
+          <k n="1" source="morph" cert="low"/><k n="4" source="kaneko"/></l>
           <lb/>
           <note type="左注" style="margin-top: 3em" target="#n406">この哥はむかし
             <persName corresp="#安倍仲麻呂">なかまろ</persName>をもろこしに物ならは
@@ -16638,7 +16638,7 @@
               <w lemmaRef="#の.の">の</w>
               <w lemmaRef="#つりぶね.釣舟">つり舟</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="4" source="morph" cert="high"/><k n="3" source="kaneko"/></l>
+          <k n="1" source="morph" cert="low"/><k n="4" source="morph" cert="high"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -16698,7 +16698,7 @@
               <w lemmaRef="#ぞ.ぞ">そ</w>
               <w lemmaRef="#おもふ.思ふ">思</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="4" source="morph" cert="high"/><k n="4" source="kaneko"/></l>
+          <k n="1" source="morph" cert="low"/><k n="4" source="morph" cert="high"/></l>
           <lb/>
           <note type="左注" style="margin-top: 3em" target="#n409">この哥はある人のいはく
             <persName corresp="#柿本人麿">柿本人麿</persName>か哥也</note>
@@ -16948,7 +16948,7 @@
               <w lemmaRef="#おもほゆる.思ほゆ">おもほゆる</w>
               <w lemmaRef="#かな.哉">哉</w>
             </seg>
-          <k n="1" source="morph" cert="high"/><k n="4" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="1" source="morph" cert="high"/><k n="4" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -17042,7 +17042,7 @@
             <seg>やとからむ</seg>
             <seg>あまのかはらに</seg>
             <seg>我はきにけり</seg>
-          </l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -17157,7 +17157,7 @@
               <w lemmaRef="#かへさ.返す">かへさ</w>
               <w lemmaRef="#む.む">む</w>
             </seg>
-          <k n="1" source="morph" cert="mid"/><k n="2" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="1" source="morph" cert="mid"/><k n="2" source="morph" cert="mid"/></l>
         </div>
       </div>
       <div type="部立">
@@ -17272,7 +17272,7 @@
               <w lemmaRef="#む.む">む</w>
               <w lemmaRef="#や.や">や</w>
             </seg>
-          <k n="1" source="morph" cert="high"/><k n="2" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
+          <k n="1" source="morph" cert="high"/><k n="2" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -17309,7 +17309,7 @@
               <w lemmaRef="#む.む">む</w>
               <w lemmaRef="#かし.かし">かし</w>
             </seg>
-          <k n="2" source="morph" cert="low"/><k n="3" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
+          <k n="2" source="morph" cert="low"/><k n="3" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -17384,7 +17384,7 @@
               <w lemmaRef="#しづむ.沈む">しつむ</w>
               <w lemmaRef="#たま.珠">玉</w>
             </seg>
-          <k n="1" source="morph" cert="mid"/><k n="2" source="morph" cert="mid"/></l>
+          <k n="1" source="morph" cert="mid"/><k n="2" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -17450,7 +17450,7 @@
               <w lemmaRef="#おもへ.思ふ">思へ</w>
               <w lemmaRef="#ば.ば">は</w>
             </seg>
-          <k n="1" source="morph" cert="mid"/><k n="2" source="morph" cert="mid"/><k n="3" source="morph" cert="high"/><k n="4" source="morph" cert="low"/><k n="2" source="kaneko"/></l>
+          <k n="1" source="morph" cert="mid"/><k n="2" source="morph" cert="mid"/><k n="3" source="morph" cert="high"/><k n="4" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -17562,7 +17562,7 @@
               <w lemmaRef="#さ.さ">さ</w>
               <w lemmaRef="#に.に">に</w>
             </seg>
-          <k n="1" source="morph" cert="high"/><k n="3" source="morph" cert="low"/><k n="4" source="morph" cert="high"/><k n="2" source="kaneko"/></l>
+          <k n="1" source="morph" cert="high"/><k n="3" source="morph" cert="low"/><k n="4" source="morph" cert="high"/><k n="1" source="kaneko"/></l>
         </div>
         <pb n="1-56v" facs="#p065"/>
         <lb/>
@@ -17595,7 +17595,7 @@
               <w lemmaRef="#ざる.ず">さる</w>
               <w lemmaRef="#べき.べし">へき</w>
             </seg>
-          <k n="4" source="kaneko"/></l>
+          </l>
           <lb/>
           <l n="434" xml:id="n434" resp="#よみ人知らず">
             <seg>
@@ -17663,7 +17663,7 @@
               <w lemmaRef="#てふ.てふ">てふ</w>
               <w lemmaRef="#かな.哉">哉</w>
             </seg>
-          <k n="3" source="morph" cert="low"/><k n="4" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
+          <k n="3" source="morph" cert="low"/><k n="4" source="morph" cert="mid"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -17770,7 +17770,7 @@
               <w lemmaRef="#しり.知る">しり</w>
               <w lemmaRef="#ぬる.ぬ">ぬる</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="2" source="kaneko"/></l>
+          <k n="1" source="morph" cert="low"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -17809,7 +17809,7 @@
               <w lemmaRef="#ぞ.ぞ">そ</w>
               <w lemmaRef="#なき.無し">なき</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="4" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="1" source="morph" cert="low"/><k n="4" source="morph" cert="low"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -17883,7 +17883,7 @@
               <w lemmaRef="#に.ぬ">に</w>
               <w lemmaRef="#ける.けり">ける</w>
             </seg>
-          <k n="4" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="4" source="morph" cert="mid"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -17923,7 +17923,7 @@
               <w lemmaRef="#も.も">も</w>
               <w lemmaRef="#くる.来">くる</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <note type="勘物" style="margin-top: 1em" resp="#藤原定家" target="#n442">して</note>
@@ -18003,7 +18003,7 @@
               <w lemmaRef="#ばかり.許り">許</w>
               <w lemmaRef="#を.を">を</w>
             </seg>
-          <k n="3" source="morph" cert="high"/><k n="2" source="kaneko"/></l>
+          <k n="3" source="morph" cert="high"/><k n="3" source="kaneko"/></l>
         </div>
         <pb n="1-57v" facs="#p066"/>
         <lb/>
@@ -18123,7 +18123,7 @@
               <w lemmaRef="#も.も">も</w>
               <w lemmaRef="#なき.無し">なき</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="2" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
+          <k n="1" source="morph" cert="low"/><k n="2" source="morph" cert="mid"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -18197,7 +18197,7 @@
               <w lemmaRef="#こころ.心">心</w>
               <w lemmaRef="#を.を">を</w>
             </seg>
-          <k n="2" source="morph" cert="mid"/><k n="3" source="morph" cert="high"/><k n="4" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
+          <k n="2" source="morph" cert="mid"/><k n="3" source="morph" cert="high"/><k n="4" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
         </div>
         <pb n="1-58r" facs="#p066"/>
         <lb/>
@@ -18236,7 +18236,7 @@
               <w lemmaRef="#そめ.染む">そめ</w>
               <w lemmaRef="#ける.けり">ける</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -18272,7 +18272,7 @@
               <w lemmaRef="#の.の">の</w>
               <w lemmaRef="#むし.虫">むし</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -18306,7 +18306,7 @@
               <w lemmaRef="#の.の">の</w>
               <w lemmaRef="#やまかぜ.山風">山かせ</w>
             </seg>
-          <k n="2" source="morph" cert="high"/><k n="4" source="morph" cert="high"/></l>
+          <k n="2" source="morph" cert="high"/><k n="4" source="morph" cert="high"/><k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -18345,7 +18345,7 @@
               <w lemmaRef="#そめ.初む">そめ</w>
               <w lemmaRef="#けむ.けむ">けむ</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -18424,7 +18424,7 @@
               <w lemmaRef="#もの.物">もの</w>
               <w lemmaRef="#から.から">から</w>
             </seg>
-          <k n="1" source="morph" cert="high"/><k n="2" source="morph" cert="high"/><k n="4" source="morph" cert="mid"/></l>
+          <k n="1" source="morph" cert="high"/><k n="2" source="morph" cert="high"/><k n="4" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -18538,7 +18538,7 @@
               <w lemmaRef="#ざり.ず">さり</w>
               <w lemmaRef="#けり.けり">けり</w>
             </seg>
-          <k n="3" source="morph" cert="high"/><k n="4" source="morph" cert="mid"/><k n="4" source="kaneko"/></l>
+          <k n="3" source="morph" cert="high"/><k n="4" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div>
@@ -18613,7 +18613,7 @@
               <w lemmaRef="#る.り">る</w>
               <w lemmaRef="#しらゆき.白雪">しらゆき</w>
             </seg>
-          <k n="2" source="morph" cert="mid"/><k n="3" source="morph" cert="high"/></l>
+          <k n="2" source="morph" cert="mid"/><k n="3" source="morph" cert="high"/><k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -18682,7 +18682,7 @@
               <w lemmaRef="#こころ.心">心</w>
               <w lemmaRef="#かな.哉">哉</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -18761,7 +18761,7 @@
               <w lemmaRef="#は.は">は</w>
               <w lemmaRef="#おもふ.思ふ">思</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -19027,7 +19027,7 @@
               <w lemmaRef="#て.つ">て</w>
               <w lemmaRef="#し.き">し</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="4" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="1" source="morph" cert="low"/><k n="4" source="morph" cert="low"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -19063,7 +19063,7 @@
               <w lemmaRef="#なり.なり">なり</w>
               <w lemmaRef="#ける.けり">ける</w>
             </seg>
-          <k n="3" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
+          <k n="3" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -19131,7 +19131,7 @@
               <w lemmaRef="#つ.つ">つ</w>
               <w lemmaRef="#しらなみ.白浪">白浪</w>
             </seg>
-          <k n="2" source="morph" cert="high"/><k n="3" source="morph" cert="mid"/><k n="4" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="2" source="morph" cert="high"/><k n="3" source="morph" cert="mid"/><k n="4" source="morph" cert="low"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -19209,7 +19209,7 @@
               <w lemmaRef="#くらさ.暮す">くらさ</w>
               <w lemmaRef="#む.む">む</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="3" source="morph" cert="mid"/><k n="4" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
+          <k n="1" source="morph" cert="low"/><k n="3" source="morph" cert="mid"/><k n="4" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -19357,7 +19357,7 @@
               <w lemmaRef="#なり.なり">なり</w>
               <w lemmaRef="#けり.けり">けり</w>
             </seg>
-          <k n="1" source="morph" cert="mid"/><k n="3" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="1" source="morph" cert="mid"/><k n="3" source="morph" cert="mid"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -19392,7 +19392,7 @@
               <w lemmaRef="#おもふ.思ふ">思</w>
               <w lemmaRef="#かな.哉">哉</w>
             </seg>
-          <k n="2" source="morph" cert="low"/><k n="4" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="2" source="morph" cert="low"/><k n="4" source="morph" cert="low"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -19427,7 +19427,7 @@
               <w lemmaRef="#わたる.渡る">渡</w>
               <w lemmaRef="#かな.哉">哉</w>
             </seg>
-          <k n="1" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
+          <k n="1" source="morph" cert="mid"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -19470,7 +19470,7 @@
               <w lemmaRef="#せ.す">せ</w>
               <w lemmaRef="#む.む">む</w>
             </seg>
-          <k n="1" source="morph" cert="low"/></l>
+          <k n="1" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -19503,7 +19503,7 @@
               <w lemmaRef="#こふ.恋ふ">こふ</w>
               <w lemmaRef="#とて.とて">とて</w>
             </seg>
-          <k n="1" source="morph" cert="mid"/><k n="3" source="morph" cert="high"/><k n="2" source="kaneko"/></l>
+          <k n="1" source="morph" cert="mid"/><k n="3" source="morph" cert="high"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -19535,7 +19535,7 @@
               <w lemmaRef="#ず.ず">す</w>
               <w lemmaRef="#は.は">は</w>
             </seg>
-          <k n="4" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="4" source="morph" cert="mid"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -19568,7 +19568,7 @@
               <w lemmaRef="#しのば.忍ぶ">しのは</w>
               <w lemmaRef="#む.む">む</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -19600,7 +19600,7 @@
               <w lemmaRef="#は.は">は</w>
               <w lemmaRef="#なし.無し">なし</w>
             </seg>
-          <k n="1" source="morph" cert="high"/><k n="3" source="morph" cert="low"/><k n="4" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="1" source="morph" cert="high"/><k n="3" source="morph" cert="low"/><k n="4" source="morph" cert="low"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -19632,7 +19632,7 @@
               <w lemmaRef="#も.も">も</w>
               <w lemmaRef="#なし.無し">なし</w>
             </seg>
-          <k n="1" source="morph" cert="mid"/><k n="4" source="morph" cert="mid"/></l>
+          <k n="1" source="morph" cert="mid"/><k n="4" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -20060,7 +20060,7 @@
               <w lemmaRef="#けらし.けらし">けらし</w>
               <w lemmaRef="#も.も">も</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -20093,7 +20093,7 @@
               <w lemmaRef="#せ.す">せ</w>
               <w lemmaRef="#む.む">む</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="2" source="morph" cert="mid"/><k n="3" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
+          <k n="1" source="morph" cert="low"/><k n="2" source="morph" cert="mid"/><k n="3" source="morph" cert="mid"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -20159,7 +20159,7 @@
               <w lemmaRef="#しる.知る">しる</w>
               <w lemmaRef="#らめ.らむ">らめ</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -20255,7 +20255,7 @@
               <w lemmaRef="#とくる.解く">とくる</w>
               <w lemmaRef="#したひも.下紐">したひも</w>
             </seg>
-          <k n="1" source="morph" cert="mid"/><k n="2" source="morph" cert="high"/><k n="3" source="morph" cert="mid"/></l>
+          <k n="1" source="morph" cert="mid"/><k n="2" source="morph" cert="high"/><k n="3" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -20445,7 +20445,7 @@
               <w lemmaRef="#なり.なり">なり</w>
               <w lemmaRef="#けり.けり">けり</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -20567,7 +20567,7 @@
               <w lemmaRef="#べかり.べし">へかり</w>
               <w lemmaRef="#ける.けり">ける</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -20630,7 +20630,7 @@
               <w lemmaRef="#かたら.語る">かたら</w>
               <w lemmaRef="#む.む">む</w>
             </seg>
-          <k n="3" source="morph" cert="low"/><k n="4" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="3" source="morph" cert="low"/><k n="4" source="morph" cert="low"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -20789,7 +20789,7 @@
               <w lemmaRef="#の.の">の</w>
               <w lemmaRef="#なき.無し">なき</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -20824,7 +20824,7 @@
               <w lemmaRef="#も.も">も</w>
               <w lemmaRef="#なし.無し">なし</w>
             </seg>
-          <k n="4" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -20854,7 +20854,7 @@
               <w lemmaRef="#みえ.見ゆ">見え</w>
               <w lemmaRef="#つつ.つつ">つゝ</w>
             </seg>
-          <k n="2" source="morph" cert="low"/><k n="4" source="morph" cert="low"/><k n="2" source="kaneko"/></l>
+          <k n="2" source="morph" cert="low"/><k n="4" source="morph" cert="low"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -20952,7 +20952,7 @@
               <w lemmaRef="#もゆ.燃ゆ">もゆ</w>
               <w lemmaRef="#らむ.らむ">覧</w>
             </seg>
-          <k n="3" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="3" source="morph" cert="low"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -20983,7 +20983,7 @@
               <w lemmaRef="#なり.なり">なり</w>
               <w lemmaRef="#けり.けり">けり</w>
             </seg>
-          <k n="3" source="morph" cert="mid"/></l>
+          <k n="3" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
         </div>
         <pb n="2-4v" facs="#p077"/>
         <lb/>
@@ -21116,7 +21116,7 @@
               <w lemmaRef="#なり.なり">なり</w>
               <w lemmaRef="#けれ.けり">けれ</w>
             </seg>
-          <k n="4" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="4" source="morph" cert="mid"/><k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -21147,7 +21147,7 @@
               <w lemmaRef="#しら.知る">しら</w>
               <w lemmaRef="#なむ.なむ">なむ</w>
             </seg>
-          <k n="4" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="4" source="morph" cert="low"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -21204,7 +21204,7 @@
               <w lemmaRef="#こそ.こそ">こそ</w>
               <w lemmaRef="#すれ.す">すれ</w>
             </seg>
-          <k n="3" source="morph" cert="low"/></l>
+          <k n="3" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -21298,7 +21298,7 @@
               <w lemmaRef="#知らせ.知らす">しらせ</w>
               <w lemmaRef="#む.む">む</w>
             </seg>
-          <k n="2" source="morph" cert="high"/><k n="3" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="2" source="morph" cert="high"/><k n="3" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -21359,7 +21359,7 @@
               <w lemmaRef="#とけ.解く">とけ</w>
               <w lemmaRef="#なむ.なむ">南</w>
             </seg>
-          <k n="4" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
+          <k n="4" source="morph" cert="mid"/></l>
         </div>
         <pb n="2-5r" facs="#p077"/>
         <lb/>
@@ -21391,7 +21391,7 @@
               <w lemmaRef="#こそ.こそ">こそ</w>
               <w lemmaRef="#わたれ.渡る">わたれ</w>
             </seg>
-          <k n="2" source="morph" cert="low"/><k n="2" source="kaneko"/></l>
+          <k n="2" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -21453,7 +21453,7 @@
               <w lemmaRef="#そはり.添はる">そはり</w>
               <w lemmaRef="#つつ.つつ">つゝ</w>
             </seg>
-          <k n="4" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="4" source="morph" cert="low"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -21520,7 +21520,7 @@
               <w lemmaRef="#せ.す">せ</w>
               <w lemmaRef="#む.む">む</w>
             </seg>
-          <k n="2" source="morph" cert="low"/><k n="3" source="morph" cert="high"/><k n="2" source="kaneko"/></l>
+          <k n="2" source="morph" cert="low"/><k n="3" source="morph" cert="high"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -21619,7 +21619,7 @@
               <w lemmaRef="#ころ.頃">ころ</w>
               <w lemmaRef="#かな.哉">かな</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -21653,7 +21653,7 @@
               <w lemmaRef="#しげき.繁し">しけき</w>
               <w lemmaRef="#に.に">に</w>
             </seg>
-          <k n="4" source="morph" cert="high"/></l>
+          <k n="4" source="morph" cert="high"/><k n="4" source="kaneko"/></l>
         </div>
       </div>
       <div type="部立">
@@ -21761,7 +21761,7 @@
               <w lemmaRef="#ぞ.ぞ">そ</w>
               <w lemmaRef="#きる.着る">きる</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="2" source="morph" cert="mid"/><k n="4" source="morph" cert="low"/><k n="2" source="kaneko"/></l>
+          <k n="1" source="morph" cert="low"/><k n="2" source="morph" cert="mid"/><k n="4" source="morph" cert="low"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -21798,7 +21798,7 @@
               <w lemmaRef="#ごと.毎">こと</w>
               <w lemmaRef="#に.に">に</w>
             </seg>
-          <k n="4" source="morph" cert="high"/><k n="2" source="kaneko"/></l>
+          <k n="4" source="morph" cert="high"/><k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -21840,7 +21840,7 @@
               <w lemmaRef="#なり.なり">なり</w>
               <w lemmaRef="#けり.けり">けり</w>
             </seg>
-          <k n="1" source="morph" cert="mid"/><k n="3" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="1" source="morph" cert="mid"/><k n="3" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
         </div>
         <pb n="2-6r" facs="#p078"/>
         <lb/>
@@ -21878,7 +21878,7 @@
               <w lemmaRef="#なれ.なり">なれ</w>
               <w lemmaRef="#ば.ば">は</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -21916,7 +21916,7 @@
               <w lemmaRef="#なら.なり">なら</w>
               <w lemmaRef="#なむ.なむ">南</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -21946,7 +21946,7 @@
               <w lemmaRef="#よく.避く">よく</w>
               <w lemmaRef="#らむ.らむ">らむ</w>
             </seg>
-          <k n="2" source="morph" cert="low"/><k n="3" source="morph" cert="mid"/><k n="4" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="2" source="morph" cert="low"/><k n="3" source="morph" cert="mid"/><k n="4" source="morph" cert="low"/><k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -22083,7 +22083,7 @@
               <w lemmaRef="#まさり.増さる">まさり</w>
               <w lemmaRef="#ける.けり">ける</w>
             </seg>
-          <k n="2" source="morph" cert="mid"/><k n="4" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="2" source="morph" cert="mid"/><k n="4" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
         </div>
         <pb n="2-6v" facs="#p079"/>
         <lb/>
@@ -22116,7 +22116,7 @@
               <w lemmaRef="#こひしかり.恋し">こひしかり</w>
               <w lemmaRef="#ける.けり">ける</w>
             </seg>
-          <k n="4" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="4" source="morph" cert="mid"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -22150,7 +22150,7 @@
               <w lemmaRef="#する.す">する</w>
               <w lemmaRef="#かな.哉">哉</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -22187,7 +22187,7 @@
               <w lemmaRef="#ある.有り">ある</w>
               <w lemmaRef="#かな.哉">哉</w>
             </seg>
-          <k n="4" source="morph" cert="high"/><k n="3" source="kaneko"/></l>
+          <k n="4" source="morph" cert="high"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -22290,7 +22290,7 @@
               <w lemmaRef="#たのめ.頼む">たのめ</w>
               <w lemmaRef="#なる.なり">なる</w>
             </seg>
-          <k n="3" source="morph" cert="mid"/><k n="4" source="morph" cert="mid"/></l>
+          <k n="3" source="morph" cert="mid"/><k n="4" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -22394,7 +22394,7 @@
               <w lemmaRef="#な.ぬ">な</w>
               <w lemmaRef="#まし.まし">まし</w>
             </seg>
-          <k n="2" source="morph" cert="mid"/><k n="3" source="morph" cert="low"/><k n="4" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="2" source="morph" cert="mid"/><k n="3" source="morph" cert="low"/><k n="4" source="morph" cert="mid"/><k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -22427,7 +22427,7 @@
               <w lemmaRef="#なり.なり">なり</w>
               <w lemmaRef="#けり.けり">けり</w>
             </seg>
-          <k n="2" source="morph" cert="high"/><k n="3" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="2" source="morph" cert="high"/><k n="3" source="morph" cert="low"/><k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -22458,7 +22458,7 @@
               <w lemmaRef="#かわか.乾く">かはか</w>
               <w lemmaRef="#ぬ.ず">ぬ</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -22606,7 +22606,7 @@
               <w lemmaRef="#なく.鳴く">なく</w>
               <w lemmaRef="#らむ.らむ">覧</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="3" source="morph" cert="low"/></l>
+          <k n="1" source="morph" cert="low"/><k n="3" source="morph" cert="low"/><k n="2" source="kaneko"/></l>
         </div>
         <pb n="2-7v" facs="#p080"/>
         <lb/>
@@ -22754,7 +22754,7 @@
               <w lemmaRef="#よ.夜">よ</w>
               <w lemmaRef="#は.は">は</w>
             </seg>
-          <k n="2" source="morph" cert="low"/><k n="4" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
+          <k n="2" source="morph" cert="low"/><k n="4" source="morph" cert="mid"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -22832,7 +22832,7 @@
               <w lemmaRef="#の.の">の</w>
               <w lemmaRef="#なき.無し">なき</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -22870,7 +22870,7 @@
               <w lemmaRef="#わたる.渡る">わたる</w>
               <w lemmaRef="#かな.哉">哉</w>
             </seg>
-          <k n="1" source="morph" cert="high"/><k n="3" source="morph" cert="mid"/><k n="4" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="1" source="morph" cert="high"/><k n="3" source="morph" cert="mid"/><k n="4" source="morph" cert="mid"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -23047,7 +23047,7 @@
               <w lemmaRef="#まさら.増さる">まさら</w>
               <w lemmaRef="#じ.じ">し</w>
             </seg>
-          <k n="3" source="morph" cert="low"/><k n="4" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="3" source="morph" cert="low"/><k n="4" source="morph" cert="mid"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -23120,7 +23120,7 @@
               <w lemmaRef="#する.す">する</w>
               <w lemmaRef="#かな.哉">かな</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -23157,7 +23157,7 @@
               <w lemmaRef="#も.も">も</w>
               <w lemmaRef="#なし.無し">なし</w>
             </seg>
-          <k n="3" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="3" source="morph" cert="low"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -23220,7 +23220,7 @@
               <w lemmaRef="#あり.有り">有</w>
               <w lemmaRef="#ける.けり">ける</w>
             </seg>
-          <k n="4" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
+          <k n="4" source="morph" cert="mid"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -23320,7 +23320,7 @@
               <w lemmaRef="#まさり.増さる">まさり</w>
               <w lemmaRef="#けれ.けり">けれ</w>
             </seg>
-          <k n="2" source="morph" cert="high"/><k n="3" source="morph" cert="mid"/><k n="4" source="morph" cert="mid"/></l>
+          <k n="2" source="morph" cert="high"/><k n="3" source="morph" cert="mid"/><k n="4" source="morph" cert="mid"/><k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -23349,7 +23349,7 @@
               <w lemmaRef="#に.ぬ">に</w>
               <w lemmaRef="#けり.けり">けり</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -23384,7 +23384,7 @@
               <w lemmaRef="#ぬ.ぬ">ぬ</w>
               <w lemmaRef="#べらなり.べらなり">へら也</w>
             </seg>
-          <k n="1" source="morph" cert="low"/><k n="2" source="morph" cert="high"/><k n="2" source="kaneko"/></l>
+          <k n="1" source="morph" cert="low"/><k n="2" source="morph" cert="high"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -23452,7 +23452,7 @@
               <w lemmaRef="#み.見る">見</w>
               <w lemmaRef="#む.む">む</w>
             </seg>
-          <k n="4" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
+          <k n="4" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -23492,7 +23492,7 @@
               <w lemmaRef="#と.と">と</w>
               <w lemmaRef="#も.も">も</w>
             </seg>
-          <k n="2" source="morph" cert="high"/></l>
+          <k n="2" source="morph" cert="high"/><k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -23595,7 +23595,7 @@
               <w lemmaRef="#ぞ.ぞ">そ</w>
               <w lemmaRef="#しる.知る">しる</w>
             </seg>
-          <k n="2" source="morph" cert="mid"/><k n="3" source="morph" cert="high"/><k n="4" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
+          <k n="2" source="morph" cert="mid"/><k n="3" source="morph" cert="high"/><k n="4" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -23669,7 +23669,7 @@
               <w lemmaRef="#なり.なり">なり</w>
               <w lemmaRef="#けり.けり">けり</w>
             </seg>
-          <k n="1" source="morph" cert="low"/></l>
+          <k n="1" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -23742,7 +23742,7 @@
               <w lemmaRef="#こころ.心">心</w>
               <w lemmaRef="#は.は">は</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -23849,7 +23849,7 @@
               <w lemmaRef="#なり.なり">なり</w>
               <w lemmaRef="#ける.けり">ける</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -23924,7 +23924,7 @@
               <w lemmaRef="#く.く">く</w>
               <w lemmaRef="#に.に">に</w>
             </seg>
-          <k n="1" source="morph" cert="mid"/><k n="3" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="1" source="morph" cert="mid"/><k n="3" source="morph" cert="low"/></l>
         </div>
       </div>
       <div type="部立">
@@ -24046,7 +24046,7 @@
               <w lemmaRef="#たのま.頼む">たのま</w>
               <w lemmaRef="#む.む">む</w>
             </seg>
-          <k n="1" source="morph" cert="mid"/><k n="2" source="morph" cert="high"/><k n="3" source="morph" cert="low"/></l>
+          <k n="1" source="morph" cert="mid"/><k n="2" source="morph" cert="high"/><k n="3" source="morph" cert="low"/><k n="2" source="kaneko"/></l>
         </div>
         <pb n="2-11r" facs="#p083"/>
         <lb/>
@@ -24115,7 +24115,7 @@
               <w lemmaRef="#れ.る">れ</w>
               <w lemmaRef="#つつ.つつ">つゝ</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -24233,7 +24233,7 @@
               <w lemmaRef="#たゆく.弛し">たゆく</w>
               <w lemmaRef="#くる.来">ゝる</w>
             </seg>
-          <k n="3" source="morph" cert="mid"/><k n="2" source="kaneko"/></l>
+          <k n="3" source="morph" cert="mid"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -24306,7 +24306,7 @@
               <w lemmaRef="#は.は">は</w>
               <w lemmaRef="#なし.無し">なし</w>
             </seg>
-          <k n="4" source="morph" cert="low"/><k n="3" source="kaneko"/></l>
+          <k n="4" source="morph" cert="low"/><k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -24343,7 +24343,7 @@
               <w lemmaRef="#かへり.帰る">帰</w>
               <w lemmaRef="#ける.けり">ける</w>
             </seg>
-          <k n="4" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
+          <k n="4" source="morph" cert="mid"/><k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -24379,7 +24379,7 @@
               <w lemmaRef="#たつ.立つ">立</w>
               <w lemmaRef="#らむ.らむ">らむ</w>
             </seg>
-          <k n="2" source="morph" cert="high"/><k n="3" source="morph" cert="mid"/></l>
+          <k n="2" source="morph" cert="high"/><k n="3" source="morph" cert="mid"/><k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -24604,7 +24604,7 @@
               <w lemmaRef="#こそ.こそ">こそ</w>
               <w lemmaRef="#くれ.来">くれ</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -24639,7 +24639,7 @@
               <w lemmaRef="#あら.有り">あら</w>
               <w lemmaRef="#なむ.なむ">南</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <pb n="2-12v" facs="#p085"/>
         <lb/>
@@ -24751,7 +24751,7 @@
               <w lemmaRef="#ぞ.ぞ">そ</w>
               <w lemmaRef="#かなしき.悲し">かなしき</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -24787,7 +24787,7 @@
               <w lemmaRef="#そふ.添ふ">そふ</w>
               <w lemmaRef="#らむ.らむ">らむ</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -24865,7 +24865,7 @@
               <w lemmaRef="#はじめ.始む">はしめ</w>
               <w lemmaRef="#つる.つ">つる</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -24899,7 +24899,7 @@
               <w lemmaRef="#の.の">の</w>
               <w lemmaRef="#こゑ.声">こゑ</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -25008,7 +25008,7 @@
               <w lemmaRef="#まさる.増さる">まさる</w>
               <w lemmaRef="#かな.哉">哉</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -25053,7 +25053,7 @@
               <w lemmaRef="#て.て">て</w>
               <w lemmaRef="#か.か">か</w>
             </seg>
-          </l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -25122,7 +25122,7 @@
               <w lemmaRef="#ざり.ず">さり</w>
               <w lemmaRef="#けり.けり">けり</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -25155,7 +25155,7 @@
               <w lemmaRef="#つる.つ">つる</w>
               <w lemmaRef="#かな.哉">哉</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -25257,7 +25257,7 @@
               <w lemmaRef="#ぞ.ぞ">そ</w>
               <w lemmaRef="#おもふ.思ふ">思</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -25363,7 +25363,7 @@
               <w lemmaRef="#き.着る">き</w>
               <w lemmaRef="#む.む">む</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -25400,7 +25400,7 @@
               <w lemmaRef="#き.着る">き</w>
               <w lemmaRef="#め.む">め</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -25472,7 +25472,7 @@
               <w lemmaRef="#とがめ.咎む">とかめ</w>
               <w lemmaRef="#じ.じ">し</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -25688,7 +25688,7 @@
               <w lemmaRef="#め.む">め</w>
               <w lemmaRef="#や.や">やは</w>
             </seg>
-          <k n="4" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -25727,7 +25727,7 @@
               <w lemmaRef="#か.か">か</w>
               <w lemmaRef="#も.も">も</w>
             </seg>
-          </l>
+          <k n="3" source="kaneko"/></l>
           <lb/>
           <note type="左注" style="margin-top: 3em" target="#n664">この哥ある人
             <persName>あふみのうねめ</persName>のとなむ申す</note>
@@ -25917,7 +25917,7 @@
               <w lemmaRef="#め.む">め</w>
               <w lemmaRef="#すくなし.少なし">すくなし</w>
             </seg>
-          </l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -25953,7 +25953,7 @@
               <w lemmaRef="#つる.つ">つる</w>
               <w lemmaRef="#かな.哉">哉</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -25990,7 +25990,7 @@
               <w lemmaRef="#ぬ.ぬ">ぬ</w>
               <w lemmaRef="#べらなり.べらなり">へら也</w>
             </seg>
-          </l>
+          <k n="3" source="kaneko"/></l>
           <pb n="2-15v" facs="#p088"/>
           <lb/>
           <note type="左注" style="margin-top: 3em" target="#n671">この哥はある人のいはく
@@ -26092,7 +26092,7 @@
               <w lemmaRef="#め.む">め</w>
               <w lemmaRef="#や.や">や</w>
             </seg>
-          <k n="4" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -26127,7 +26127,7 @@
               <w lemmaRef="#に.ぬ">に</w>
               <w lemmaRef="#けり.けり">けり</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -26168,7 +26168,7 @@
               <w lemmaRef="#たつ.立つ">たつ</w>
               <w lemmaRef="#らむ.らむ">らむ</w>
             </seg>
-          </l>
+          <k n="2" source="kaneko"/></l>
         </div>
       </div>
       <div type="部立">
@@ -26242,7 +26242,7 @@
               <w lemmaRef="#べかり.べし">へかり</w>
               <w lemmaRef="#ける.けり">ける</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -26278,7 +26278,7 @@
               <w lemmaRef="#や.や">や</w>
               <w lemmaRef="#は.は">は</w>
             </seg>
-          <k n="4" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -26318,7 +26318,7 @@
               <w lemmaRef="#が.が">か</w>
               <w lemmaRef="#こひ.恋ふ">こひ</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -26458,7 +26458,7 @@
               <w lemmaRef="#ある.有り">ある</w>
               <w lemmaRef="#かな.哉">哉</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -26528,7 +26528,7 @@
               <w lemmaRef="#おもほゆる.思ほゆ">おもほゆる</w>
               <w lemmaRef="#かな.哉">哉</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -26566,7 +26566,7 @@
               <w lemmaRef="#わすれ.忘る">わすれ</w>
               <w lemmaRef="#じ.じ">し</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -26635,7 +26635,7 @@
               <w lemmaRef="#の.の">の</w>
               <w lemmaRef="#はしひめ.橋姫">橋姫</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
           <lb/>
           <note type="左注" style="margin-top: 3em" target="#n689">又はうちのたまひめ</note>
         </div>
@@ -26672,7 +26672,7 @@
               <w lemmaRef="#に.ぬ">に</w>
               <w lemmaRef="#けり.けり">けり</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -26710,7 +26710,7 @@
               <w lemmaRef="#つる.つ">つる</w>
               <w lemmaRef="#かな.哉">哉</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -26751,7 +26751,7 @@
               <w lemmaRef="#あら.有り">あら</w>
               <w lemmaRef="#ず.ず">す</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -26817,7 +26817,7 @@
               <w lemmaRef="#こそ.こそ">こそ</w>
               <w lemmaRef="#まて.待つ">まて</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -26988,7 +26988,7 @@
               <w lemmaRef="#や.や">や</w>
               <w lemmaRef="#は.は">は</w>
             </seg>
-          </l>
+          <k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -27049,7 +27049,7 @@
               <w lemmaRef="#か.か">か</w>
               <w lemmaRef="#は.は">は</w>
             </seg>
-          <k n="4" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -27079,7 +27079,7 @@
               <w lemmaRef="#しげけ.繁し">しけゝ</w>
               <w lemmaRef="#む.む">む</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
           <lb/>
           <note type="左注" style="margin-top: 3em" target="#n702">この哥はある人あめのみかとのあふみのうねめに
             <lb/>たまひけるとなむ申す</note>
@@ -27287,7 +27287,7 @@
               <w lemmaRef="#に.ぬ">に</w>
               <w lemmaRef="#けり.けり">けり</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -27410,7 +27410,7 @@
               <w lemmaRef="#うれしから.嬉し">うれしから</w>
               <w lemmaRef="#まし.まし">まし</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -27478,7 +27478,7 @@
               <w lemmaRef="#ぞ.ぞ">そ</w>
               <w lemmaRef="#おもふ.思ふ">思</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -27553,7 +27553,7 @@
               <w lemmaRef="#ぬ.ぬ">ぬ</w>
               <w lemmaRef="#べらなり.べらなり">へら也</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -27616,7 +27616,7 @@
               <w lemmaRef="#ぞ.ぞ">そ</w>
               <w lemmaRef="#こひしき.恋し">こひしき</w>
             </seg>
-          <k n="4" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -27859,7 +27859,7 @@
               <w lemmaRef="#ことに.異なり">ことに</w>
               <w lemmaRef="#なる.成る">なる</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -27932,7 +27932,7 @@
               <w lemmaRef="#いふ.言ふ">いふ</w>
               <w lemmaRef="#らむ.らむ">らむ</w>
             </seg>
-          </l>
+          <k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -27972,7 +27972,7 @@
               <w lemmaRef="#はなれ.離る">はなれ</w>
               <w lemmaRef="#ず.ず">す</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -28049,7 +28049,7 @@
               <w lemmaRef="#わたる.渡る">わたる</w>
               <w lemmaRef="#らむ.らむ">らむ</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -28147,7 +28147,7 @@
               <w lemmaRef="#な.ぬ">な</w>
               <w lemmaRef="#む.む">む</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -28220,7 +28220,7 @@
               <w lemmaRef="#らめ.らむ">らめ</w>
               <w lemmaRef="#や.や">や</w>
             </seg>
-          <k n="4" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -28259,7 +28259,7 @@
               <w lemmaRef="#おきどころ.置き所">をき所</w>
               <w lemmaRef="#なし.無し">なし</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -28296,7 +28296,7 @@
               <w lemmaRef="#み.見る">見</w>
               <w lemmaRef="#む.む">む</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -28372,7 +28372,7 @@
               <w lemmaRef="#の.の">の</w>
               <w lemmaRef="#たなはし.棚橋">たなはし</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <pb n="2-21r" facs="#p093"/>
         <lb/>
@@ -28489,7 +28489,7 @@
               <w lemmaRef="#も.も">も</w>
               <w lemmaRef="#なし.無し">なし</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -28527,7 +28527,7 @@
               <w lemmaRef="#らる.らる">らる</w>
               <w lemmaRef="#らむ.らむ">らむ</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -28606,7 +28606,7 @@
               <w lemmaRef="#なり.なり">なり</w>
               <w lemmaRef="#けり.けり">けり</w>
             </seg>
-          </l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -28735,7 +28735,7 @@
               <w lemmaRef="#に.ぬ">に</w>
               <w lemmaRef="#けり.けり">けり</w>
             </seg>
-          </l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <pb n="2-22v" facs="#p095"/>
         <lb/>
@@ -28849,7 +28849,7 @@
               <w lemmaRef="#おもふ.思ふ">思</w>
               <w lemmaRef="#べらなる.べらなり">へらなる</w>
             </seg>
-          </l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -28886,7 +28886,7 @@
               <w lemmaRef="#いとふ.厭ふ">いとふ</w>
               <w lemmaRef="#べらなり.べらなり">へらなり</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -28995,7 +28995,7 @@
               <w lemmaRef="#よる.寄る">よる</w>
               <w lemmaRef="#らめ.らむ">らめ</w>
             </seg>
-          </l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -29069,7 +29069,7 @@
               <w lemmaRef="#なり.なり">なり</w>
               <w lemmaRef="#けり.けり">けり</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -29132,7 +29132,7 @@
               <w lemmaRef="#ぞ.ぞ">そ</w>
               <w lemmaRef="#はかなき.儚し">はかなき</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -29194,7 +29194,7 @@
               <w lemmaRef="#かず.数">かす</w>
               <w lemmaRef="#かく.書く">かく</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -29322,7 +29322,7 @@
               <w lemmaRef="#せ.き">せ</w>
               <w lemmaRef="#ば.ば">は</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -29460,7 +29460,7 @@
               <w lemmaRef="#おひ.生ふ">おひ</w>
               <w lemmaRef="#ける.けり">ける</w>
             </seg>
-          </l>
+          <k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -29636,7 +29636,7 @@
               <w lemmaRef="#ぬ.ず">ぬ</w>
               <w lemmaRef="#か.か">か</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -29845,7 +29845,7 @@
               <w lemmaRef="#おもへ.思ふ">思へ</w>
               <w lemmaRef="#ば.ば">は</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <pb n="2-24v" facs="#p097"/>
         <lb/>
@@ -29884,7 +29884,7 @@
               <w lemmaRef="#こころ.心">心</w>
               <w lemmaRef="#の.の">の</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -29963,7 +29963,7 @@
               <w lemmaRef="#みだれ.乱る">みたれ</w>
               <w lemmaRef="#め.む">め</w>
             </seg>
-          </l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -30039,7 +30039,7 @@
               <w lemmaRef="#み.み">み</w>
               <w lemmaRef="#なり.なり">也</w>
             </seg>
-          </l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <pb n="2-25r" facs="#p097"/>
         <lb/>
@@ -30198,7 +30198,7 @@
               <w lemmaRef="#じ.じ">し</w>
               <w lemmaRef="#とて.とて">とて</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -30239,7 +30239,7 @@
               <w lemmaRef="#もえ.燃ゆ">もえ</w>
               <w lemmaRef="#ける.けり">ける</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -30281,7 +30281,7 @@
               <w lemmaRef="#もの.物">物</w>
               <w lemmaRef="#を.を">を</w>
             </seg>
-          </l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -30572,7 +30572,7 @@
               <w lemmaRef="#み.見る">見</w>
               <w lemmaRef="#め.む">め</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -30613,7 +30613,7 @@
               <w lemmaRef="#しのば.忍ぶ">しのは</w>
               <w lemmaRef="#む.む">む</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -30726,7 +30726,7 @@
               <w lemmaRef="#かる.離る">かる</w>
               <w lemmaRef="#らむ.らむ">らむ</w>
             </seg>
-          </l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -30798,7 +30798,7 @@
               <w lemmaRef="#ながる.流る">なかる</w>
               <w lemmaRef="#らむ.らむ">覧</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -30833,7 +30833,7 @@
               <w lemmaRef="#あり.有り">有</w>
               <w lemmaRef="#けれ.けり">けれ</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -30961,7 +30961,7 @@
               <w lemmaRef="#なみだ.涙">涙</w>
               <w lemmaRef="#か.か">か</w>
             </seg>
-          </l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -30999,7 +30999,7 @@
               <w lemmaRef="#もの.物">もの</w>
               <w lemmaRef="#を.を">を</w>
             </seg>
-          </l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -31071,7 +31071,7 @@
               <w lemmaRef="#しり.知る">しり</w>
               <w lemmaRef="#けれ.けり">けれ</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -31100,7 +31100,7 @@
               <w lemmaRef="#なる.なり">なる</w>
               <w lemmaRef="#らむ.らむ">らむ</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -31139,7 +31139,7 @@
               <w lemmaRef="#ず.ず">す</w>
               <w lemmaRef="#して.して">して</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -31178,7 +31178,7 @@
               <w lemmaRef="#み.身">身</w>
               <w lemmaRef="#か.か">か</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -31210,7 +31210,7 @@
               <w lemmaRef="#つる.つ">つる</w>
               <w lemmaRef="#かな.哉">哉</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -31274,7 +31274,7 @@
               <w lemmaRef="#あり.有り">有</w>
               <w lemmaRef="#ける.けり">ける</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -31334,7 +31334,7 @@
               <w lemmaRef="#ぞ.ぞ">そ</w>
               <w lemmaRef="#わびしき.侘し">わひしき</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -31363,7 +31363,7 @@
               <w lemmaRef="#かはり.変はる">かはり</w>
               <w lemmaRef="#けり.けり">けり</w>
             </seg>
-          </l>
+          <k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -31434,7 +31434,7 @@
               <w lemmaRef="#うらめしき.恨めし">うらめしき</w>
               <w lemmaRef="#かな.哉">哉</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -31507,7 +31507,7 @@
               <w lemmaRef="#に.ぬ">に</w>
               <w lemmaRef="#ける.けり">ける</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="4" source="kaneko"/></l>
           <lb/>
           <note type="左注" style="margin-top: 3em" target="#n825">又はこなたかなたに人もかよはす</note>
         </div>
@@ -31547,7 +31547,7 @@
               <w lemmaRef="#に.ぬ">に</w>
               <w lemmaRef="#ける.けり">ける</w>
             </seg>
-          <k n="4" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -31586,7 +31586,7 @@
               <w lemmaRef="#み.身">身</w>
               <w lemmaRef="#は.は">は</w>
             </seg>
-          </l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -31792,7 +31792,7 @@
               <w lemmaRef="#に.に">に</w>
               <w lemmaRef="#さけ.咲く">さけ</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -31913,7 +31913,7 @@
               <w lemmaRef="#み.見る">見</w>
               <w lemmaRef="#ず.ず">す</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <pb n="2-29v" facs="#p102"/>
         <lb/>
@@ -31986,7 +31986,7 @@
               <w lemmaRef="#ぬ.ず">ぬ</w>
               <w lemmaRef="#なり.なり">也</w>
             </seg>
-          </l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -32027,7 +32027,7 @@
               <w lemmaRef="#かなしかり.悲し">悲かり</w>
               <w lemmaRef="#けれ.けり">けれ</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -32099,7 +32099,7 @@
               <w lemmaRef="#なり.なり">なり</w>
               <w lemmaRef="#けり.けり">けり</w>
             </seg>
-          <k n="4" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -32135,7 +32135,7 @@
               <w lemmaRef="#なり.なり">なり</w>
               <w lemmaRef="#ける.けり">ける</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -32285,7 +32285,7 @@
               <w lemmaRef="#おもほゆる.思ほゆ">おもほゆる</w>
               <w lemmaRef="#かな.哉">哉</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -32377,7 +32377,7 @@
               <w lemmaRef="#だに.だに">たに</w>
               <w lemmaRef="#せよ.す">せよ</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -32581,7 +32581,7 @@
               <w lemmaRef="#わたる.渡る">渡</w>
               <w lemmaRef="#かな.哉">哉</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -32629,7 +32629,7 @@
               <w lemmaRef="#ける.けり">ける</w>
               <w lemmaRef="#かな.哉">哉</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -32782,7 +32782,7 @@
               <w lemmaRef="#は.は">は</w>
               <w lemmaRef="#みよ.見る">見よ</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -32898,7 +32898,7 @@
               <w lemmaRef="#ばかり.許り">はかり</w>
               <w lemmaRef="#を.を">を</w>
             </seg>
-          </l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -32936,7 +32936,7 @@
               <w lemmaRef="#し.き">し</w>
               <w lemmaRef="#を.を">を</w>
             </seg>
-          </l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -33050,7 +33050,7 @@
               <w lemmaRef="#あり.有り">有</w>
               <w lemmaRef="#ける.けり">ける</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -33146,7 +33146,7 @@
               <w lemmaRef="#ぞ.ぞ">そ</w>
               <w lemmaRef="#みる.見る">見る</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -33186,7 +33186,7 @@
               <w lemmaRef="#ざり.ず">さり</w>
               <w lemmaRef="#ける.けり">ける</w>
             </seg>
-          </l>
+          <k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -33440,7 +33440,7 @@
               <w lemmaRef="#に.ぬ">に</w>
               <w lemmaRef="#けり.けり">けり</w>
             </seg>
-          </l>
+          <k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -33660,7 +33660,7 @@
               <w lemmaRef="#おもへ.思ふ">思へ</w>
               <w lemmaRef="#ば.ば">は</w>
             </seg>
-          </l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -33693,7 +33693,7 @@
               <w lemmaRef="#いづる.出づ">いつる</w>
               <w lemmaRef="#つきかげ.月影">月影</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -33727,7 +33727,7 @@
               <w lemmaRef="#ぞ.ぞ">そ</w>
               <w lemmaRef="#ながるる.流る">なかるゝ</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <pb n="2-36v" facs="#p109"/>
         <lb/>
@@ -33861,7 +33861,7 @@
               <w lemmaRef="#く.く">く</w>
               <w lemmaRef="#に.に">に</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <pb n="2-37r" facs="#p109"/>
         <lb/>
@@ -33928,7 +33928,7 @@
               <w lemmaRef="#ぞ.ぞ">そ</w>
               <w lemmaRef="#くむ.汲む">くむ</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -33958,7 +33958,7 @@
               <w lemmaRef="#もの.物">物</w>
               <w lemmaRef="#なり.なり">也</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -33989,7 +33989,7 @@
               <w lemmaRef="#もの.物">もの</w>
               <w lemmaRef="#を.を">を</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -34020,7 +34020,7 @@
               <w lemmaRef="#なり.なり">なり</w>
               <w lemmaRef="#けり.けり">けり</w>
             </seg>
-          <k n="4" source="kaneko"/></l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -34085,7 +34085,7 @@
               <w lemmaRef="#も.も">も</w>
               <w lemmaRef="#なし.無し">なし</w>
             </seg>
-          </l>
+          <k n="4" source="kaneko"/></l>
           <lb/>
           <note type="左注" style="margin-top: 3em">又はさくらあさのをふのしたくさおいぬれは</note>
         </div>
@@ -34153,7 +34153,7 @@
               <w lemmaRef="#ける.けり">ける</w>
               <w lemmaRef="#かな.哉">哉</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
           <lb/>
           <note type="左注" style="margin-top: 3em" target="#n894">又はおほとものみつのはまへに</note>
         </div>
@@ -34190,7 +34190,7 @@
               <w lemmaRef="#まし.まし">まし</w>
               <w lemmaRef="#を.を">を</w>
             </seg>
-          <k n="4" source="kaneko"/></l>
+          </l>
           <lb/>
           <note type="左注" style="margin-top: 3em" target="#n893 #n894 #n895">このみつの哥は昔有けるみたりのおきなのよめるとなむ</note>
         </div>
@@ -34223,7 +34223,7 @@
               <w lemmaRef="#かへる.帰る">かへる</w>
               <w lemmaRef="#と.と">と</w>
             </seg>
-          </l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -34441,7 +34441,7 @@
               <w lemmaRef="#ける.けり">ける</w>
               <w lemmaRef="#かな.哉">哉</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -34522,7 +34522,7 @@
               <w lemmaRef="#ぬれ.ぬ">ぬれ</w>
               <w lemmaRef="#ば.ば">は</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="4" source="kaneko"/></l>
         </div>
         <pb n="2-38v" facs="#p111"/>
         <lb/>
@@ -34586,7 +34586,7 @@
               <w lemmaRef="#もの.物">物</w>
               <w lemmaRef="#を.を">を</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -34858,7 +34858,7 @@
               <w lemmaRef="#だに.だに">たに</w>
               <w lemmaRef="#きく.聞く">きく</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -34963,7 +34963,7 @@
               <w lemmaRef="#いふ.言ふ">いふ</w>
               <w lemmaRef="#なり.なり">なり</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -35044,7 +35044,7 @@
               <w lemmaRef="#ぞ.ぞ">そ</w>
               <w lemmaRef="#みる.見る">見る</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -35284,7 +35284,7 @@
               <w lemmaRef="#まし.まし">まし</w>
               <w lemmaRef="#を.を">を</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -35322,7 +35322,7 @@
               <w lemmaRef="#さらす.曝す">さらす</w>
               <w lemmaRef="#らむ.らむ">らむ</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -35364,7 +35364,7 @@
               <w lemmaRef="#かさ.貸す">かさ</w>
               <w lemmaRef="#まし.まし">まし</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -35399,7 +35399,7 @@
               <w lemmaRef="#すぢ.筋">すち</w>
               <w lemmaRef="#なし.無し">なし</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="4" source="kaneko"/></l>
         </div>
         <pb n="2-41r" facs="#p113"/>
         <lb/>
@@ -35440,7 +35440,7 @@
               <w lemmaRef="#あり.有り">あり</w>
               <w lemmaRef="#ける.けり">ける</w>
             </seg>
-          <k n="4" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -35525,7 +35525,7 @@
               <w lemmaRef="#の.の">の</w>
               <w lemmaRef="#つねなる.常なり">つねなる</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -35564,7 +35564,7 @@
               <w lemmaRef="#うけれ.憂し">うけれ</w>
               <w lemmaRef="#ば.ば">は</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="4" source="kaneko"/></l>
         </div>
       </div>
       <div type="部立">
@@ -35606,7 +35606,7 @@
               <w lemmaRef="#に.に">に</w>
               <w lemmaRef="#なる.成る">なる</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -35640,7 +35640,7 @@
               <w lemmaRef="#おもひ.思ふ">思</w>
               <w lemmaRef="#みだるる.乱る">みたるゝ</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -35672,7 +35672,7 @@
               <w lemmaRef="#う.憂し">う</w>
               <w lemmaRef="#さ.さ">さ</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -35746,7 +35746,7 @@
               <w lemmaRef="#と.と">と</w>
               <w lemmaRef="#こたへよ.答ふ">こたへよ</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -35790,7 +35790,7 @@
               <w lemmaRef="#ぞ.ぞ">そ</w>
               <w lemmaRef="#おもふ.思ふ">思</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -35919,7 +35919,7 @@
               <w lemmaRef="#なけれ.無し">なけれ</w>
               <w lemmaRef="#ば.ば">は</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -36024,7 +36024,7 @@
               <w lemmaRef="#あり.有り">有</w>
               <w lemmaRef="#けれ.けり">けれ</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -36137,7 +36137,7 @@
               <w lemmaRef="#る.り">る</w>
               <w lemmaRef="#か.か">か</w>
             </seg>
-          </l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -36170,7 +36170,7 @@
               <w lemmaRef="#に.ぬ">に</w>
               <w lemmaRef="#けむ.けむ">けむ</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -36374,7 +36374,7 @@
               <w lemmaRef="#なり.なり">なり</w>
               <w lemmaRef="#けれ.けり">けれ</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -36561,7 +36561,7 @@
               <w lemmaRef="#かなしかる.悲し">かなしかる</w>
               <w lemmaRef="#らむ.らむ">らむ</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -36638,7 +36638,7 @@
               <w lemmaRef="#と.と">と</w>
               <w lemmaRef="#こたへよ.答ふ">こたへよ</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -36681,7 +36681,7 @@
               <w lemmaRef="#よ.世">世</w>
               <w lemmaRef="#に.に">に</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -36755,7 +36755,7 @@
               <w lemmaRef="#ず.ず">す</w>
               <w lemmaRef="#もがな.もがな">もかな</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -36798,7 +36798,7 @@
               <w lemmaRef="#こひ.恋ふ">こひ</w>
               <w lemmaRef="#つつ.つつ">つゝ</w>
             </seg>
-          </l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -36839,7 +36839,7 @@
               <w lemmaRef="#も.も">も</w>
               <w lemmaRef="#なし.無し">なし</w>
             </seg>
-          </l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -36877,7 +36877,7 @@
               <w lemmaRef="#たのむ.頼む">たのむ</w>
               <w lemmaRef="#べらなる.べらなり">へらなる</w>
             </seg>
-          </l>
+          <k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -36919,7 +36919,7 @@
               <w lemmaRef="#べかり.べし">へかり</w>
               <w lemmaRef="#けり.けり">けり</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -37042,7 +37042,7 @@
               <w lemmaRef="#ざら.ず">さら</w>
               <w lemmaRef="#む.む">む</w>
             </seg>
-          </l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -37080,7 +37080,7 @@
               <w lemmaRef="#に.ぬ">に</w>
               <w lemmaRef="#き.き">き</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
           <lb/>
           <note type="左注" style="margin-top: 3em" target="#n973">この哥はある人むかしおとこありけるをうなの
             <lb/>おとことはすなりにけれはなにはなるみつのて
@@ -37118,7 +37118,7 @@
               <w lemmaRef="#は.は">は</w>
               <w lemmaRef="#なる.なり">なる</w>
             </seg>
-          </l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -37146,7 +37146,7 @@
               <w lemmaRef="#り.り">り</w>
               <w lemmaRef="#てへ.てへ">てへ</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -37223,7 +37223,7 @@
               <w lemmaRef="#なり.なり">なり</w>
               <w lemmaRef="#けり.けり">けり</w>
             </seg>
-          </l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -37298,7 +37298,7 @@
               <w lemmaRef="#とき.時">時</w>
               <w lemmaRef="#ある.有り">ある</w>
             </seg>
-          </l>
+          <k n="4" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -37378,7 +37378,7 @@
               <w lemmaRef="#も.も">も</w>
               <w lemmaRef="#をし.惜し">おし</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -37447,7 +37447,7 @@
               <w lemmaRef="#いふ.言ふ">いふ</w>
               <w lemmaRef="#なり.なり">なり</w>
             </seg>
-          <k n="4" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -37563,7 +37563,7 @@
               <w lemmaRef="#なり.なり">ゝり</w>
               <w lemmaRef="#けり.けり">けり</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -37600,7 +37600,7 @@
               <w lemmaRef="#と.と">ゝ</w>
               <w lemmaRef="#さだむる.定む">さたむる</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          <k n="3" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -37703,7 +37703,7 @@
               <w lemmaRef="#あり.有り">有</w>
               <w lemmaRef="#ける.けり">ける</w>
             </seg>
-          </l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -37786,7 +37786,7 @@
               <w lemmaRef="#ここち.心地">心ち</w>
               <w lemmaRef="#する.す">する</w>
             </seg>
-          </l>
+          <k n="2" source="kaneko"/></l>
         </div>
         <lb/>
         <div type="和歌">
@@ -37935,7 +37935,7 @@
               <w lemmaRef="#を.を">を</w>
               <w lemmaRef="#とどむる.留む">とゝむる</w>
             </seg>
-          <k n="2" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -38050,7 +38050,7 @@
               <w lemmaRef="#みえ.見ゆ">見え</w>
               <w lemmaRef="#なむ.なむ">なむ</w>
             </seg>
-          <k n="3" source="kaneko"/></l>
+          </l>
         </div>
         <lb/>
         <div type="和歌">
@@ -39617,7 +39617,7 @@
                 <w lemmaRef="#ぞ.ぞ">そ</w>
                 <w lemmaRef="#も.も">も</w>
               </seg>
-            </l>
+            <k n="3" source="kaneko"/></l>
           </div>
           <lb/>
           <div type="和歌">
@@ -39661,7 +39661,7 @@
                 <w lemmaRef="#なれ.なり">ゝれ</w>
                 <w lemmaRef="#や.や">や</w>
               </seg>
-            </l>
+            <k n="3" source="kaneko"/></l>
           </div>
           <lb/>
           <div type="和歌">
@@ -39743,7 +39743,7 @@
                 <w lemmaRef="#なり.なり">なり</w>
                 <w lemmaRef="#けり.けり">けり</w>
               </seg>
-            </l>
+            <k n="3" source="kaneko"/></l>
           </div>
         </div>
         <pb n="2-53v" facs="#p126"/>
@@ -39821,7 +39821,7 @@
                 <w lemmaRef="#に.に">に</w>
                 <w lemmaRef="#して.して">して</w>
               </seg>
-            <k n="4" source="kaneko"/></l>
+            <k n="3" source="kaneko"/></l>
           </div>
           <lb/>
           <div type="和歌">
@@ -40027,7 +40027,7 @@
                 <w lemmaRef="#かくれ.隠る">かくれ</w>
                 <w lemmaRef="#する.す">する</w>
               </seg>
-            <k n="2" source="kaneko"/></l>
+            </l>
           </div>
           <lb/>
           <div type="和歌">
@@ -40062,7 +40062,7 @@
                 <w lemmaRef="#あり.有り">あり</w>
                 <w lemmaRef="#けれ.けり">けれ</w>
               </seg>
-            </l>
+            <k n="3" source="kaneko"/></l>
           </div>
           <lb/>
           <div type="和歌">
@@ -40133,7 +40133,7 @@
                 <w lemmaRef="#ちり.散る">ちり</w>
                 <w lemmaRef="#ける.けり">ける</w>
               </seg>
-            <k n="3" source="kaneko"/></l>
+            <k n="4" source="kaneko"/></l>
           </div>
           <lb/>
           <div type="和歌">
@@ -40173,7 +40173,7 @@
                 <w lemmaRef="#かね.兼ぬ">かね</w>
                 <w lemmaRef="#つる.つ">つる</w>
               </seg>
-            <k n="3" source="kaneko"/></l>
+            </l>
           </div>
           <lb/>
           <div type="和歌">
@@ -40269,7 +40269,7 @@
                 <w lemmaRef="#ぞ.ぞ">そ</w>
                 <w lemmaRef="#こひしき.恋し">こひしき</w>
               </seg>
-            <k n="3" source="kaneko"/></l>
+            </l>
           </div>
           <lb/>
           <div type="和歌">
@@ -40368,7 +40368,7 @@
                 <w lemmaRef="#けぶり.煙">けふり</w>
                 <w lemmaRef="#を.を">を</w>
               </seg>
-            <k n="2" source="kaneko"/></l>
+            <k n="3" source="kaneko"/></l>
           </div>
           <lb/>
           <div type="和歌">
@@ -40405,7 +40405,7 @@
                 <w lemmaRef="#こそ.こそ">こそ</w>
                 <w lemmaRef="#すれ.す">すれ</w>
               </seg>
-            <k n="3" source="kaneko"/></l>
+            </l>
           </div>
           <pb n="2-55r" facs="#p127"/>
           <lb/>
@@ -40444,7 +40444,7 @@
                 <w lemmaRef="#やけ.焼く">やけ</w>
                 <w lemmaRef="#をり.居り">をり</w>
               </seg>
-            <k n="2" source="kaneko"/></l>
+            <k n="3" source="kaneko"/></l>
           </div>
           <lb/>
           <div type="和歌">
@@ -40519,7 +40519,7 @@
                 <w lemmaRef="#おもへ.思ふ">思へ</w>
                 <w lemmaRef="#ば.ば">は</w>
               </seg>
-            </l>
+            <k n="2" source="kaneko"/></l>
           </div>
           <lb/>
           <div type="和歌">
@@ -40557,7 +40557,7 @@
                 <w lemmaRef="#ぞ.ぞ">そ</w>
                 <w lemmaRef="#なく.鳴く">なく</w>
               </seg>
-            <k n="3" source="kaneko"/></l>
+            </l>
           </div>
           <lb/>
           <div type="和歌">
@@ -40599,7 +40599,7 @@
                 <w lemmaRef="#ぞ.ぞ">そ</w>
                 <w lemmaRef="#なく.鳴く">なく</w>
               </seg>
-            <k n="4" source="kaneko"/></l>
+            </l>
           </div>
           <lb/>
           <div type="和歌">
@@ -40639,7 +40639,7 @@
                 <w lemmaRef="#あら.有り">あら</w>
                 <w lemmaRef="#ぬ.ず">ぬ</w>
               </seg>
-            <k n="3" source="kaneko"/></l>
+            <k n="2" source="kaneko"/></l>
           </div>
           <lb/>
           <div type="和歌">
@@ -40712,7 +40712,7 @@
                 <w lemmaRef="#たまだすき.玉襷">たまたすき</w>
                 <w lemmaRef="#なる.なり">なる</w>
               </seg>
-            <k n="3" source="kaneko"/></l>
+            <k n="2" source="kaneko"/></l>
           </div>
           <lb/>
           <div type="和歌">
@@ -40774,7 +40774,7 @@
                 <w lemmaRef="#かひ.峡">かひ</w>
                 <w lemmaRef="#なし.無し">なし</w>
               </seg>
-            <k n="4" source="kaneko"/></l>
+            <k n="3" source="kaneko"/></l>
           </div>
           <lb/>
           <div type="和歌">
@@ -40840,7 +40840,7 @@
                 <w lemmaRef="#おもは.思ふ">おもは</w>
                 <w lemmaRef="#ぬ.ず">ぬ</w>
               </seg>
-            <k n="3" source="kaneko"/></l>
+            <k n="2" source="kaneko"/></l>
           </div>
           <lb/>
           <div type="和歌">
@@ -40876,7 +40876,7 @@
                 <w lemmaRef="#や.や">や</w>
                 <w lemmaRef="#は.は">は</w>
               </seg>
-            <k n="3" source="kaneko"/></l>
+            <k n="2" source="kaneko"/></l>
           </div>
           <lb/>
           <div type="和歌">
@@ -40949,7 +40949,7 @@
                 <w lemmaRef="#てふ.てふ">てふ</w>
                 <w lemmaRef="#なり.なり">なり</w>
               </seg>
-            <k n="3" source="kaneko"/></l>
+            </l>
           </div>
           <lb/>
           <div type="和歌">
@@ -41081,7 +41081,7 @@
                 <w lemmaRef="#なかり.無し">なかり</w>
                 <w lemmaRef="#けり.けり">けり</w>
               </seg>
-            <k n="3" source="kaneko"/></l>
+            </l>
           </div>
           <lb/>
           <div type="和歌">
@@ -41462,7 +41462,7 @@
                 <w lemmaRef="#わびしかり.侘し">わひしかり</w>
                 <w lemmaRef="#けれ.けり">けれ</w>
               </seg>
-            <k n="2" source="kaneko"/></l>
+            <k n="4" source="kaneko"/></l>
           </div>
           <lb/>
           <div type="和歌">
@@ -41526,7 +41526,7 @@
                 <w lemmaRef="#あふさきるさ.合ふさきるさ">あふさきるさ</w>
                 <w lemmaRef="#に.に">に</w>
               </seg>
-            <k n="2" source="kaneko"/></l>
+            </l>
           </div>
           <lb/>
           <div type="和歌">
@@ -41592,7 +41592,7 @@
                 <w lemmaRef="#らるれ.らる">らるれ</w>
                 <w lemmaRef="#ば.ば">は</w>
               </seg>
-            <k n="2" source="kaneko"/></l>
+            <k n="3" source="kaneko"/></l>
           </div>
           <lb/>
           <div type="和歌">
@@ -41629,7 +41629,7 @@
                 <w lemmaRef="#ぞ.ぞ">そ</w>
                 <w lemmaRef="#やさしき.恥し">やさしき</w>
               </seg>
-            <k n="3" source="kaneko"/></l>
+            </l>
           </div>
           <lb/>
           <div type="和歌">
@@ -41971,7 +41971,7 @@
                 <w lemmaRef="#ふり.降る">ふり</w>
                 <w lemmaRef="#はも.はも">はも</w>
               </seg>
-            </l>
+            <k n="3" source="kaneko"/></l>
           </div>
           <lb/>
           <div type="和歌">
@@ -42038,7 +42038,7 @@
                 <w lemmaRef="#ぬ.ぬ">に</w>
                 <w lemmaRef="#けり.けり">けり</w>
               </seg>
-            <k n="3" source="kaneko"/></l>
+            </l>
           </div>
           <lb/>
           <div type="和歌">
@@ -42098,7 +42098,7 @@
                 <w lemmaRef="#やまかづら.山鬘">山かつら</w>
                 <w lemmaRef="#せよ.す">せよ</w>
               </seg>
-            <k n="3" source="kaneko"/></l>
+            <k n="4" source="kaneko"/></l>
           </div>
           <lb/>
           <div type="和歌">
@@ -42157,7 +42157,7 @@
               <seg>
                 <w lemmaRef="#しのびしのびなり.忍び忍びなり">しのひ〳〵に</w>
               </seg>
-            </l>
+            <k n="3" source="kaneko"/></l>
           </div>
           <lb/>
           <div type="和歌">
@@ -42191,7 +42191,7 @@
                 <w lemmaRef="#に.ぬ">に</w>
                 <w lemmaRef="#けり.けり">けり</w>
               </seg>
-            <k n="3" source="kaneko"/></l>
+            <k n="4" source="kaneko"/></l>
           </div>
           <lb/>
           <div type="和歌">
@@ -42222,7 +42222,7 @@
                 <w lemmaRef="#み.見る">見</w>
                 <w lemmaRef="#む.む">む</w>
               </seg>
-            <k n="3" source="kaneko"/></l>
+            <k n="4" source="kaneko"/></l>
           </div>
           <lb/>
           <div type="和歌">
@@ -42255,7 +42255,7 @@
                 <w lemmaRef="#の.の">の</w>
                 <w lemmaRef="#はながさ.花笠">はなかさ</w>
               </seg>
-            <k n="2" source="kaneko"/></l>
+            <k n="4" source="kaneko"/></l>
           </div>
           <lb/>
           <div type="和歌">
@@ -42426,7 +42426,7 @@
                 <w lemmaRef="#ちとせ.千年">ちとせ</w>
                 <w lemmaRef="#は.は">は</w>
               </seg>
-            <k n="3" source="kaneko"/></l>
+            <k n="4" source="kaneko"/></l>
             <lb/>
             <note type="左注" style="margin-top: 3em" target="#n1086">これは
               <persName corresp="#醍醐天皇">今上</persName>の御へのあふみのうた</note>
@@ -42499,7 +42499,7 @@
                 <w lemmaRef="#かなし.悲し">かなし</w>
                 <w lemmaRef="#も.も">も</w>
               </seg>
-            <k n="2" source="kaneko"/></l>
+            </l>
           </div>
           <lb/>
           <div type="和歌">
@@ -42531,7 +42531,7 @@
                 <w lemmaRef="#ぞ.ぞ">そ</w>
                 <w lemmaRef="#こひしき.恋し">こひしき</w>
               </seg>
-            <k n="2" source="kaneko"/></l>
+            <k n="4" source="kaneko"/></l>
           </div>
           <lb/>
           <div type="和歌">
@@ -42622,7 +42622,7 @@
                 <w lemmaRef="#つき.月">月</w>
                 <w lemmaRef="#ばかり.許り">はかり</w>
               </seg>
-            </l>
+            <k n="3" source="kaneko"/></l>
           </div>
           <lb/>
           <div type="和歌">
@@ -42684,7 +42684,7 @@
                 <w lemmaRef="#をれ.居る">をれ</w>
                 <w lemmaRef="#なみ.浪">浪</w>
               </seg>
-            <k n="2" source="kaneko"/></l>
+            <k n="3" source="kaneko"/></l>
           </div>
           <lb/>
           <div type="和歌">
