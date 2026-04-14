@@ -2,11 +2,19 @@
 
 * Introduction
 
+#+begin_comment
+TL;DR: Kugire (phrase breaks in waka) lack a public annotated dataset; each TEI project annotates from scratch. This project adds kugire as a separate annotation layer on the Kokinwakashu TEI/XML data. Separating the layer preserves annotation criteria and competing interpretations. The data enables structural and enjambment analysis and demonstrates layered, ambiguity-aware annotation practice.
+#+end_comment
+
 Kugire — phrase breaks within waka poems — are a basic structural element of waka, yet no standardized, publicly available kugire dataset exists [kamihiro]. For TEI/XML encoding of waka, each project must annotate from scratch.
 
 This project adds kugire as an interpretive annotation layer to the TEI/XML data of the Kokinwakashu, one of the most important waka anthologies. Keeping kugire as a separate layer — rather than embedding it in the text — preserves the annotation criteria and any competing interpretations. The kugire data supports analysis of waka structure and enjambment, and serves as a case study in ambiguity-aware, layered interpretive annotation for literary and linguistic research.
 
 * Related works
+
+#+begin_comment
+TL;DR: Existing kugire resources are scarce and single-source. [atuko315] provides a rule-based program and a Hyakuninisshu dataset, later applied to the Kokinwakashu, but cannot capture interpretive ambiguity. [okaasa] proposes two criteria — semantic independence (necessary) and grammatical break (sufficient) — both open to interpretation. Multi-source annotation with documented criteria is therefore needed. Applications include diachronic change of kugire position, poetic style, enjambment, and manuscript punctuation studies.
+#+end_comment
 
 Prior work on kugire is sparse. The few available resources treat annotation as a fixed, single-source task, yet the criteria proposed for kugire determination remain inherently ambiguous. Richer, multi-source annotation data would enable waka analysis across multiple dimensions: diachronic study of kugire, its relation to poetic style, enjambment, and the reading history of waka. The following sections review each area in detail.
 
@@ -21,7 +29,7 @@ Prior work on kugire is sparse. The few available resources treat annotation as 
 1. The necessary condition :: two or more semantically independent core sentences in the poem;
 2. The sufficient condition :: a clear grammatical break in the poem.
 
-Both conditions, however, remain open to interpretation. We therefore annotate kugire from grammatical and semantic perspectives across multiple sources, implemented as a separate layer on top of the TEI data. This preserves information about whose judgment it is, what criteria were applied, and whether alternative interpretations exist.
+Both conditions, however, remain open to interpretation. We therefore annotate kugire using rule-based and translation-based methods across multiple sources, implemented as a separate layer on top of the TEI data. This preserves information about whose judgment it is, what criteria were applied, and whether alternative interpretations exist.
 
 ** Applications of kugire
 
@@ -35,15 +43,23 @@ Pyhisical punctuation and tanka structure analysis [murata]
 
 * Data sources
 
+#+begin_comment
+TL;DR: The base data is [chin2026], a lexically extended TEI encoding of the Karoku manuscript built on [ikuura] and the Hachidaishu Vocabulary Dataset [Hodoscek2022]. Reference data for the rule-based method is the Hachidaishu Part-of-Speech Dataset [Yamamoto]; for the translation-based method, [kaneko]'s explanatory translation digitized as [yamamoto].
+#+end_comment
+
 ** Base data
 
 The base data is a lexically extended version [chin2026] of the TEI data of the Karoku second-year manuscript of the Kokinwakashu [ikuura]. [ikuura] describes the physical format of the manuscript and encodes various annotations — marginalia, apparatus, notes — and a list of authors with their social attributes; it also provides the segmentation of the waka text. [chin2026] maps tokenization from the Hachidaishu Vocabulary Dataset [Hodoscek2022] onto this segmented text, forming the basis for the kugire annotation.
 
 ** Reference data
 
-For grammatical kugire, we use the Hachidaishu Part-of-Speech Dataset [Yamamoto], which provides conjugation and part-of-speech data for each token. For semantic kugire, we use the explanatory translation of the Kokinwakashu by [kaneko], the earliest twentieth-century explanatory translation of the anthology, digitized and published on Zenodo [yamamoto].
+For the rule-based method, we use the Hachidaishu Part-of-Speech Dataset [Yamamoto], which provides conjugation and part-of-speech data for each token. For the translation-based method, we use the explanatory translation of the Kokinwakashu by [kaneko], the earliest twentieth-century explanatory translation of the anthology, digitized and published on Zenodo [yamamoto].
 
 * Output Data
+
+#+begin_comment
+TL;DR: The output is =kokin-kugire.xml=, the base data with =<k>= elements appended inside each =<l>=. Each =<k>= carries =@n= (1-based segment index), =@source= (=morph= or translator code), and optionally =@cert= (=high=/=mid=/=low=, rule-based only). Multiple =<k>= at the same position preserve competing interpretations without deduplication. The tag is project-internal; the target TEI encoding is not yet decided.
+#+end_comment
 
 The output is =kokin-kugire.xml=, a TEI/XML file derived from the base data by appending kugire annotations to each poem. The original text, segmentation, and all existing TEI markup are preserved without modification; the annotation layer is additive.
 
@@ -63,9 +79,9 @@ Each kugire position is encoded as a =<k>= element placed after the final =<seg>
 </l>
 #+end_example
 
-The rule-based method identifies three candidate positions. The strongest (=cert="high"=) is after the second segment, where /けり/ appears in the conclusive form, ending the first complete sentence. A weaker candidate (=cert="low"=) is also placed after the third segment. The LLM-based method, drawing on [kaneko]'s explanatory translation, identifies only the second segment as a kugire. The competing candidates are preserved independently.
+The rule-based method identifies three candidate positions. The strongest (=cert="high"=) is after the second segment, where /けり/ appears in the conclusive form, ending the first complete sentence. A weaker candidate (=cert="low"=) is also placed after the third segment. The LLM-assisted translation-based method, drawing on [kaneko]'s explanatory translation, identifies only the second segment as a kugire. The competing candidates are preserved independently.
 
-The =@n= attribute gives the 1-based index of the segment after which the break falls; =@source= identifies the annotation source (=morph= for the rule-based method, =kaneko= for the LLM-assisted method drawing on [kaneko]'s translation). Rule-based annotations carry a =@cert= attribute (=high=, =mid=, or =low=) reflecting the strength of the grammatical evidence; LLM-based annotations do not, because the translation-based criterion does not yield an analogous confidence gradient.
+The =@n= attribute gives the 1-based index of the segment after which the break falls; =@source= identifies the annotation source (=morph= for the rule-based method, =kaneko= for the LLM-assisted translation-based method). Rule-based annotations carry a =@cert= attribute (=high=, =mid=, or =low=) reflecting the strength of the morphological evidence; translation-based annotations do not, because the translation-based criterion does not yield an analogous confidence gradient.
 
 Multiple =<k>= elements at the same position represent competing interpretations — from the same source at different grammatical strengths, or from different sources — and are preserved as-is. No normalization or deduplication is applied.
 
@@ -73,16 +89,20 @@ The =<k>= element is a project-internal tag pending a decision on the target TEI
 
 * Annotation pipeline
 
+#+begin_comment
+TL;DR: The annotation follows a four-step pipeline: rule-based suggestion from morphological data, LLM-assisted translation-based suggestion from [kaneko]'s translation, human review in nano, and rendering back to the TEI data (Figure 1). The rule-based method classifies candidates by strength: strong candidates end in the conclusive form, moderate candidates exhibit a copula or information-structure shift, and weak candidates carry a sentence-final particle with remaining semantic interdependence across segments (Figure 2). The LLM-assisted translation-based method uses =qwen2.5= served locally via Ollama, with a prompt that instructs a three-step chain-of-thought: segment-to-translation alignment, break detection in the translation, and mapping of break points to segment positions in the original poem. The prompt includes three few-shot examples covering no-kugire, second-segment, and fourth-segment cases. The model returns a JSON object with =alignment=, =breaks=, and =positions= fields; the reasoning is recorded in the cache file alongside the suggested positions for the human reviewer.
+#+end_comment
+
 The annotation follows an LLM-assisted pipeline:
 
 1. Rule-based suggestion of candidate kugire positions based on [Yamamoto]
-2. LLM-based suggestion of candidate kugire positions based on the translation data of [kaneko, Yamamoto]
+2. LLM-assisted translation-based suggestion of candidate kugire positions based on [kaneko, Yamamoto]
 3. Review and correction in a pop-up editor showing the original poem and its reference data
 4. Rendering the confirmed annotation into the TEI data
 
 The pipeline accelerates the annotation process. The per-poem review cycle reduces cognitive load and improves accuracy [reference].
 
-** Rule-based grammar-wise kugire suggestion
+** Rule-based (grammar-wise) kugire suggestion
 
 [atuko315] uses conjugation information to identify candidate kugire positions based on three criteria:
 
@@ -129,13 +149,15 @@ spring+haze / rise-sta-ccl=xcl where / hpf-Yosino=gen / Yosino=gen mountain=dat 
 translation: Spring haze / where is (it) rising /  Yoshino / on the Mountain Yoshino / snow is falling
 #+end_example
 
+Figure 2: Interlinear glosses of poems 1–3 of the Kokinwakashu, illustrating strong, moderate, and weak kugire candidates respectively.
+
 Each judgment is cached per poem for the review step and may in the future be encoded as a separate TEI element. The rule-based suggester takes the original poem and its morphological and lexical data [Yamamoto] as input, outputting candidate kugire positions.
 
-** LLM-based explanation-wise kugire suggestion
+** LLM-assisted translation-based kugire suggestion
 
-We also use a large language model (LLM) to suggest candidate kugire positions from the explanatory translation of [kaneko] as encoded by [yamamoto]. Where the rule-based approach draws on morphological and grammatical features, the LLM-based approach draws on the contemporary Japanese translation, capturing breaks rooted in meaning rather than grammar alone.
+We also use a large language model (LLM) to suggest candidate kugire positions from the explanatory translation of [kaneko] as encoded by [yamamoto]. Where the rule-based approach draws on morphological and grammatical features, the LLM-assisted translation-based approach draws on the contemporary Japanese translation, capturing breaks rooted in the translator's reading rather than grammatical form alone.
 
-The LLM is =qwen2.5=, served locally via Ollama [ollama]. The model receives the five segments of the original poem and the corresponding explanatory translation, and outputs candidate kugire positions as ={"positions": [...]}=.
+The LLM is =qwen2.5=, served locally via Ollama [ollama]. The model receives the five segments of the original poem and the corresponding explanatory translation, and outputs a JSON object with three fields: =alignment= (step 1), =breaks= (step 2), and =positions= (the resulting candidate indices).
 
 The prompt instructs the model to follow a three-step reasoning process:
 
