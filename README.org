@@ -5,11 +5,13 @@
 A kugire (句切れ) annotation layer for the Kokinwakashu (古今和歌集) TEI/XML data.
 Kugire marks a phrase or clause break within a poem. Two types are distinguished:
 
-1. *Grammatical* (=morph=) — derived from morphological analysis; certainty levels
-   =high= (終止・命令・已然・終助詞), =mid= (係助詞), =low= (体言止め等).
-2. *Semantic* (e.g. =kaneko=) — derived from an expert's explanatory translation
-   via local LLM (Ollama =qwen2.5=), using a 3-step judgment process:
+1. *Rule-based (grammar-wise)* (=morph=) — derived from morphological analysis;
+   certainty gradient: =high= (終止・命令・已然・終助詞), =mid= (係助詞), =low= (体言止め等).
+2. *LLM-assisted translation-based* (e.g. =kaneko=) — derived from an expert's
+   explanatory translation via local LLM (Ollama =qwen2.5=), using a 3-step chain-of-thought:
    segment alignment → translation break detection → position mapping.
+   The model returns ={"alignment": "...", "breaks": "...", "positions": [...]}=;
+   the reasoning is recorded as comment lines in the cache file.
 
 Multiple competing annotations are allowed on the same poem (different translators
 may disagree). Each =<k>= element is tagged with its evidence source.
@@ -65,6 +67,8 @@ Review a single poem:
 Each line of the poem may carry an end-of-line tag =​[K:<source>:<cert>]= marking a
 kugire after that segment. Edit tags in nano to accept or adjust suggestions.
 The =cert= field (=high= / =mid= / =low=) is set automatically for =morph= suggestions.
+For =kaneko= drafts, the LLM's chain-of-thought reasoning appears as =# alignment:=
+and =# breaks:= comment lines directly below the translation.
 
 #+begin_example
 年の内に
