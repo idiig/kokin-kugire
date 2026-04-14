@@ -39,13 +39,14 @@ tools/kugire/cache/
   kugire-{id}-{source}.txt      — Per-poem draft files (tracked in git)
 
 tools/kugire/
-  types.go              — Token, KugirePos, PoemData, TranslationSource
+  types.go              — Token, KugirePos, PoemData, TranslationSource, SemanReasoning
   poem.go               — LoadPoem (composes all data sources)
   morph.go              — loadMorphData, parseMorphLine, parseToken
   kaneko.go             — loadKanekoData, KanekoSource
   xml.go                — loadSegments, kanaFromLemmaRef, LoadAllPoemIDs
   suggest_morph.go      — SuggestMorph (K1-only grammatical suggestion)
   suggest_seman.go      — SuggestSeman (Ollama LLM semantic suggestion)
+  prompt-seman.txt      — Embedded few-shot prompt for SuggestSeman (//go:embed)
   draft.go              — RenderDraft, ParseDraft
   diff.go               — DiffKugire, KugireDiff
   annotate.go           — AnnotateXML
@@ -79,8 +80,8 @@ cd tools/kugire
 
 Two types of kugire, each with its own evidence source:
 
-- **Grammatical** (`morph`) — derived from morphological analysis; `SuggestMorph` returns K1 positions only
-- **Semantic** — tagged with the translator's code (e.g. `kaneko`); `SuggestSeman` calls Ollama with a few-shot prompt
+- **Rule-based (grammar-wise)** (`morph`) — derived from morphological analysis; `SuggestMorph` returns candidates with certainty gradient (high/mid/low)
+- **LLM-assisted translation-based** — tagged with the translator's code (e.g. `kaneko`); `SuggestSeman` calls Ollama with a few-shot chain-of-thought prompt
 
 The schema allows multiple competing kugire annotations on the same poem (different translators may disagree). Do not collapse them into a single interpretation.
 
@@ -132,10 +133,13 @@ and are the persistent draft record. `AnnotateXML` is called after every nano se
 - Managed by `flake.nix`; `ollama serve` starts automatically via `shellHook` on `nix develop`
 - Endpoint: `http://localhost:11434/api/generate` (package var `ollamaEndpoint`; override in tests)
 - Model: `qwen2.5` (pull once with `ollama pull qwen2.5`; ~4.7 GB)
-- Prompt instructs the LLM to follow a 3-step judgment process:
+- Prompt instructs the LLM to follow a 3-step chain-of-thought:
   1. 対応関係の確認 — confirm which segments correspond to which parts of the translation
   2. 訳文の切れ目の判定 — find sentence break points (end of sentence, exclamation, semantic shift)
   3. 句切れ位置への対応付け — map break points to segment positions in the original poem
+- Model returns `{"alignment": "...", "breaks": "...", "positions": [...]}`;
+  reasoning fields are stored in `SemanReasoning` and rendered as comment lines in the cache file
+- Prompt is in `prompt-seman.txt` (embedded via `//go:embed`); edit that file to adjust few-shot examples
 - Prompt includes 3 few-shot examples demonstrating the same reasoning chain
 - Few-shot is translator-agnostic (uses generic 「現代語訳:」label); works for any future translator
 
@@ -157,7 +161,7 @@ Kugire positions are written as `<k>` elements appended at the end of `<l>`, aft
 - `@n` — 1-based segment number after which the kugire falls (`AfterSeg + 1`)
 - `@source` — evidence code (`morph`, `kaneko`, etc.)
 - Multiple `<k>` at the same `@n` represent competing interpretations
-- `<k>` is a temporary custom tag; may be migrated to `<caesura>` (TEI) later
+- `<k>` is a project-internal tag pending a decision on the target TEI encoding
 - `AnnotateXML` removes all existing `<k>` for a poem before writing new ones
 
 ## Important Constraints
