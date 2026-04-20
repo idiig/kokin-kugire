@@ -1,0 +1,83 @@
+           ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+               KUGIRE DATA CURATION FOR THE KOKINWAKASHU
+                              TEI/XML DATA
+           ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+Table of Contents
+─────────────────
+
+1. Introduction
+2. Related works
+3. Data sources
+4. Output Data
+5. Annotation pipeline
+
+
+1 Introduction
+══════════════
+
+  Kugire (phrase breaks in waka) lack a public annotated dataset; each
+  TEI project annotates from scratch. This project adds kugire as a
+  separate annotation layer on the Kokinwakashu TEI/XML data. Separating
+  the layer preserves annotation criteria and competing
+  interpretations. The data enables structural and enjambment analysis
+  and demonstrates layered, ambiguity-aware annotation practice.
+
+
+2 Related works
+═══════════════
+
+  Existing kugire resources are scarce and single-source. [atuko315]
+  provides a rule-based program and a Hyakuninisshu dataset, later
+  applied to the Kokinwakashu, but cannot capture interpretive
+  ambiguity. [okaasa] proposes two criteria — semantic independence
+  (necessary) and grammatical break (sufficient) — both open to
+  interpretation. Multi-source annotation with documented criteria is
+  therefore needed. Applications include diachronic change of kugire
+  position, poetic style, enjambment, and manuscript punctuation
+  studies.
+
+
+3 Data sources
+══════════════
+
+  The base data is [chin2026], a lexically extended TEI encoding of the
+  Karoku manuscript built on [ikuura] and the Hachidaishu Vocabulary
+  Dataset [Hodoscek2022]. Reference data for the rule-based method is
+  the Hachidaishu Part-of-Speech Dataset [Yamamoto]; for the
+  translation-based method, [kaneko]'s explanatory translation digitized
+  as [yamamoto].
+
+
+4 Output Data
+═════════════
+
+  The output is `kokin-kugire.xml', the base data with `<k>' elements
+  appended inside each `<l>'. Each `<k>' carries `@n' (1-based segment
+  index), `@source' (`morph' or translator code), and optionally `@cert'
+  (`high=/=mid=/=low', rule-based only). Multiple `<k>' at the same
+  position preserve competing interpretations without deduplication. The
+  tag is project-internal; the target TEI encoding is not yet decided.
+
+
+5 Annotation pipeline
+═════════════════════
+
+  The annotation follows a four-step pipeline: rule-based suggestion
+  from morphological data, LLM-assisted translation-based suggestion
+  from [kaneko]'s translation, human review in nano, and rendering back
+  to the TEI data (Figure 1). The rule-based method classifies
+  candidates by strength: strong candidates end in the conclusive form,
+  moderate candidates exhibit a copula or information-structure shift,
+  and weak candidates carry a sentence-final particle with remaining
+  semantic interdependence across segments (Figure 2). The LLM-assisted
+  translation-based method uses `qwen2.5' served locally via Ollama,
+  with a prompt that instructs a three-step chain-of-thought:
+  segment-to-translation alignment, break detection in the translation,
+  and mapping of break points to segment positions in the original
+  poem. The prompt includes three few-shot examples covering no-kugire,
+  second-segment, and fourth-segment cases. The model returns a JSON
+  object with `alignment', `breaks', and `positions' fields; the
+  reasoning is recorded in the cache file alongside the suggested
+  positions for the human reviewer.
